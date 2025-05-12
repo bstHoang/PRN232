@@ -1,0 +1,45 @@
+﻿@model List<B1.Models.Category>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    var products = ViewBag.Products as List<B1.Models.Product>;
+    var selectedCategoryId = ViewBag.SelectedCategoryId as int?;
+}
+
+<div class="container">
+    <div class="row">
+        <!-- Cột bên trái: Danh sách sản phẩm -->
+        <div class="col-md-9">
+            @if (products != null && products.Any())
+            {
+                <h2>Sản phẩm trong danh mục</h2>
+                <ul>
+                    @foreach (var product in products)
+                    {
+                        <li>@product.Name - @product.Price</li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <p>Chọn một danh mục để xem sản phẩm.</p>
+            }
+        </div>
+
+        <!-- Cột bên phải: Danh sách danh mục -->
+        <div class="col-md-3">
+            <h2>Danh sách danh mục</h2>
+            <div class="list-group">
+                @foreach (var category in Model)
+                {
+                    var activeClass = category.Id == selectedCategoryId ? "active" : "";
+                    <a asp-action="List"
+                       asp-route-categoryId="@category.Id"
+                       class="list-group-item list-group-item-action @activeClass">
+                        @category.Name
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+</div>

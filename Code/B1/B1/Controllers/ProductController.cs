@@ -31,7 +31,6 @@ namespace B1.Controllers
 
                 // Truyền danh sách sản phẩm và categoryId đã chọn vào ViewBag
                 ViewBag.Products = products;
-                ViewBag.SelectedCategoryId = categoryId.Value;
             }
 
             // Trả về view với danh sách danh mục làm model

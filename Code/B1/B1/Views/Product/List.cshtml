@@ -3,7 +3,6 @@
 
 @{
     var products = ViewBag.Products as List<B1.Models.Product>;
-    var selectedCategoryId = ViewBag.SelectedCategoryId as int?;
 }
 
 <div class="container">
@@ -32,10 +31,8 @@
             <div class="list-group">
                 @foreach (var category in Model)
                 {
-                    var activeClass = category.Id == selectedCategoryId ? "active" : "";
                     <a asp-action="List"
-                       asp-route-categoryId="@category.Id"
-                       class="list-group-item list-group-item-action @activeClass">
+                       asp-route-categoryId="@category.Id">
                         @category.Name
                     </a>
                 }

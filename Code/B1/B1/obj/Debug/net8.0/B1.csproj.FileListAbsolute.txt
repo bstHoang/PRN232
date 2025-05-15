@@ -145,3 +145,4 @@ D:\PRN232\Code\B1\B1\obj\Debug\net8.0\B1.pdb
 D:\PRN232\Code\B1\B1\obj\Debug\net8.0\B1.genruntimeconfig.cache
 D:\PRN232\Code\B1\B1\obj\Debug\net8.0\ref\B1.dll
 D:\PRN232\Code\B1\B1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\PRN232\Code\B1\B1\obj\Debug\net8.0\B1.sourcelink.json

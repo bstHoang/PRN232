@@ -1,0 +1,64 @@
+[
+  {
+    "ContainingType": "B2_API.Controllers.CategoryController",
+    "Method": "List",
+    "RelativePath": "api/Category/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "B2_API.Controllers.CategoryController",
+    "Method": "List",
+    "RelativePath": "api/Category/List/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "B2_API.Controllers.ProductController",
+    "Method": "List",
+    "RelativePath": "api/Product/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "B2_API.Controllers.ProductController",
+    "Method": "List",
+    "RelativePath": "api/Product/List/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "B2_API.Controllers.ProductController",
+    "Method": "ListProductCategory",
+    "RelativePath": "api/Product/ListProductCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

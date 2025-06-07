@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PRN232\\Code\\DemoOData\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60548379-5761-4E3D-8722-D3FA0582E1A1}|DemoOData\\DemoOData.csproj|d:\\prn232\\code\\demoodata\\demoodata\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60548379-5761-4E3D-8722-D3FA0582E1A1}|DemoOData\\DemoOData.csproj|solutionrelative:demoodata\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60548379-5761-4E3D-8722-D3FA0582E1A1}|DemoOData\\DemoOData.csproj|d:\\prn232\\code\\demoodata\\demoodata\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60548379-5761-4E3D-8722-D3FA0582E1A1}|DemoOData\\DemoOData.csproj|solutionrelative:demoodata\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60548379-5761-4E3D-8722-D3FA0582E1A1}|DemoOData\\DemoOData.csproj|d:\\prn232\\code\\demoodata\\demoodata\\models\\demoodatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60548379-5761-4E3D-8722-D3FA0582E1A1}|DemoOData\\DemoOData.csproj|solutionrelative:demoodata\\models\\demoodatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60548379-5761-4E3D-8722-D3FA0582E1A1}|DemoOData\\DemoOData.csproj|d:\\prn232\\code\\demoodata\\demoodata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60548379-5761-4E3D-8722-D3FA0582E1A1}|DemoOData\\DemoOData.csproj|solutionrelative:demoodata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60548379-5761-4E3D-8722-D3FA0582E1A1}|DemoOData\\DemoOData.csproj|d:\\prn232\\code\\demoodata\\demoodata\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{60548379-5761-4E3D-8722-D3FA0582E1A1}|DemoOData\\DemoOData.csproj|solutionrelative:demoodata\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60548379-5761-4E3D-8722-D3FA0582E1A1}|DemoOData\\DemoOData.csproj|d:\\prn232\\code\\demoodata\\demoodata\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{60548379-5761-4E3D-8722-D3FA0582E1A1}|DemoOData\\DemoOData.csproj|solutionrelative:demoodata\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\DemoOData\\DemoOData\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "DemoOData\\Models\\Product.cs",
+              "ToolTip": "D:\\PRN232\\Code\\DemoOData\\DemoOData\\Models\\Product.cs",
+              "RelativeToolTip": "DemoOData\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T15:17:58.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DemoOdataContext.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\DemoOData\\DemoOData\\Models\\DemoOdataContext.cs",
+              "RelativeDocumentMoniker": "DemoOData\\Models\\DemoOdataContext.cs",
+              "ToolTip": "D:\\PRN232\\Code\\DemoOData\\DemoOData\\Models\\DemoOdataContext.cs",
+              "RelativeToolTip": "DemoOData\\Models\\DemoOdataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T07:13:22.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\DemoOData\\DemoOData\\Program.cs",
+              "RelativeDocumentMoniker": "DemoOData\\Program.cs",
+              "ToolTip": "D:\\PRN232\\Code\\DemoOData\\DemoOData\\Program.cs",
+              "RelativeToolTip": "DemoOData\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:16:59.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PRN232\\Code\\DemoOData\\DemoOData\\appsettings.json",
+              "RelativeDocumentMoniker": "DemoOData\\appsettings.json",
+              "ToolTip": "D:\\PRN232\\Code\\DemoOData\\DemoOData\\appsettings.json",
+              "RelativeToolTip": "DemoOData\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-01T02:13:54.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\PRN232\\Code\\DemoOData\\DemoOData\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "DemoOData\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\PRN232\\Code\\DemoOData\\DemoOData\\Properties\\launchSettings.json",
+              "RelativeToolTip": "DemoOData\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-28T10:08:27.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\DemoOData\\DemoOData\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "DemoOData\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\PRN232\\Code\\DemoOData\\DemoOData\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "DemoOData\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:00:44.143Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

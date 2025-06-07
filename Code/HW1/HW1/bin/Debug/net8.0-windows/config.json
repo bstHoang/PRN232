@@ -1,0 +1,13 @@
+{
+    "PassConditions": {
+        "Case1": {
+            "AllGradesAbove": 0,
+            "AverageAbove": 5
+        },
+        "Case2": {
+            "AllGradesAbove": 0,
+            "AverageAbove": 5,
+            "Weight20PercentMin": 4
+        }
+    }
+}

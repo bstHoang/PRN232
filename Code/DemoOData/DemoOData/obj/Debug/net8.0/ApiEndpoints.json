@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "DemoOData.Controllers.ProductsController",
+    "Method": "Get",
+    "RelativePath": "gadget/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

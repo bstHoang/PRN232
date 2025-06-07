@@ -3,12 +3,64 @@
   "WorkspaceRootPath": "D:\\PRN232\\Code\\B2_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|d:\\prn232\\code\\b2_api\\b2_api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|solutionrelative:b2_api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|d:\\prn232\\code\\b2_api\\b2_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|solutionrelative:b2_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|d:\\prn232\\code\\b2_api\\b2_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|solutionrelative:b2_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|d:\\prn232\\code\\b2_api\\b2_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|solutionrelative:b2_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|d:\\prn232\\code\\b2_api\\b2_api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|solutionrelative:b2_api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|d:\\prn232\\code\\b2_api\\b2_api\\mapping\\mappinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|solutionrelative:b2_api\\mapping\\mappinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|d:\\prn232\\code\\b2_api\\b2_api\\models\\dto\\categorywithproductsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|solutionrelative:b2_api\\models\\dto\\categorywithproductsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|d:\\prn232\\code\\b2_api\\b2_api\\models\\dto\\simpleproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|solutionrelative:b2_api\\models\\dto\\simpleproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|d:\\prn232\\code\\b2_api\\b2_api\\models\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|solutionrelative:b2_api\\models\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|d:\\prn232\\code\\b2_api\\b2_api\\models\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|solutionrelative:b2_api\\models\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|d:\\prn232\\code\\b2_api\\b2_api\\models\\productcategorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|solutionrelative:b2_api\\models\\productcategorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|d:\\prn232\\code\\b2_api\\b2_api\\models\\dto\\productcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|solutionrelative:b2_api\\models\\dto\\productcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|d:\\prn232\\code\\b2_api\\b2_api\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|solutionrelative:b2_api\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|d:\\prn232\\code\\b2_api\\b2_api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|solutionrelative:b2_api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|d:\\prn232\\code\\b2_api\\b2_api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|solutionrelative:b2_api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|d:\\prn232\\code\\b2_api\\b2_api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|solutionrelative:b2_api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA14E2FA-7409-489D-A3C7-9D442DAF1D2B}|B2_API\\B2_API.csproj|d:\\prn232\\code\\b2_api\\b2_api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,46 +74,203 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\B2_API\\B2_API\\Models\\ProductDto.cs",
-              "RelativeDocumentMoniker": "B2_API\\Models\\ProductDto.cs",
-              "ToolTip": "D:\\PRN232\\Code\\B2_API\\B2_API\\Models\\ProductDto.cs",
-              "RelativeToolTip": "B2_API\\Models\\ProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T08:54:40.41Z",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\PRN232\\Code\\B2_API\\B2_API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "B2_API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\PRN232\\Code\\B2_API\\B2_API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "B2_API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-26T07:17:49.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\B2_API\\B2_API\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "B2_API\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\PRN232\\Code\\B2_API\\B2_API\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "B2_API\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBoAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\B2_API\\B2_API\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "B2_API\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\PRN232\\Code\\B2_API\\B2_API\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "B2_API\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T10:22:39.406Z",
+              "WhenOpened": "2025-05-25T15:22:13.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\B2_API\\B2_API\\Program.cs",
+              "RelativeDocumentMoniker": "B2_API\\Program.cs",
+              "ToolTip": "D:\\PRN232\\Code\\B2_API\\B2_API\\Program.cs",
+              "RelativeToolTip": "B2_API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:42:04.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PRN232\\Code\\B2_API\\B2_API\\appsettings.json",
+              "RelativeDocumentMoniker": "B2_API\\appsettings.json",
+              "ToolTip": "D:\\PRN232\\Code\\B2_API\\B2_API\\appsettings.json",
+              "RelativeToolTip": "B2_API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-19T06:38:18.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\B2_API\\B2_API\\Models\\DTO\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "B2_API\\Models\\DTO\\ProductDTO.cs",
+              "ToolTip": "D:\\PRN232\\Code\\B2_API\\B2_API\\Models\\DTO\\ProductDTO.cs",
+              "RelativeToolTip": "B2_API\\Models\\DTO\\ProductDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:56:56.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryWithProductsDTO.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\B2_API\\B2_API\\Models\\DTO\\CategoryWithProductsDTO.cs",
+              "RelativeDocumentMoniker": "B2_API\\Models\\DTO\\CategoryWithProductsDTO.cs",
+              "ToolTip": "D:\\PRN232\\Code\\B2_API\\B2_API\\Models\\DTO\\CategoryWithProductsDTO.cs",
+              "RelativeToolTip": "B2_API\\Models\\DTO\\CategoryWithProductsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:20:48.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MappingHelper.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\B2_API\\B2_API\\Mapping\\MappingHelper.cs",
+              "RelativeDocumentMoniker": "B2_API\\Mapping\\MappingHelper.cs",
+              "ToolTip": "D:\\PRN232\\Code\\B2_API\\B2_API\\Mapping\\MappingHelper.cs",
+              "RelativeToolTip": "B2_API\\Mapping\\MappingHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:12:31.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SimpleProductDTO.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\B2_API\\B2_API\\Models\\DTO\\SimpleProductDTO.cs",
+              "RelativeDocumentMoniker": "B2_API\\Models\\DTO\\SimpleProductDTO.cs",
+              "ToolTip": "D:\\PRN232\\Code\\B2_API\\B2_API\\Models\\DTO\\SimpleProductDTO.cs",
+              "RelativeToolTip": "B2_API\\Models\\DTO\\SimpleProductDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:37:33.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductCategoryDbContext.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\B2_API\\B2_API\\Models\\ProductCategoryDbContext.cs",
+              "RelativeDocumentMoniker": "B2_API\\Models\\ProductCategoryDbContext.cs",
+              "ToolTip": "D:\\PRN232\\Code\\B2_API\\B2_API\\Models\\ProductCategoryDbContext.cs",
+              "RelativeToolTip": "B2_API\\Models\\ProductCategoryDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:22:39.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryDTO.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\B2_API\\B2_API\\Models\\DTO\\CategoryDTO.cs",
+              "RelativeDocumentMoniker": "B2_API\\Models\\DTO\\CategoryDTO.cs",
+              "ToolTip": "D:\\PRN232\\Code\\B2_API\\B2_API\\Models\\DTO\\CategoryDTO.cs",
+              "RelativeToolTip": "B2_API\\Models\\DTO\\CategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:56:34.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\B2_API\\B2_API\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "B2_API\\Models\\Product.cs",
+              "ToolTip": "D:\\PRN232\\Code\\B2_API\\B2_API\\Models\\Product.cs",
+              "RelativeToolTip": "B2_API\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:12:44.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\B2_API\\B2_API\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "B2_API\\Models\\Category.cs",
+              "ToolTip": "D:\\PRN232\\Code\\B2_API\\B2_API\\Models\\Category.cs",
+              "RelativeToolTip": "B2_API\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:14:51.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductCategoryDTO.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\B2_API\\B2_API\\Models\\DTO\\ProductCategoryDTO.cs",
+              "RelativeDocumentMoniker": "B2_API\\Models\\DTO\\ProductCategoryDTO.cs",
+              "ToolTip": "D:\\PRN232\\Code\\B2_API\\B2_API\\Models\\DTO\\ProductCategoryDTO.cs",
+              "RelativeToolTip": "B2_API\\Models\\DTO\\ProductCategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:57:27.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\B2_API\\B2_API\\Models\\ProductDto.cs",
+              "RelativeDocumentMoniker": "B2_API\\Models\\ProductDto.cs",
+              "ToolTip": "D:\\PRN232\\Code\\B2_API\\B2_API\\Models\\ProductDto.cs",
+              "RelativeToolTip": "B2_API\\Models\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T08:54:40.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\B2_API\\B2_API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "B2_API\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\PRN232\\Code\\B2_API\\B2_API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "B2_API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwB4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:22:39.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\B2_API\\B2_API\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "B2_API\\Controllers\\CategoryController.cs",
               "ToolTip": "D:\\PRN232\\Code\\B2_API\\B2_API\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "B2_API\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T10:00:44.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T10:00:44.174Z"
             }
           ]
         }

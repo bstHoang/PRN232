@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\PRN232\\Code\\Authen_Demo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9CEBE913-3482-43CE-B424-3A2F642719E1}|Authen_Demo\\Authen_Demo.csproj|d:\\prn232\\code\\authen_demo\\authen_demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEBE913-3482-43CE-B424-3A2F642719E1}|Authen_Demo\\Authen_Demo.csproj|solutionrelative:authen_demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9CEBE913-3482-43CE-B424-3A2F642719E1}|Authen_Demo\\Authen_Demo.csproj|d:\\prn232\\code\\authen_demo\\authen_demo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9CEBE913-3482-43CE-B424-3A2F642719E1}|Authen_Demo\\Authen_Demo.csproj|solutionrelative:authen_demo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -50,11 +54,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\Authen_Demo\\Authen_Demo\\Program.cs",
+              "RelativeDocumentMoniker": "Authen_Demo\\Program.cs",
+              "ToolTip": "D:\\PRN232\\Code\\Authen_Demo\\Authen_Demo\\Program.cs",
+              "RelativeToolTip": "Authen_Demo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T08:49:44.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AuthenDemoContext.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\Authen_Demo\\Authen_Demo\\Models\\AuthenDemoContext.cs",
               "RelativeDocumentMoniker": "Authen_Demo\\Models\\AuthenDemoContext.cs",
@@ -62,25 +79,24 @@
               "RelativeToolTip": "Authen_Demo\\Models\\AuthenDemoContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T07:19:28.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T07:19:28.17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\PRN232\\Code\\Authen_Demo\\Authen_Demo\\appsettings.json",
               "RelativeDocumentMoniker": "Authen_Demo\\appsettings.json",
               "ToolTip": "D:\\PRN232\\Code\\Authen_Demo\\Authen_Demo\\appsettings.json",
               "RelativeToolTip": "Authen_Demo\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-11T07:15:09.551Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\Authen_Demo\\Authen_Demo\\Models\\User.cs",
               "RelativeDocumentMoniker": "Authen_Demo\\Models\\User.cs",
@@ -88,12 +104,11 @@
               "RelativeToolTip": "Authen_Demo\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T07:15:01.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T07:15:01.015Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SignUp.cshtml",
               "DocumentMoniker": "D:\\PRN232\\Code\\Authen_Demo\\Authen_Demo\\Views\\SignUp.cshtml",
               "RelativeDocumentMoniker": "Authen_Demo\\Views\\SignUp.cshtml",
@@ -101,12 +116,11 @@
               "RelativeToolTip": "Authen_Demo\\Views\\SignUp.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-11T07:13:59.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T07:13:59.559Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "LoginController.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\Authen_Demo\\Authen_Demo\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Authen_Demo\\Controllers\\LoginController.cs",
@@ -114,12 +128,11 @@
               "RelativeToolTip": "Authen_Demo\\Controllers\\LoginController.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T07:13:42.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T07:13:42.102Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SignUp.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\Authen_Demo\\Authen_Demo\\Controllers\\SignUp.cs",
               "RelativeDocumentMoniker": "Authen_Demo\\Controllers\\SignUp.cs",
@@ -127,12 +140,11 @@
               "RelativeToolTip": "Authen_Demo\\Controllers\\SignUp.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAcwDIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T07:13:16.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T07:13:16.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "TeacherHome.cshtml",
               "DocumentMoniker": "D:\\PRN232\\Code\\Authen_Demo\\Authen_Demo\\Views\\TeacherHome.cshtml",
               "RelativeDocumentMoniker": "Authen_Demo\\Views\\TeacherHome.cshtml",
@@ -140,12 +152,11 @@
               "RelativeToolTip": "Authen_Demo\\Views\\TeacherHome.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-11T07:04:35.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T07:04:35.783Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "EditGrade.cshtml",
               "DocumentMoniker": "D:\\PRN232\\Code\\Authen_Demo\\Authen_Demo\\Views\\EditGrade.cshtml",
               "RelativeDocumentMoniker": "Authen_Demo\\Views\\EditGrade.cshtml",
@@ -153,12 +164,11 @@
               "RelativeToolTip": "Authen_Demo\\Views\\EditGrade.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-11T06:59:18.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T06:59:18.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UpdateGrate.cshtml",
               "DocumentMoniker": "D:\\PRN232\\Code\\Authen_Demo\\Authen_Demo\\Views\\UpdateGrate.cshtml",
               "RelativeDocumentMoniker": "Authen_Demo\\Views\\UpdateGrate.cshtml",
@@ -166,12 +176,11 @@
               "RelativeToolTip": "Authen_Demo\\Views\\UpdateGrate.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-11T06:36:11.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T06:36:11.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "TeacherHomeController.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\Authen_Demo\\Authen_Demo\\Controllers\\TeacherHomeController.cs",
               "RelativeDocumentMoniker": "Authen_Demo\\Controllers\\TeacherHomeController.cs",
@@ -179,8 +188,7 @@
               "RelativeToolTip": "Authen_Demo\\Controllers\\TeacherHomeController.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAUwGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T06:06:19.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T06:06:19.495Z"
             }
           ]
         }

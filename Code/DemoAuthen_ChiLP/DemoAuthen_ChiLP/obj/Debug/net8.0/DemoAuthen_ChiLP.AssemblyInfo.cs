@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("DemoAuthen_ChiLP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86bad4d8074b2aa5173bbfe9361b5138dbc50988")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c97ce7fb95fb66669e3a34a3e7a92edc114d39c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("DemoAuthen_ChiLP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DemoAuthen_ChiLP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

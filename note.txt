@@ -1,0 +1,10 @@
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+-----------------
+cách làm mấy cái migrations authen
+ 1. vào file context đổi từ kế thừa dbcontext sang IdentityDbContext
+ 2. thêm base.OnModelCreating(modelBuilder); vào trong protected override void OnModelCreating(ModelBuilder modelBuilder) 
+ 2.1 . dotnet ef migrations add InitialCreate
+ 3. Xoá các file bị lặp ở trong migrations
+ 3.1 . dotnet ef database update
+

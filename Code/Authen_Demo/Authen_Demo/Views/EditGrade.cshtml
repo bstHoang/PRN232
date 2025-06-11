@@ -1,0 +1,18 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model Authen_Demo.Models.Grade
+
+<h2>Chỉnh sửa điểm của: @ViewBag.StudentName - Môn: @ViewBag.SubjectName</h2>
+
+<form asp-action="EditGrade" method="post">
+    <input type="hidden" asp-for="GradeId" />
+    <input type="hidden" asp-for="UserId" />
+    <input type="hidden" asp-for="SubjectId" />
+
+   
+    <div>
+        <label>Giá trị:</label>
+        <input asp-for="GradeValue" />
+    </div>
+    
+    <button type="submit">Lưu</button>
+</form>

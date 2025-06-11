@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|solutionrelative:lab1\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|d:\\prn232\\code\\lab1\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|solutionrelative:lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|d:\\prn232\\code\\lab1\\lab1\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|solutionrelative:lab1\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|d:\\prn232\\code\\lab1\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|solutionrelative:lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|d:\\prn232\\code\\lab1\\lab1\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "LAB1\\Controllers\\CategoriesController.cs",
               "ToolTip": "D:\\PRN232\\Code\\LAB1\\LAB1\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "LAB1\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-01T03:21:05.86Z",
               "EditorCaption": ""
@@ -77,25 +77,25 @@
               "RelativeDocumentMoniker": "LAB1\\Services\\CategoryService.cs",
               "ToolTip": "D:\\PRN232\\Code\\LAB1\\LAB1\\Services\\CategoryService.cs",
               "RelativeToolTip": "LAB1\\Services\\CategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T03:16:15.823Z"
+              "WhenOpened": "2025-06-04T08:36:43.424Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\LAB1\\LAB1\\Services\\ICategoryService.cs",
               "RelativeDocumentMoniker": "LAB1\\Services\\ICategoryService.cs",
               "ToolTip": "D:\\PRN232\\Code\\LAB1\\LAB1\\Services\\ICategoryService.cs",
               "RelativeToolTip": "LAB1\\Services\\ICategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-01T03:15:57.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\LAB1\\LAB1\\Program.cs",
               "RelativeDocumentMoniker": "LAB1\\Program.cs",

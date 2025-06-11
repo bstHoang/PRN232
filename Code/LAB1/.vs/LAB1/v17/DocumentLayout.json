@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|solutionrelative:lab1\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|d:\\prn232\\code\\lab1\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|solutionrelative:lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|d:\\prn232\\code\\lab1\\lab1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|solutionrelative:lab1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|d:\\prn232\\code\\lab1\\lab1\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|solutionrelative:lab1\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|d:\\prn232\\code\\lab1\\lab1\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|solutionrelative:lab1\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|d:\\prn232\\code\\lab1\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|solutionrelative:lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|d:\\prn232\\code\\lab1\\lab1\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|d:\\prn232\\code\\lab1\\lab1\\services\\inewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|solutionrelative:lab1\\services\\inewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|d:\\prn232\\code\\lab1\\lab1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|solutionrelative:lab1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|d:\\prn232\\code\\lab1\\lab1\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,20 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\LAB1\\LAB1\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "LAB1\\Services\\CategoryService.cs",
-              "ToolTip": "D:\\PRN232\\Code\\LAB1\\LAB1\\Services\\CategoryService.cs",
-              "RelativeToolTip": "LAB1\\Services\\CategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T08:36:43.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\LAB1\\LAB1\\Services\\ICategoryService.cs",
               "RelativeDocumentMoniker": "LAB1\\Services\\ICategoryService.cs",
@@ -92,24 +79,24 @@
               "RelativeToolTip": "LAB1\\Services\\ICategoryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T03:15:57.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T03:15:57.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\LAB1\\LAB1\\Program.cs",
               "RelativeDocumentMoniker": "LAB1\\Program.cs",
               "ToolTip": "D:\\PRN232\\Code\\LAB1\\LAB1\\Program.cs",
               "RelativeToolTip": "LAB1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T02:16:53.169Z"
+              "WhenOpened": "2025-06-01T02:16:53.169Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\LAB1\\LAB1\\Profiles\\MappingProfile.cs",
               "RelativeDocumentMoniker": "LAB1\\Profiles\\MappingProfile.cs",
@@ -121,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CategoryDto.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\LAB1\\LAB1\\DTOs\\CategoryDto.cs",
               "RelativeDocumentMoniker": "LAB1\\DTOs\\CategoryDto.cs",
@@ -133,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "NewsController.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\LAB1\\LAB1\\Controllers\\NewsController.cs",
               "RelativeDocumentMoniker": "LAB1\\Controllers\\NewsController.cs",
@@ -145,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "NewsDto.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\LAB1\\LAB1\\DTOs\\NewsDto.cs",
               "RelativeDocumentMoniker": "LAB1\\DTOs\\NewsDto.cs",
@@ -157,19 +144,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\PRN232\\Code\\LAB1\\LAB1\\appsettings.json",
               "RelativeDocumentMoniker": "LAB1\\appsettings.json",
               "ToolTip": "D:\\PRN232\\Code\\LAB1\\LAB1\\appsettings.json",
               "RelativeToolTip": "LAB1\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-01T02:13:50.327Z"
+              "WhenOpened": "2025-06-01T02:13:50.327Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\LAB1\\LAB1\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "LAB1\\Services\\CategoryService.cs",
+              "ToolTip": "D:\\PRN232\\Code\\LAB1\\LAB1\\Services\\CategoryService.cs",
+              "RelativeToolTip": "LAB1\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:36:43.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "INewsService.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\LAB1\\LAB1\\Services\\INewsService.cs",
               "RelativeDocumentMoniker": "LAB1\\Services\\INewsService.cs",

@@ -1,0 +1,17 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    var subjects = ViewBag.Subjects as List<Authen_Demo.Models.Subject>;
+    var grades = ViewBag.AllGrades as List<Authen_Demo.Models.Grade>;
+}
+
+<h2>Môn học đã học</h2>
+<ul>
+    @foreach (var subject in subjects)
+    {
+        <li>
+            <a asp-action="SubjectGrade" asp-controller="StudentHome" asp-route-id="@subject.SubjectId">
+                @subject.Name
+            </a>
+        </li>
+    }
+</ul>

@@ -1,0 +1,24 @@
+﻿@model Authen_Demo.Models.User
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<h2>Sign up</h2>
+
+<form asp-action="Register" method="post">
+    <div>
+        <label>Account:</label>
+        <input asp-for="Account" />
+        <span asp-validation-for="Account" style="color:red"></span>
+    </div>
+    <div>
+        <label>Password:</label>
+        <input asp-for="Password" type="password" />
+        <span asp-validation-for="Password" style="color:red"></span>
+    </div>
+    <button type="submit">SignUp</button>
+</form>
+
+<a asp-controller="Login" asp-action="Index">Back to Login</a>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

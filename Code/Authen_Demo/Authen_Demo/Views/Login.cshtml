@@ -1,0 +1,39 @@
+﻿@model Authen_Demo.Models.User
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+<h2>Đăng nhập</h2>
+
+@if (ViewData["ErrorMessage"] != null)
+{
+    <div style="color: red;">
+        @ViewData["ErrorMessage"]
+    </div>
+}
+
+<form asp-controller="Login" asp-action="Index" method="post">
+    <div>
+        <label asp-for="Account"></label>
+        <input asp-for="Account" class="form-control" />
+        <span asp-validation-for="Account" style="color:red;"></span>
+    </div>
+
+    <div>
+        <label asp-for="Password"></label>
+        <input asp-for="Password" type="password" class="form-control" />
+        <span asp-validation-for="Password" style="color:red;"></span>
+    </div>
+
+    <div>
+        <button type="submit">Login</button>
+    </div>
+</form>
+<form asp-controller="SignUp" asp-action="Index" method="get">
+	<div>
+		<button type="submit">Sign Up</button>
+	</div>
+</form>

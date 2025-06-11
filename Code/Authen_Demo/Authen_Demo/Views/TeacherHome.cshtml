@@ -1,0 +1,30 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model List<Authen_Demo.Models.User>
+@{
+}
+<h2>Welcome @ViewBag.Account!</h2>
+<h3>Student list</h3>
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Account Name</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.UserId</td>
+                <td>@user.Account</td>
+                <td>
+                    <a asp-controller="TeacherHome" asp-action="Update" asp-route-id="@user.UserId">Update</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<form asp-action="Logout" asp-controller="Home" method="post">
+    <button type="submit">Logout</button>
+</form>

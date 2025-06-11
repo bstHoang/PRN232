@@ -1,0 +1,33 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model List<Authen_Demo.Models.Grade>
+
+<h2>Điểm chi tiết môn: @ViewBag.SubjectName của student @ViewBag.StudentName</h2>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Loại điểm</th>
+            <th>Giá trị</th>
+            <th>Trọng số</th>
+            <th>Hoạt động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var grade in Model)
+        {
+            <tr>
+                <td>@grade.GradeType</td>
+                <td>@grade.GradeValue</td>
+                <td>@grade.Weight</td>
+                <td>
+                    <a asp-action="EditGrade" asp-controller="TeacherHome"
+                       asp-route-gradeId="@grade.GradeId"
+                       asp-route-userId="@grade.UserId"
+                       asp-route-subjectId="@grade.SubjectId">
+                        Update
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

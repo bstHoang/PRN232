@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\PRN232\\Code\\DemoAuthen_ChiLP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09F851BC-661B-404B-946D-212E6B8CB4E1}|DemoAuthen_ChiLP\\DemoAuthen_ChiLP.csproj|d:\\prn232\\code\\demoauthen_chilp\\demoauthen_chilp\\migrations\\20250611101540_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09F851BC-661B-404B-946D-212E6B8CB4E1}|DemoAuthen_ChiLP\\DemoAuthen_ChiLP.csproj|solutionrelative:demoauthen_chilp\\migrations\\20250611101540_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09F851BC-661B-404B-946D-212E6B8CB4E1}|DemoAuthen_ChiLP\\DemoAuthen_ChiLP.csproj|d:\\prn232\\code\\demoauthen_chilp\\demoauthen_chilp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09F851BC-661B-404B-946D-212E6B8CB4E1}|DemoAuthen_ChiLP\\DemoAuthen_ChiLP.csproj|solutionrelative:demoauthen_chilp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09F851BC-661B-404B-946D-212E6B8CB4E1}|DemoAuthen_ChiLP\\DemoAuthen_ChiLP.csproj|d:\\prn232\\code\\demoauthen_chilp\\demoauthen_chilp\\models\\authendemocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09F851BC-661B-404B-946D-212E6B8CB4E1}|DemoAuthen_ChiLP\\DemoAuthen_ChiLP.csproj|solutionrelative:demoauthen_chilp\\models\\authendemocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09F851BC-661B-404B-946D-212E6B8CB4E1}|DemoAuthen_ChiLP\\DemoAuthen_ChiLP.csproj|d:\\prn232\\code\\demoauthen_chilp\\demoauthen_chilp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09F851BC-661B-404B-946D-212E6B8CB4E1}|DemoAuthen_ChiLP\\DemoAuthen_ChiLP.csproj|solutionrelative:demoauthen_chilp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09F851BC-661B-404B-946D-212E6B8CB4E1}|DemoAuthen_ChiLP\\DemoAuthen_ChiLP.csproj|d:\\prn232\\code\\demoauthen_chilp\\demoauthen_chilp\\migrations\\20250611101540_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09F851BC-661B-404B-946D-212E6B8CB4E1}|DemoAuthen_ChiLP\\DemoAuthen_ChiLP.csproj|solutionrelative:demoauthen_chilp\\migrations\\20250611101540_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "20250611101540_InitialCreate.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\DemoAuthen_ChiLP\\DemoAuthen_ChiLP\\Migrations\\20250611101540_InitialCreate.cs",
               "RelativeDocumentMoniker": "DemoAuthen_ChiLP\\Migrations\\20250611101540_InitialCreate.cs",
               "ToolTip": "D:\\PRN232\\Code\\DemoAuthen_ChiLP\\DemoAuthen_ChiLP\\Migrations\\20250611101540_InitialCreate.cs",
               "RelativeToolTip": "DemoAuthen_ChiLP\\Migrations\\20250611101540_InitialCreate.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAswLsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAswLsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T10:16:11.986Z",
               "EditorCaption": ""
@@ -45,20 +45,20 @@
               "RelativeDocumentMoniker": "DemoAuthen_ChiLP\\Models\\AuthenDemoContext.cs",
               "ToolTip": "D:\\PRN232\\Code\\DemoAuthen_ChiLP\\DemoAuthen_ChiLP\\Models\\AuthenDemoContext.cs",
               "RelativeToolTip": "DemoAuthen_ChiLP\\Models\\AuthenDemoContext.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwBoAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T08:53:06.84Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\DemoAuthen_ChiLP\\DemoAuthen_ChiLP\\Program.cs",
               "RelativeDocumentMoniker": "DemoAuthen_ChiLP\\Program.cs",
               "ToolTip": "D:\\PRN232\\Code\\DemoAuthen_ChiLP\\DemoAuthen_ChiLP\\Program.cs",
               "RelativeToolTip": "DemoAuthen_ChiLP\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T08:50:56.584Z",
               "EditorCaption": ""

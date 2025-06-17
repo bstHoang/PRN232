@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DemoAuthen_ChiLP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c97ce7fb95fb66669e3a34a3e7a92edc114d39c6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f019c6c2bfb33867c7e262e4c57bad2721830b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("DemoAuthen_ChiLP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DemoAuthen_ChiLP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,31 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model List<CompanyManage.Models.ApplicationUser>
+<h2>Danh sách nhân viên</h2>
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>Họ và tên</th>
+            <th>Email</th>
+            <th>Phòng ban</th>
+            <th>Vị trí</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.Name</td>
+                <td>@employee.Email</td>
+                <td>@employee.Department?.Name</td>
+                <td>@employee.Position?.Name</td>
+                <td>
+                    <a asp-action="EditEmployee" asp-route-id="@employee.Id" class="btn btn-warning">Sửa</a>
+                    <form asp-action="DisableEmployee" asp-route-id="@employee.Id" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-danger">Vô hiệu hóa</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

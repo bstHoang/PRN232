@@ -32,10 +32,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlRW1wbG95ZWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/PRN232/Code/CompanyManage/CompanyManage/Views/EditEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdEVtcGxveWVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN232/Code/CompanyManage/CompanyManage/Views/EditRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdFJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/PRN232/Code/CompanyManage/CompanyManage/Views/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/PRN232/Code/CompanyManage/CompanyManage/Views/UserHome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckhvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN232/Code/CompanyManage/CompanyManage/Views/ViewEmployeeList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld0VtcGxveWVlTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN232/Code/CompanyManage/CompanyManage/Views/ViewProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld1Byb2ZpbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

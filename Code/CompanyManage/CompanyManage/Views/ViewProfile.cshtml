@@ -1,0 +1,11 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model CompanyManage.Models.ApplicationUser
+<h2>Hồ sơ nhân viên</h2>
+<div class="card mt-3">
+    <div class="card-body">
+        <p><strong>Họ và tên:</strong> @Model.Name</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Phòng ban:</strong> @Model.Department?.Name</p>
+        <p><strong>Vị trí:</strong> @Model.Position?.Name</p>
+    </div>
+</div>

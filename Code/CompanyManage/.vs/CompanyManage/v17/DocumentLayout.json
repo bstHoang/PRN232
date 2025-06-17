@@ -3,12 +3,72 @@
   "WorkspaceRootPath": "D:\\PRN232\\Code\\CompanyManage\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\views\\viewprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\views\\viewprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\views\\viewemployeelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\views\\viewemployeelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\views\\userhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\views\\userhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\views\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\views\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\controllers\\hrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\controllers\\hrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\views\\editemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\views\\editemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\views\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\views\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\models\\editemployeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\models\\editemployeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\models\\editrolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\models\\editrolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\models\\createaccountmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\models\\createaccountmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\views\\createemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\views\\createemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\views\\adminhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\views\\adminhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\models\\customuserclaimsprincipalfactory .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\models\\customuserclaimsprincipalfactory .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\models\\createemployeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\models\\createemployeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\models\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,37 +82,230 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewProfile.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Views\\ViewProfile.cshtml",
+              "RelativeDocumentMoniker": "CompanyManage\\Views\\ViewProfile.cshtml",
+              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Views\\ViewProfile.cshtml",
+              "RelativeToolTip": "CompanyManage\\Views\\ViewProfile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T09:28:08.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "CompanyManage\\Controllers\\ProfileController.cs",
+              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "CompanyManage\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T09:27:13.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewEmployeeList.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Views\\ViewEmployeeList.cshtml",
+              "RelativeDocumentMoniker": "CompanyManage\\Views\\ViewEmployeeList.cshtml",
+              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Views\\ViewEmployeeList.cshtml",
+              "RelativeToolTip": "CompanyManage\\Views\\ViewEmployeeList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T09:22:37.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditEmployee.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Views\\EditEmployee.cshtml",
+              "RelativeDocumentMoniker": "CompanyManage\\Views\\EditEmployee.cshtml",
+              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Views\\EditEmployee.cshtml",
+              "RelativeToolTip": "CompanyManage\\Views\\EditEmployee.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T09:15:24.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditRole.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Views\\EditRole.cshtml",
+              "RelativeDocumentMoniker": "CompanyManage\\Views\\EditRole.cshtml",
+              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Views\\EditRole.cshtml",
+              "RelativeToolTip": "CompanyManage\\Views\\EditRole.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T09:10:54.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UserHome.cshtml",
               "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Views\\UserHome.cshtml",
               "RelativeDocumentMoniker": "CompanyManage\\Views\\UserHome.cshtml",
               "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Views\\UserHome.cshtml",
               "RelativeToolTip": "CompanyManage\\Views\\UserHome.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-16T07:33:10.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
+              "Title": "EditEmployeeModel.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\EditEmployeeModel.cs",
+              "RelativeDocumentMoniker": "CompanyManage\\Models\\EditEmployeeModel.cs",
+              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\EditEmployeeModel.cs",
+              "RelativeToolTip": "CompanyManage\\Models\\EditEmployeeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T09:17:16.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "HRController.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Controllers\\HRController.cs",
               "RelativeDocumentMoniker": "CompanyManage\\Controllers\\HRController.cs",
               "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Controllers\\HRController.cs",
               "RelativeToolTip": "CompanyManage\\Controllers\\HRController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBYAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAowGcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T05:12:09.951Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "CreateAccount.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Views\\CreateAccount.cshtml",
+              "RelativeDocumentMoniker": "CompanyManage\\Views\\CreateAccount.cshtml",
+              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Views\\CreateAccount.cshtml",
+              "RelativeToolTip": "CompanyManage\\Views\\CreateAccount.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T09:08:00.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditRoleModel.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\EditRoleModel.cs",
+              "RelativeDocumentMoniker": "CompanyManage\\Models\\EditRoleModel.cs",
+              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\EditRoleModel.cs",
+              "RelativeToolTip": "CompanyManage\\Models\\EditRoleModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T09:11:58.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "CompanyManage\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "CompanyManage\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAUwDUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T09:07:34.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateAccountModel.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\CreateAccountModel.cs",
+              "RelativeDocumentMoniker": "CompanyManage\\Models\\CreateAccountModel.cs",
+              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\CreateAccountModel.cs",
+              "RelativeToolTip": "CompanyManage\\Models\\CreateAccountModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T09:09:49.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateEmployee.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Views\\CreateEmployee.cshtml",
+              "RelativeDocumentMoniker": "CompanyManage\\Views\\CreateEmployee.cshtml",
+              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Views\\CreateEmployee.cshtml",
+              "RelativeToolTip": "CompanyManage\\Views\\CreateEmployee.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T09:08:35.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminHome.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Views\\AdminHome.cshtml",
+              "RelativeDocumentMoniker": "CompanyManage\\Views\\AdminHome.cshtml",
+              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Views\\AdminHome.cshtml",
+              "RelativeToolTip": "CompanyManage\\Views\\AdminHome.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T09:08:06.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Program.cs",
+              "RelativeDocumentMoniker": "CompanyManage\\Program.cs",
+              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Program.cs",
+              "RelativeToolTip": "CompanyManage\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T03:12:29.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomUserClaimsPrincipalFactory .cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\CustomUserClaimsPrincipalFactory .cs",
+              "RelativeDocumentMoniker": "CompanyManage\\Models\\CustomUserClaimsPrincipalFactory .cs",
+              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\CustomUserClaimsPrincipalFactory .cs",
+              "RelativeToolTip": "CompanyManage\\Models\\CustomUserClaimsPrincipalFactory .cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T03:12:04.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateEmployeeModel.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\CreateEmployeeModel.cs",
+              "RelativeDocumentMoniker": "CompanyManage\\Models\\CreateEmployeeModel.cs",
+              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\CreateEmployeeModel.cs",
+              "RelativeToolTip": "CompanyManage\\Models\\CreateEmployeeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T03:12:03.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "CompanyDbContext.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\CompanyDbContext.cs",
               "RelativeDocumentMoniker": "CompanyManage\\Models\\CompanyDbContext.cs",
@@ -60,8 +313,7 @@
               "RelativeToolTip": "CompanyManage\\Models\\CompanyDbContext.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAAAswFYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T03:24:56.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T03:24:56.344Z"
             }
           ]
         }

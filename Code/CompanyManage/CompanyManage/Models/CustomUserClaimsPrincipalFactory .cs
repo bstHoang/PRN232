@@ -22,7 +22,6 @@ namespace CompanyManage.Models
         {
             var identity = await base.GenerateClaimsAsync(user);
 
-            // Thêm claims Department và Position
             var department = await _context.Departments.FindAsync(user.DepartmentId);
             var position = await _context.Positions.FindAsync(user.PositionId);
 

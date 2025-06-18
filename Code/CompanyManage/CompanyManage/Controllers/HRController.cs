@@ -45,7 +45,7 @@ namespace CompanyManage.Controllers
                 {
                     await _userManager.AddToRoleAsync(user, "User");
                     return RedirectToAction("ViewEmployeeList");
-                }
+            }
                 foreach (var error in result.Errors)
                 {
                     ModelState.AddModelError(string.Empty, error.Description);
@@ -101,11 +101,12 @@ namespace CompanyManage.Controllers
             return RedirectToAction("ViewEmployeeList");
         }
         [Authorize(Policy = "ViewEmployeeListPolicy")]
+        [HttpGet]
         public IActionResult ViewEmployeeList()
         {
             var employees = _context.Users.Include(u => u.Department).
                 Include(u => u.Position).ToList();
-            return View(employees);
+            return View("~/Views/ViewEmployeeList.cshtml", employees);
         }
     }
 }

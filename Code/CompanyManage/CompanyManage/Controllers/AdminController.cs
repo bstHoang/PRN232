@@ -18,7 +18,7 @@ namespace CompanyManage.Controllers
         [HttpGet]
         public IActionResult CreateAccount()
         {
-            return View();
+            return View("~/Views/CreateAccount.cshtml");
         }
 
         [HttpPost]
@@ -38,7 +38,7 @@ namespace CompanyManage.Controllers
                     ModelState.AddModelError(string.Empty, error.Description);
                 }
             }
-            return View(model);
+            return View("~/Views/CreateAccount.cshtml",model);
         }
 
         [HttpGet]

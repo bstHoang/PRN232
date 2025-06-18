@@ -159,3 +159,6 @@ D:\PRN232\Code\CompanyManage\CompanyManage\obj\Debug\net8.0\ref\CompanyManage.dl
 D:\PRN232\Code\CompanyManage\CompanyManage\obj\Debug\net8.0\CompanyManage.RazorAssemblyInfo.cache
 D:\PRN232\Code\CompanyManage\CompanyManage\obj\Debug\net8.0\CompanyManage.RazorAssemblyInfo.cs
 D:\PRN232\Code\CompanyManage\CompanyManage\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\PRN232\Code\CompanyManage\CompanyManage\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+D:\PRN232\Code\CompanyManage\CompanyManage\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+D:\PRN232\Code\CompanyManage\CompanyManage\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

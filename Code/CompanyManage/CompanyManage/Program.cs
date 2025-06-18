@@ -1,7 +1,9 @@
 ﻿using CompanyManage.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using System.Security.Claims;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,16 +23,47 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole<int>>(options =>
 .AddEntityFrameworkStores<CompanyDbContext>()
 .AddDefaultTokenProviders();
 
-// Thêm ClaimsPrincipalFactory để thêm claims tùy chỉnh
+// Thêm ClaimsPrincipalFactory
 builder.Services.AddScoped<IUserClaimsPrincipalFactory<ApplicationUser>, CustomUserClaimsPrincipalFactory>();
 
 // Thêm Session
 builder.Services.AddSession();
 
-// Thêm MVC
-builder.Services.AddControllersWithViews();
+// Configure JWT authentication
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+        ValidAudience = builder.Configuration["Jwt:Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+    };
+    // Trả lỗi 401 thay vì chuyển hướng
+    options.Events = new JwtBearerEvents
+    {
+        OnChallenge = context =>
+        {
+            context.HandleResponse();
+            context.Response.StatusCode = 401;
+            context.Response.ContentType = "application/json";
+            return context.Response.WriteAsync("{\"error\": \"Unauthorized\"}");
+        }
+    };
+});
 
-// Định nghĩa các chính sách phân quyền
+// Thêm MVC và API
+builder.Services.AddControllersWithViews();
+builder.Services.AddControllers();
+
+// Định nghĩa chính sách phân quyền
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("HRManagerPolicy", policy =>
@@ -42,10 +75,8 @@ builder.Services.AddAuthorization(options =>
         policy.RequireRole("Admin"));
 
     options.AddPolicy("ViewEmployeeListPolicy", policy =>
-        policy.RequireAssertion(context =>
-            context.User.IsInRole("User") &&
-            (context.User.HasClaim("Department", "Board of Directors") && context.User.HasClaim("Position", "CEO") ||
-             context.User.HasClaim("Department", "HR"))));
+        policy.RequireRole("User")
+              .RequireClaim("Department", "HR"));
 
     options.AddPolicy("ViewProfilePolicy", policy =>
         policy.RequireAssertion(context =>
@@ -65,16 +96,6 @@ app.UseSession();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Account}/{action=Login}/{id?}");
-
-// Khởi tạo người dùng mẫu với mật khẩu
-using (var scope = app.Services.CreateScope())
-{
-    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
-    var user = await userManager.FindByIdAsync("1");
-    if (user != null && !await userManager.HasPasswordAsync(user))
-    {
-        await userManager.AddPasswordAsync(user, "Password123!");
-    }
-}
+app.MapControllers();
 
 app.Run();

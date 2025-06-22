@@ -28,8 +28,8 @@ namespace CompanyManage.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = await _userManager.FindByNameAsync(model.UserNameOrEmail) ??
-                           await _userManager.FindByEmailAsync(model.UserNameOrEmail);
+                var user = await _userManager.FindByNameAsync(model.UserName) ??
+                           await _userManager.FindByEmailAsync(model.UserName);
 
                 if (user == null)
                 {

@@ -1,8 +1,10 @@
 ﻿using CompanyManage.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.OData;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OData.Edm;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,7 +12,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Đăng ký DbContext
 builder.Services.AddDbContext<CompanyDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("MyCnn")));
-
+// Dang ki ODATA
+builder.Services.AddControllers()
+    .AddOData(opt => opt.AddRouteComponents("api", new EdmModel()).Filter().Select().Expand());
 // Đăng ký Identity
 builder.Services.AddIdentity<ApplicationUser, IdentityRole<int>>(options =>
 {
@@ -75,8 +79,10 @@ builder.Services.AddAuthorization(options =>
         policy.RequireRole("Admin"));
 
     options.AddPolicy("ViewEmployeeListPolicy", policy =>
-        policy.RequireRole("User")
-              .RequireClaim("Department", "HR"));
+        policy.RequireAssertion(context =>
+            context.User.IsInRole("User") &&
+            (context.User.HasClaim("Department", "Board of Directors") && context.User.HasClaim("Position", "CEO") ||
+             context.User.HasClaim("Department", "HR"))));
 
     options.AddPolicy("ViewProfilePolicy", policy =>
         policy.RequireAssertion(context =>

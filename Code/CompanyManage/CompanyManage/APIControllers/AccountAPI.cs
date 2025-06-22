@@ -36,7 +36,7 @@ namespace CompanyManage.APIControllers
         {
             if (ModelState.IsValid)
             {
-                var user = await _userManager.FindByNameAsync(model.UserNameOrEmail);
+                var user = await _userManager.FindByNameAsync(model.UserName);
                 if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
                 {
                     var claims = new List<Claim>

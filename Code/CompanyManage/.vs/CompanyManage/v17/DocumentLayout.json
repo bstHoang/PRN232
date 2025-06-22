@@ -3,60 +3,16 @@
   "WorkspaceRootPath": "D:\\PRN232\\Code\\CompanyManage\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\apicontrollers\\departmentsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\apicontrollers\\departmentsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\apicontrollers\\positionsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\apicontrollers\\positionsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\apicontrollers\\hrapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\apicontrollers\\hrapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\apicontrollers\\accountapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\apicontrollers\\accountapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\controllers\\hrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\controllers\\hrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\models\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\models\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\models\\customuserclaimsprincipalfactory .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\models\\customuserclaimsprincipalfactory .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\models\\createemployeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\models\\createemployeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\views\\createemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\views\\createemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\controllers\\homeadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\controllers\\homeadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\controllers\\userhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\controllers\\userhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,176 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PositionsAPI.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\APIControllers\\PositionsAPI.cs",
+              "RelativeDocumentMoniker": "CompanyManage\\APIControllers\\PositionsAPI.cs",
+              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\APIControllers\\PositionsAPI.cs",
+              "RelativeToolTip": "CompanyManage\\APIControllers\\PositionsAPI.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T09:37:46.601Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DepartmentsAPI.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\APIControllers\\DepartmentsAPI.cs",
+              "RelativeDocumentMoniker": "CompanyManage\\APIControllers\\DepartmentsAPI.cs",
+              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\APIControllers\\DepartmentsAPI.cs",
+              "RelativeToolTip": "CompanyManage\\APIControllers\\DepartmentsAPI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T09:36:44.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HRAPI.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\APIControllers\\HRAPI.cs",
               "RelativeDocumentMoniker": "CompanyManage\\APIControllers\\HRAPI.cs",
               "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\APIControllers\\HRAPI.cs",
               "RelativeToolTip": "CompanyManage\\APIControllers\\HRAPI.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T07:52:44.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountAPI.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\APIControllers\\AccountAPI.cs",
-              "RelativeDocumentMoniker": "CompanyManage\\APIControllers\\AccountAPI.cs",
-              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\APIControllers\\AccountAPI.cs",
-              "RelativeToolTip": "CompanyManage\\APIControllers\\AccountAPI.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T07:50:27.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HRController.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Controllers\\HRController.cs",
-              "RelativeDocumentMoniker": "CompanyManage\\Controllers\\HRController.cs",
-              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Controllers\\HRController.cs",
-              "RelativeToolTip": "CompanyManage\\Controllers\\HRController.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAowGcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T06:23:42.09Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\appsettings.json",
-              "RelativeDocumentMoniker": "CompanyManage\\appsettings.json",
-              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\appsettings.json",
-              "RelativeToolTip": "CompanyManage\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-18T06:06:08.729Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateEmployeeModel.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\CreateEmployeeModel.cs",
-              "RelativeDocumentMoniker": "CompanyManage\\Models\\CreateEmployeeModel.cs",
-              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\CreateEmployeeModel.cs",
-              "RelativeToolTip": "CompanyManage\\Models\\CreateEmployeeModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T04:02:21.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Program.cs",
-              "RelativeDocumentMoniker": "CompanyManage\\Program.cs",
-              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Program.cs",
-              "RelativeToolTip": "CompanyManage\\Program.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAADAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:38:47.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\LoginModel.cs",
-              "RelativeDocumentMoniker": "CompanyManage\\Models\\LoginModel.cs",
-              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\LoginModel.cs",
-              "RelativeToolTip": "CompanyManage\\Models\\LoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T06:29:57.332Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CustomUserClaimsPrincipalFactory .cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\CustomUserClaimsPrincipalFactory .cs",
-              "RelativeDocumentMoniker": "CompanyManage\\Models\\CustomUserClaimsPrincipalFactory .cs",
-              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\CustomUserClaimsPrincipalFactory .cs",
-              "RelativeToolTip": "CompanyManage\\Models\\CustomUserClaimsPrincipalFactory .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T03:20:15.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "CompanyManage\\Controllers\\AdminController.cs",
-              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "CompanyManage\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwBIAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:25:17.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CompanyDbContext.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\CompanyDbContext.cs",
-              "RelativeDocumentMoniker": "CompanyManage\\Models\\CompanyDbContext.cs",
-              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\CompanyDbContext.cs",
-              "RelativeToolTip": "CompanyManage\\Models\\CompanyDbContext.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowDgAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:06:31.564Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CreateEmployee.cshtml",
-              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Views\\CreateEmployee.cshtml",
-              "RelativeDocumentMoniker": "CompanyManage\\Views\\CreateEmployee.cshtml",
-              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Views\\CreateEmployee.cshtml",
-              "RelativeToolTip": "CompanyManage\\Views\\CreateEmployee.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-18T02:12:32.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HomeAdminController.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Controllers\\HomeAdminController.cs",
-              "RelativeDocumentMoniker": "CompanyManage\\Controllers\\HomeAdminController.cs",
-              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Controllers\\HomeAdminController.cs",
-              "RelativeToolTip": "CompanyManage\\Controllers\\HomeAdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:25:14.852Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserHomeController.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Controllers\\UserHomeController.cs",
-              "RelativeDocumentMoniker": "CompanyManage\\Controllers\\UserHomeController.cs",
-              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Controllers\\UserHomeController.cs",
-              "RelativeToolTip": "CompanyManage\\Controllers\\UserHomeController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA0AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:24:41.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProfileController.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Controllers\\ProfileController.cs",
-              "RelativeDocumentMoniker": "CompanyManage\\Controllers\\ProfileController.cs",
-              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Controllers\\ProfileController.cs",
-              "RelativeToolTip": "CompanyManage\\Controllers\\ProfileController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:24:47.98Z"
+              "WhenOpened": "2025-06-21T09:06:21.708Z"
             }
           ]
         }

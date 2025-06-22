@@ -162,3 +162,8 @@ D:\PRN232\Code\CompanyManage\CompanyManage\obj\Debug\net8.0\staticwebassets.upTo
 D:\PRN232\Code\CompanyManage\CompanyManage\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
 D:\PRN232\Code\CompanyManage\CompanyManage\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
 D:\PRN232\Code\CompanyManage\CompanyManage\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\PRN232\Code\CompanyManage\CompanyManage\bin\Debug\net8.0\Microsoft.AspNetCore.OData.dll
+D:\PRN232\Code\CompanyManage\CompanyManage\bin\Debug\net8.0\Microsoft.OData.Core.dll
+D:\PRN232\Code\CompanyManage\CompanyManage\bin\Debug\net8.0\Microsoft.OData.Edm.dll
+D:\PRN232\Code\CompanyManage\CompanyManage\bin\Debug\net8.0\Microsoft.OData.ModelBuilder.dll
+D:\PRN232\Code\CompanyManage\CompanyManage\bin\Debug\net8.0\Microsoft.Spatial.dll

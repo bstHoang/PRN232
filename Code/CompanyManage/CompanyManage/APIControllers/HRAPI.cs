@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.OData.Query;
 using Microsoft.EntityFrameworkCore;
 
 namespace CompanyManage.APIControllers
@@ -21,6 +22,7 @@ namespace CompanyManage.APIControllers
         [Authorize(Policy = "ViewEmployeeListPolicy")]
         [HttpGet]
         [Route("api/HRAPI/ViewEmployeeList")]
+        [EnableQuery]
         public IActionResult ViewEmployeeList()
         {
             var employees = _context.Users
@@ -38,6 +40,65 @@ namespace CompanyManage.APIControllers
                 .ToList();
 
             return Ok(employees);
+        }
+
+        [Authorize(Policy = "HRManagerPolicy")]
+        [HttpPost]
+        [Route("api/HRAPI/Employees")]
+        public async Task<IActionResult> CreateEmployee([FromBody] CreateEmployeeModel model)
+        {
+            var newUser = new ApplicationUser
+            {
+                UserName = model.UserName,
+                Name = model.Name,
+                DepartmentId = model.DepartmentId,
+                PositionId = model.PositionId
+                //EmailConfirmed = true
+            };
+
+            var result = await _userManager.CreateAsync(newUser);
+            if (result.Succeeded)
+            {
+                return Ok(new { Message = "Tạo nhân viên thành công" });
+            }
+            return BadRequest(result.Errors);
+        }
+
+        [Authorize(Policy = "HRManagerPolicy")]
+        [HttpPut]
+        [Route("api/HRAPI/Employees/{id}")]
+        public async Task<IActionResult> UpdateEmployee(int id, [FromBody] CreateEmployeeModel model)
+        {
+            var user = await _userManager.FindByIdAsync(id.ToString());
+            if (user == null) return NotFound();
+
+            user.UserName = model.UserName;
+            user.Name = model.Name;
+            user.DepartmentId = model.DepartmentId;
+            user.PositionId = model.PositionId;
+
+            var result = await _userManager.UpdateAsync(user);
+            if (result.Succeeded)
+            {
+                return Ok(new { Message = "Cập nhật nhân viên thành công" });
+            }
+            return BadRequest(result.Errors);
+        }
+
+        [Authorize(Policy = "HRManagerPolicy")]
+        [HttpDelete]
+        [Route("api/HRAPI/Employees/{id}")]
+        public async Task<IActionResult> DeleteEmployee(int id)
+        {
+            var user = await _userManager.FindByIdAsync(id.ToString());
+            if (user == null) return NotFound();
+
+            var result = await _userManager.DeleteAsync(user);
+            if (result.Succeeded)
+            {
+                return Ok(new { Message = "Xóa nhân viên thành công" });
+            }
+            return BadRequest(result.Errors);
         }
     }
 }

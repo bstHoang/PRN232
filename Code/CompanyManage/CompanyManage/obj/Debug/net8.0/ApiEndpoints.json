@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "ContainingType": "CompanyManage.APIControllers.DepartmentsAPI",
+    "Method": "GetDepartments",
+    "RelativePath": "api/DepartmentsAPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CompanyManage.APIControllers.PositionsAPI",
+    "Method": "GetPositions",
+    "RelativePath": "api/PositionsAPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

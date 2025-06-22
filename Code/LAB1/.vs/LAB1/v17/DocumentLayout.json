@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\PRN232\\Code\\LAB1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|d:\\prn232\\code\\lab1\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|solutionrelative:lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|d:\\prn232\\code\\lab1\\lab1\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|solutionrelative:lab1\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|d:\\prn232\\code\\lab1\\lab1\\controllers\\odatacategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|solutionrelative:lab1\\controllers\\odatacategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|d:\\prn232\\code\\lab1\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|solutionrelative:lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D98B7E72-0F27-4EB4-BEAF-53BC2F03A663}|LAB1\\LAB1.csproj|d:\\prn232\\code\\lab1\\lab1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -58,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ODataCategoriesController.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\LAB1\\LAB1\\Controllers\\ODataCategoriesController.cs",
               "RelativeDocumentMoniker": "LAB1\\Controllers\\ODataCategoriesController.cs",
@@ -70,21 +70,19 @@
               "RelativeToolTip": "LAB1\\Controllers\\ODataCategoriesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T09:17:33.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T09:17:33.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\LAB1\\LAB1\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "LAB1\\Controllers\\CategoriesController.cs",
               "ToolTip": "D:\\PRN232\\Code\\LAB1\\LAB1\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "LAB1\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAuwEgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T03:21:05.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T03:21:05.86Z"
             },
             {
               "$type": "Document",
@@ -100,15 +98,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\LAB1\\LAB1\\Program.cs",
               "RelativeDocumentMoniker": "LAB1\\Program.cs",
               "ToolTip": "D:\\PRN232\\Code\\LAB1\\LAB1\\Program.cs",
               "RelativeToolTip": "LAB1\\Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAcwDMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T02:16:53.169Z"
+              "WhenOpened": "2025-06-01T02:16:53.169Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -136,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "NewsController.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\LAB1\\LAB1\\Controllers\\NewsController.cs",
               "RelativeDocumentMoniker": "LAB1\\Controllers\\NewsController.cs",
@@ -144,8 +143,7 @@
               "RelativeToolTip": "LAB1\\Controllers\\NewsController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBQAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T03:21:56.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T03:21:56.678Z"
             },
             {
               "$type": "Document",

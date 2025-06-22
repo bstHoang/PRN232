@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PRN232\\Code\\ClientHR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D146B511-2CD2-4948-990D-5143CB5433E3}|ClientHR\\ClientHR.csproj|d:\\prn232\\code\\clienthr\\clienthr\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D146B511-2CD2-4948-990D-5143CB5433E3}|ClientHR\\ClientHR.csproj|solutionrelative:clienthr\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D146B511-2CD2-4948-990D-5143CB5433E3}|ClientHR\\ClientHR.csproj|d:\\prn232\\code\\clienthr\\clienthr\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D146B511-2CD2-4948-990D-5143CB5433E3}|ClientHR\\ClientHR.csproj|solutionrelative:clienthr\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D146B511-2CD2-4948-990D-5143CB5433E3}|ClientHR\\ClientHR.csproj|d:\\prn232\\code\\clienthr\\clienthr\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D146B511-2CD2-4948-990D-5143CB5433E3}|ClientHR\\ClientHR.csproj|solutionrelative:clienthr\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D146B511-2CD2-4948-990D-5143CB5433E3}|ClientHR\\ClientHR.csproj|d:\\prn232\\code\\clienthr\\clienthr\\models\\createemployeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D146B511-2CD2-4948-990D-5143CB5433E3}|ClientHR\\ClientHR.csproj|solutionrelative:clienthr\\models\\createemployeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D146B511-2CD2-4948-990D-5143CB5433E3}|ClientHR\\ClientHR.csproj|d:\\prn232\\code\\clienthr\\clienthr\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D146B511-2CD2-4948-990D-5143CB5433E3}|ClientHR\\ClientHR.csproj|solutionrelative:clienthr\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D146B511-2CD2-4948-990D-5143CB5433E3}|ClientHR\\ClientHR.csproj|d:\\prn232\\code\\clienthr\\clienthr\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D146B511-2CD2-4948-990D-5143CB5433E3}|ClientHR\\ClientHR.csproj|solutionrelative:clienthr\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "ClientHR\\Models\\Employee.cs",
+              "ToolTip": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\Models\\Employee.cs",
+              "RelativeToolTip": "ClientHR\\Models\\Employee.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T09:33:22.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateEmployeeModel.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\Models\\CreateEmployeeModel.cs",
+              "RelativeDocumentMoniker": "ClientHR\\Models\\CreateEmployeeModel.cs",
+              "ToolTip": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\Models\\CreateEmployeeModel.cs",
+              "RelativeToolTip": "ClientHR\\Models\\CreateEmployeeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T09:32:05.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Position.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\Models\\Position.cs",
+              "RelativeDocumentMoniker": "ClientHR\\Models\\Position.cs",
+              "ToolTip": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\Models\\Position.cs",
+              "RelativeToolTip": "ClientHR\\Models\\Position.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T09:31:58.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "ClientHR\\Models\\Department.cs",
+              "ToolTip": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\Models\\Department.cs",
+              "RelativeToolTip": "ClientHR\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T09:31:45.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ClientHR\\MainWindow.xaml",
+              "ToolTip": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\MainWindow.xaml*",
+              "RelativeToolTip": "ClientHR\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-21T07:49:17.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ClientHR\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "ClientHR\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAowFsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T07:49:13.277Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

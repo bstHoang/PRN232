@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\PRN232\\Code\\ClientHR\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D146B511-2CD2-4948-990D-5143CB5433E3}|ClientHR\\ClientHR.csproj|d:\\prn232\\code\\clienthr\\clienthr\\models\\createemployeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D146B511-2CD2-4948-990D-5143CB5433E3}|ClientHR\\ClientHR.csproj|solutionrelative:clienthr\\models\\createemployeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D146B511-2CD2-4948-990D-5143CB5433E3}|ClientHR\\ClientHR.csproj|d:\\prn232\\code\\clienthr\\clienthr\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D146B511-2CD2-4948-990D-5143CB5433E3}|ClientHR\\ClientHR.csproj|solutionrelative:clienthr\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D146B511-2CD2-4948-990D-5143CB5433E3}|ClientHR\\ClientHR.csproj|d:\\prn232\\code\\clienthr\\clienthr\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D146B511-2CD2-4948-990D-5143CB5433E3}|ClientHR\\ClientHR.csproj|solutionrelative:clienthr\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D146B511-2CD2-4948-990D-5143CB5433E3}|ClientHR\\ClientHR.csproj|d:\\prn232\\code\\clienthr\\clienthr\\models\\createemployeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D146B511-2CD2-4948-990D-5143CB5433E3}|ClientHR\\ClientHR.csproj|solutionrelative:clienthr\\models\\createemployeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D146B511-2CD2-4948-990D-5143CB5433E3}|ClientHR\\ClientHR.csproj|d:\\prn232\\code\\clienthr\\clienthr\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "ClientHR\\Models\\Employee.cs",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "CreateEmployeeModel.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\Models\\CreateEmployeeModel.cs",
               "RelativeDocumentMoniker": "ClientHR\\Models\\CreateEmployeeModel.cs",
@@ -58,7 +58,8 @@
               "RelativeToolTip": "ClientHR\\Models\\CreateEmployeeModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T09:32:05.256Z"
+              "WhenOpened": "2025-06-21T09:32:05.256Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -86,25 +87,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ClientHR\\MainWindow.xaml",
               "ToolTip": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\MainWindow.xaml",
               "RelativeToolTip": "ClientHR\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-21T07:49:17.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T07:49:17.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ClientHR\\MainWindow.xaml.cs",
               "ToolTip": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\MainWindow.xaml.cs",
               "RelativeToolTip": "ClientHR\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAowFsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAHsAAAAAAAAAAADwv4kAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T07:49:13.277Z",
               "EditorCaption": ""

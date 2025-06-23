@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "qG3oO5EO2n2PP3RWN6MHVuMH779/Egs4ohSAXYDfLT0=",
+  "Source": "AdminClient",
+  "BasePath": "_content/AdminClient",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,61 @@
+﻿@model List<AdminClient.Models.EmployeeViewModel>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<h2>Danh sách nhân viên</h2>
+
+<form method="get" action="/Admin/EmployeeList">
+    <div>
+        <label>Phòng ban:</label>
+        <select name="department">
+            <option value="">Tất cả</option>
+            @foreach (var dept in ViewBag.Departments)
+            {
+                <option value="@dept.Name" selected="@(dept.Name == Context.Request.Query["department"])">@dept.Name</option>
+            }
+        </select>
+    </div>
+    <div>
+        <label>Chức vụ:</label>
+        <select name="position">
+            <option value="">Tất cả</option>
+            @foreach (var pos in ViewBag.Positions)
+            {
+                <option value="@pos.Name" selected="@(pos.Name == Context.Request.Query["position"])">@pos.Name</option>
+            }
+        </select>
+    </div>
+    <button type="submit">Lọc</button>
+</form>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Tên đăng nhập</th>
+            <th>Email</th>
+            <th>Tên</th>
+            <th>Phòng ban</th>
+            <th>Chức vụ</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.Id</td>
+                <td>@employee.UserName</td>
+                <td>@employee.Email</td>
+                <td>@employee.Name</td>
+                <td>@employee.Department</td>
+                <td>@employee.Position</td>
+                <td>
+                    @if (string.IsNullOrEmpty(employee.Email))
+                    {
+                        <a href="/Admin/SetCredentials/@employee.Id">Gán thông tin đăng nhập</a>
+                    }
+                    <a href="/Admin/EditDetails/@employee.Id">Chỉnh sửa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

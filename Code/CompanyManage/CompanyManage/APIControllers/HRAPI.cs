@@ -57,11 +57,19 @@ namespace CompanyManage.APIControllers
             };
 
             var result = await _userManager.CreateAsync(newUser);
-            if (result.Succeeded)
-            {
-                return Ok(new { Message = "Tạo nhân viên thành công" });
-            }
-            return BadRequest(result.Errors);
+            if (!result.Succeeded)
+                return BadRequest(result.Errors);
+
+            // Gán role có ID = 2
+            var role = await _context.Roles.FindAsync(2);
+            if (role == null)
+                return BadRequest("Không tìm thấy Role với ID = 2");
+
+            var roleResult = await _userManager.AddToRoleAsync(newUser, role.Name);
+            if (!roleResult.Succeeded)
+                return BadRequest(roleResult.Errors);
+
+            return Ok(new { Message = "Tạo nhân viên và gán role thành công" });
         }
 
         [Authorize(Policy = "HRManagerPolicy")]

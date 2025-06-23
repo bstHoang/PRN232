@@ -79,10 +79,18 @@ builder.Services.AddAuthorization(options =>
         policy.RequireRole("Admin"));
 
     options.AddPolicy("ViewEmployeeListPolicy", policy =>
-        policy.RequireAssertion(context =>
-            context.User.IsInRole("User") &&
-            (context.User.HasClaim("Department", "Board of Directors") && context.User.HasClaim("Position", "CEO") ||
-             context.User.HasClaim("Department", "HR"))));
+     policy.RequireAssertion(context =>
+         context.User.IsInRole("Admin") || 
+         (
+             context.User.IsInRole("User") &&
+             (
+                 (context.User.HasClaim("Department", "Board of Directors") && context.User.HasClaim("Position", "CEO")) ||
+                 context.User.HasClaim("Department", "HR")
+             )
+         )
+     )
+ );
+
 
     options.AddPolicy("ViewProfilePolicy", policy =>
         policy.RequireAssertion(context =>

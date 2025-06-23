@@ -18,5 +18,15 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CompanyManage.APIControllers.RoleAPI",
+    "Method": "GetAllRoles",
+    "RelativePath": "api/RoleAPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

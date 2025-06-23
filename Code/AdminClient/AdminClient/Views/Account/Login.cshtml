@@ -1,0 +1,20 @@
+﻿@model AdminClient.Models.LoginModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<h2>Đăng nhập</h2>
+<form method="post">
+    <div>
+        <label>Tên đăng nhập</label>
+        <input asp-for="UserName" />
+        <span asp-validation-for="UserName"></span>
+    </div>
+    <div>
+        <label>Mật khẩu</label>
+        <input asp-for="Password" type="password" />
+        <span asp-validation-for="Password"></span>
+    </div>
+    <button type="submit">Đăng nhập</button>
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="text-danger">@Html.ValidationSummary()</div>
+    }
+</form>

@@ -90,11 +90,10 @@
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ClientHR\\MainWindow.xaml",
-              "ToolTip": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\MainWindow.xaml*",
-              "RelativeToolTip": "ClientHR\\MainWindow.xaml*",
+              "ToolTip": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\MainWindow.xaml",
+              "RelativeToolTip": "ClientHR\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-21T07:49:17.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T07:49:17.644Z"
             },
             {
               "$type": "Document",
@@ -102,9 +101,9 @@
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ClientHR\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "ClientHR\\MainWindow.xaml.cs*",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAowFsAAAAJAAAAAAAAAA==",
+              "ToolTip": "D:\\PRN232\\Code\\ClientHR\\ClientHR\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ClientHR\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAADwv4kAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T07:49:13.277Z",
               "EditorCaption": ""

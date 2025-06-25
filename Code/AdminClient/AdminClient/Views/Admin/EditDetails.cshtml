@@ -1,6 +1,7 @@
 ﻿@model AdminClient.Models.UpdateDetailsModel
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 <h2>Chỉnh sửa thông tin nhân viên</h2>
+<p>Model.RoleName = @Model.RoleName</p>
 <form method="post">
     <div>
         <label>Email</label>
@@ -14,17 +15,16 @@
     </div>
     <div>
         <label>Vai trò</label>
-        <select asp-for="Role">
+        <select asp-for="RoleName" class="form-control">
             <option value="">Chọn vai trò</option>
-            @if (ViewBag.Roles != null && ViewBag.Roles.Count > 0)
+            @foreach (var role in ViewBag.Roles as List<string>)
             {
-                @foreach (var role in ViewBag.Roles)
-                {
-                    <option value="@role" selected="@(role == Model.Role)">@role</option>
-                }
+                <option value="@role" selected="@(role == Model.RoleName ? "selected" : null)">
+                    @role
+                </option>
             }
         </select>
-        <span asp-validation-for="Role"></span>
+        <span asp-validation-for="RoleName" class="text-danger"></span>
     </div>
     <div>
         <label>Khóa tài khoản</label>

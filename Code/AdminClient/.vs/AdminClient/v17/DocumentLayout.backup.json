@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "D:\\PRN232\\Code\\AdminClient\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|d:\\prn232\\code\\adminclient\\adminclient\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|solutionrelative:adminclient\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|d:\\prn232\\code\\adminclient\\adminclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|solutionrelative:adminclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|d:\\prn232\\code\\adminclient\\adminclient\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|solutionrelative:adminclient\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|d:\\prn232\\code\\adminclient\\adminclient\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|solutionrelative:adminclient\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|d:\\prn232\\code\\adminclient\\adminclient\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|solutionrelative:adminclient\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|d:\\prn232\\code\\adminclient\\adminclient\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|solutionrelative:adminclient\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|d:\\prn232\\code\\adminclient\\adminclient\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|solutionrelative:adminclient\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,24 +39,12 @@
       "RelativeMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|solutionrelative:adminclient\\views\\admin\\editdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|d:\\prn232\\code\\adminclient\\adminclient\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|solutionrelative:adminclient\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|d:\\prn232\\code\\adminclient\\adminclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|solutionrelative:adminclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|d:\\prn232\\code\\adminclient\\adminclient\\models\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|solutionrelative:adminclient\\models\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|d:\\prn232\\code\\adminclient\\adminclient\\models\\updatedetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|solutionrelative:adminclient\\models\\updatedetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|d:\\prn232\\code\\adminclient\\adminclient\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|solutionrelative:adminclient\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|d:\\prn232\\code\\adminclient\\adminclient\\models\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|solutionrelative:adminclient\\models\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|d:\\prn232\\code\\adminclient\\adminclient\\models\\positionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|d:\\prn232\\code\\adminclient\\adminclient\\models\\setcredentialsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|solutionrelative:adminclient\\models\\setcredentialsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|d:\\prn232\\code\\adminclient\\adminclient\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E84983AF-DB64-4C65-98CF-65527BD4D139}|AdminClient\\AdminClient.csproj|solutionrelative:adminclient\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,102 +66,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EditDetails.cshtml",
-              "DocumentMoniker": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Views\\Admin\\EditDetails.cshtml",
-              "RelativeDocumentMoniker": "AdminClient\\Views\\Admin\\EditDetails.cshtml",
-              "ToolTip": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Views\\Admin\\EditDetails.cshtml",
-              "RelativeToolTip": "AdminClient\\Views\\Admin\\EditDetails.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-22T09:25:38.804Z",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "AdminClient\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "AdminClient\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T07:24:51.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\appsettings.json",
+              "RelativeDocumentMoniker": "AdminClient\\appsettings.json",
+              "ToolTip": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\appsettings.json",
+              "RelativeToolTip": "AdminClient\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-23T07:24:27.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "AdminClient\\Controllers\\AdminController.cs",
               "ToolTip": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Controllers\\AdminController.cs",
               "RelativeToolTip": "AdminClient\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAowGkAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T09:19:42.928Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ApiService.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Services\\ApiService.cs",
               "RelativeDocumentMoniker": "AdminClient\\Services\\ApiService.cs",
               "ToolTip": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Services\\ApiService.cs",
               "RelativeToolTip": "AdminClient\\Services\\ApiService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAIwCgAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCEAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T09:17:39.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Program.cs",
-              "RelativeDocumentMoniker": "AdminClient\\Program.cs",
-              "ToolTip": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Program.cs",
-              "RelativeToolTip": "AdminClient\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T09:14:52.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UpdateDetailsModel.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Models\\UpdateDetailsModel.cs",
-              "RelativeDocumentMoniker": "AdminClient\\Models\\UpdateDetailsModel.cs",
-              "ToolTip": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Models\\UpdateDetailsModel.cs",
-              "RelativeToolTip": "AdminClient\\Models\\UpdateDetailsModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T09:21:04.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "EmployeeList.cshtml",
               "DocumentMoniker": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Views\\Admin\\EmployeeList.cshtml",
               "RelativeDocumentMoniker": "AdminClient\\Views\\Admin\\EmployeeList.cshtml",
               "ToolTip": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Views\\Admin\\EmployeeList.cshtml",
               "RelativeToolTip": "AdminClient\\Views\\Admin\\EmployeeList.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAkwDcAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-22T09:24:02.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmployeeViewModel.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Models\\EmployeeViewModel.cs",
-              "RelativeDocumentMoniker": "AdminClient\\Models\\EmployeeViewModel.cs",
-              "ToolTip": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Models\\EmployeeViewModel.cs",
-              "RelativeToolTip": "AdminClient\\Models\\EmployeeViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "AdminClient\\Models\\LoginModel.cs",
+              "ToolTip": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Models\\LoginModel.cs",
+              "RelativeToolTip": "AdminClient\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T09:20:27.112Z",
+              "WhenOpened": "2025-06-22T09:20:14.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "AdminClient\\Views\\Account\\Login.cshtml",
@@ -166,7 +161,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Program.cs",
+              "RelativeDocumentMoniker": "AdminClient\\Program.cs",
+              "ToolTip": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Program.cs",
+              "RelativeToolTip": "AdminClient\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T09:14:52.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "EditDetails.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Views\\Admin\\EditDetails.cshtml",
+              "RelativeDocumentMoniker": "AdminClient\\Views\\Admin\\EditDetails.cshtml",
+              "ToolTip": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Views\\Admin\\EditDetails.cshtml",
+              "RelativeToolTip": "AdminClient\\Views\\Admin\\EditDetails.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowCUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-22T09:25:38.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateDetailsModel.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Models\\UpdateDetailsModel.cs",
+              "RelativeDocumentMoniker": "AdminClient\\Models\\UpdateDetailsModel.cs",
+              "ToolTip": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Models\\UpdateDetailsModel.cs",
+              "RelativeToolTip": "AdminClient\\Models\\UpdateDetailsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T09:21:04.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeViewModel.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Models\\EmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "AdminClient\\Models\\EmployeeViewModel.cs",
+              "ToolTip": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Models\\EmployeeViewModel.cs",
+              "RelativeToolTip": "AdminClient\\Models\\EmployeeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T09:20:27.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "PositionModel.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Models\\PositionModel.cs",
               "RelativeDocumentMoniker": "AdminClient\\Models\\PositionModel.cs",
@@ -174,12 +220,11 @@
               "RelativeToolTip": "AdminClient\\Models\\PositionModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T09:21:37.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T09:21:37.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "DepartmentModel.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Models\\DepartmentModel.cs",
               "RelativeDocumentMoniker": "AdminClient\\Models\\DepartmentModel.cs",
@@ -187,12 +232,11 @@
               "RelativeToolTip": "AdminClient\\Models\\DepartmentModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T09:21:23.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T09:21:23.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "SetCredentialsModel.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Models\\SetCredentialsModel.cs",
               "RelativeDocumentMoniker": "AdminClient\\Models\\SetCredentialsModel.cs",
@@ -200,21 +244,7 @@
               "RelativeToolTip": "AdminClient\\Models\\SetCredentialsModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T09:20:47.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Models\\LoginModel.cs",
-              "RelativeDocumentMoniker": "AdminClient\\Models\\LoginModel.cs",
-              "ToolTip": "D:\\PRN232\\Code\\AdminClient\\AdminClient\\Models\\LoginModel.cs",
-              "RelativeToolTip": "AdminClient\\Models\\LoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T09:20:14.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T09:20:47.129Z"
             }
           ]
         }

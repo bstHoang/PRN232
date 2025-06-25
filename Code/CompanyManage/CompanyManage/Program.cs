@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.OData;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OData.Edm;
+using Microsoft.OData.ModelBuilder;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,7 +15,17 @@ builder.Services.AddDbContext<CompanyDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("MyCnn")));
 // Dang ki ODATA
 builder.Services.AddControllers()
-    .AddOData(opt => opt.AddRouteComponents("api", new EdmModel()).Filter().Select().Expand());
+    .AddOData(opt => opt
+        .Select().Filter().OrderBy().Count().Expand()
+        .AddRouteComponents("api", GetEdmModel()));
+
+// Removed 'public' modifier as it is not valid for local functions in this context.
+static IEdmModel GetEdmModel()
+{
+    var builder = new ODataConventionModelBuilder();
+    builder.EntitySet<EmployeeDto>("ViewEmployeeList");
+    return builder.GetEdmModel();
+}
 // Đăng ký Identity
 builder.Services.AddIdentity<ApplicationUser, IdentityRole<int>>(options =>
 {

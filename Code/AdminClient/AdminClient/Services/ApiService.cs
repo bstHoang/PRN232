@@ -66,6 +66,10 @@ namespace AdminClient.Services
             var client = _httpClientFactory.CreateClient();
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", GetToken());
             var content = new StringContent(JsonConvert.SerializeObject(model), Encoding.UTF8, "application/json");
+
+            var rawJson = JsonConvert.SerializeObject(model);
+            System.Diagnostics.Debug.WriteLine("Sending JSON: " + rawJson);
+
             var response = await client.PutAsync($"{_apiBaseUrl}/api/AdminAPI/UpdateAccountInfo/{id}", content);
             return response.IsSuccessStatusCode;
         }
@@ -157,6 +161,31 @@ namespace AdminClient.Services
                 System.Diagnostics.Debug.WriteLine($"Error in GetUserRolesAsync: {ex.Message}");
                 return new List<string>();
             }
+        }
+
+        public async Task<UpdateDetailsModel> GetUserByIdAsync(int id)
+        {
+            var client = _httpClientFactory.CreateClient();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", GetToken());
+
+            var response = await client.GetAsync($"{_apiBaseUrl}/api/AdminAPI/ViewEmployeeList/{id}");
+            if (!response.IsSuccessStatusCode)
+            {
+                var error = await response.Content.ReadAsStringAsync();
+                throw new Exception($"API error: {response.StatusCode} - {error}");
+            }
+
+            var json = await response.Content.ReadAsStringAsync();
+
+            // Đảm bảo ánh xạ đúng "role" vào "RoleName"
+            var obj = JsonConvert.DeserializeObject<dynamic>(json);
+
+            return new UpdateDetailsModel
+            {
+                Email = (string)obj.email,
+                IsDisabled = (bool)obj.isDisabled,
+                RoleName = (string)obj.role // ánh xạ từ "role" trong JSON
+            };
         }
     }
 }

@@ -68,18 +68,24 @@ namespace AdminClient.Controllers
 
             try
             {
-                var employees = await _apiService.GetEmployeeListAsync($"Id eq {id}");
-                var employee = employees.FirstOrDefault();
-                Console.WriteLine($"Employee found: {employee?.UserName ?? "None"}");
-                if (employee == null) return NotFound();
-
-                var model = new UpdateDetailsModel
+                // GỌI API MỚI để lấy thông tin chi tiết người dùng
+                var model = await _apiService.GetUserByIdAsync(id);
+                Console.WriteLine("RoleName: " + model.RoleName);
+                if (model == null)
                 {
-                    Email = employee.Email,
-                    IsDisabled = employee.IsDisabled,
-                    Role = (await _apiService.GetUserRolesAsync(id)).FirstOrDefault() ?? ""
-                };
+                    Console.WriteLine("Không tìm thấy người dùng");
+                    return NotFound();
+                }
+
+                // Gán RoleName từ danh sách Roles nếu chưa có
+                if (string.IsNullOrEmpty(model.RoleName))
+                {
+                    model.RoleName = model.Roles?.FirstOrDefault();
+                }
+
+                // LẤY DANH SÁCH ROLE để hiển thị dropdown
                 ViewBag.Roles = await _apiService.GetRolesAsync() ?? new List<string>();
+
                 return View(model);
             }
             catch (Exception ex)
@@ -91,22 +97,37 @@ namespace AdminClient.Controllers
             }
         }
 
+
+
         [HttpPost]
         public async Task<IActionResult> EditDetails(int id, UpdateDetailsModel model)
         {
+            foreach (var entry in ModelState)
+            {
+                Console.WriteLine($"Key: {entry.Key}, Errors: {string.Join(", ", entry.Value.Errors.Select(e => e.ErrorMessage))}");
+            }
             var redirect = RedirectIfNotLoggedIn();
             if (redirect != null) return redirect;
 
             try
             {
+                // Gỡ lỗi: in ra toàn bộ model
+                Console.WriteLine("----- POST EditDetails -----");
+                Console.WriteLine($"Email: {model.Email}");
+                Console.WriteLine($"Password: {model.Password}");
+                Console.WriteLine($"RoleName: {model.RoleName}");
+                Console.WriteLine($"IsDisabled: {model.IsDisabled}");
+
                 if (ModelState.IsValid)
                 {
                     var success = await _apiService.UpdateAccountInfoAsync(id, model);
                     if (success)
                         return RedirectToAction("EmployeeList");
+
                     ModelState.AddModelError("", "Cập nhật thất bại");
                 }
-                ViewBag.Roles = await _apiService.GetRolesAsync() ?? new List<string>(); // Truyền lại nếu thất bại
+
+                ViewBag.Roles = await _apiService.GetRolesAsync() ?? new List<string>();
                 return View(model);
             }
             catch (Exception ex)

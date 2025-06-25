@@ -7,32 +7,8 @@
       "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\apicontrollers\\adminapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\models\\createemployeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\models\\createemployeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\apicontrollers\\hrapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\apicontrollers\\hrapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\apicontrollers\\roleapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\apicontrollers\\roleapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\apicontrollers\\departmentsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\apicontrollers\\departmentsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\models\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\models\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\apicontrollers\\positionsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\apicontrollers\\positionsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|d:\\prn232\\code\\companymanage\\companymanage\\models\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56D89E9B-EAC4-4CD6-B04C-501C8E6C8CFC}|CompanyManage\\CompanyManage.csproj|solutionrelative:companymanage\\models\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,15 +22,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RoleAPI.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\APIControllers\\RoleAPI.cs",
-              "RelativeDocumentMoniker": "CompanyManage\\APIControllers\\RoleAPI.cs",
-              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\APIControllers\\RoleAPI.cs",
-              "RelativeToolTip": "CompanyManage\\APIControllers\\RoleAPI.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "EmployeeDto.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\EmployeeDto.cs",
+              "RelativeDocumentMoniker": "CompanyManage\\Models\\EmployeeDto.cs",
+              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\EmployeeDto.cs",
+              "RelativeToolTip": "CompanyManage\\Models\\EmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T10:58:56.104Z"
+              "WhenOpened": "2025-06-23T04:21:23.449Z"
             },
             {
               "$type": "Document",
@@ -64,82 +40,10 @@
               "RelativeDocumentMoniker": "CompanyManage\\APIControllers\\AdminAPI.cs",
               "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\APIControllers\\AdminAPI.cs",
               "RelativeToolTip": "CompanyManage\\APIControllers\\AdminAPI.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAuwCMAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAYwGwAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T01:52:29.192Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateEmployeeModel.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\CreateEmployeeModel.cs",
-              "RelativeDocumentMoniker": "CompanyManage\\Models\\CreateEmployeeModel.cs",
-              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\CreateEmployeeModel.cs",
-              "RelativeToolTip": "CompanyManage\\Models\\CreateEmployeeModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T10:34:13.611Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HRAPI.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\APIControllers\\HRAPI.cs",
-              "RelativeDocumentMoniker": "CompanyManage\\APIControllers\\HRAPI.cs",
-              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\APIControllers\\HRAPI.cs",
-              "RelativeToolTip": "CompanyManage\\APIControllers\\HRAPI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T10:06:29.026Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PositionsAPI.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\APIControllers\\PositionsAPI.cs",
-              "RelativeDocumentMoniker": "CompanyManage\\APIControllers\\PositionsAPI.cs",
-              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\APIControllers\\PositionsAPI.cs",
-              "RelativeToolTip": "CompanyManage\\APIControllers\\PositionsAPI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T09:45:14.28Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DepartmentsAPI.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\APIControllers\\DepartmentsAPI.cs",
-              "RelativeDocumentMoniker": "CompanyManage\\APIControllers\\DepartmentsAPI.cs",
-              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\APIControllers\\DepartmentsAPI.cs",
-              "RelativeToolTip": "CompanyManage\\APIControllers\\DepartmentsAPI.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T09:44:58.313Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CompanyDbContext.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\CompanyDbContext.cs",
-              "RelativeDocumentMoniker": "CompanyManage\\Models\\CompanyDbContext.cs",
-              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Models\\CompanyDbContext.cs",
-              "RelativeToolTip": "CompanyManage\\Models\\CompanyDbContext.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowEcAAABqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T09:33:32.138Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Program.cs",
-              "RelativeDocumentMoniker": "CompanyManage\\Program.cs",
-              "ToolTip": "D:\\PRN232\\Code\\CompanyManage\\CompanyManage\\Program.cs",
-              "RelativeToolTip": "CompanyManage\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAUwB4AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T08:59:43.814Z"
             }
           ]
         }

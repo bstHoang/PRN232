@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PRN232\\Code\\10API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A28C693-FB8B-4890-8544-0FFD932F9DFC}|10API\\10API.csproj|d:\\prn232\\code\\10api\\10api\\controllers\\petscontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A28C693-FB8B-4890-8544-0FFD932F9DFC}|10API\\10API.csproj|solutionrelative:10api\\controllers\\petscontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A28C693-FB8B-4890-8544-0FFD932F9DFC}|10API\\10API.csproj|d:\\prn232\\code\\10api\\10api\\controllers\\petservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A28C693-FB8B-4890-8544-0FFD932F9DFC}|10API\\10API.csproj|solutionrelative:10api\\controllers\\petservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A28C693-FB8B-4890-8544-0FFD932F9DFC}|10API\\10API.csproj|d:\\prn232\\code\\10api\\10api\\controllers\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A28C693-FB8B-4890-8544-0FFD932F9DFC}|10API\\10API.csproj|solutionrelative:10api\\controllers\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A28C693-FB8B-4890-8544-0FFD932F9DFC}|10API\\10API.csproj|d:\\prn232\\code\\10api\\10api\\models\\petservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A28C693-FB8B-4890-8544-0FFD932F9DFC}|10API\\10API.csproj|solutionrelative:10api\\models\\petservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A28C693-FB8B-4890-8544-0FFD932F9DFC}|10API\\10API.csproj|d:\\prn232\\code\\10api\\10api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A28C693-FB8B-4890-8544-0FFD932F9DFC}|10API\\10API.csproj|solutionrelative:10api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A28C693-FB8B-4890-8544-0FFD932F9DFC}|10API\\10API.csproj|d:\\prn232\\code\\10api\\10api\\models\\api10testcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A28C693-FB8B-4890-8544-0FFD932F9DFC}|10API\\10API.csproj|solutionrelative:10api\\models\\api10testcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PetService.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\10API\\10API\\Models\\PetService.cs",
+              "RelativeDocumentMoniker": "10API\\Models\\PetService.cs",
+              "ToolTip": "D:\\PRN232\\Code\\10API\\10API\\Models\\PetService.cs",
+              "RelativeToolTip": "10API\\Models\\PetService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T03:15:06.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Services.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\10API\\10API\\Controllers\\Services.cs",
+              "RelativeDocumentMoniker": "10API\\Controllers\\Services.cs",
+              "ToolTip": "D:\\PRN232\\Code\\10API\\10API\\Controllers\\Services.cs",
+              "RelativeToolTip": "10API\\Controllers\\Services.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:35:47.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PetServicesController.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\10API\\10API\\Controllers\\PetServicesController.cs",
+              "RelativeDocumentMoniker": "10API\\Controllers\\PetServicesController.cs",
+              "ToolTip": "D:\\PRN232\\Code\\10API\\10API\\Controllers\\PetServicesController.cs",
+              "RelativeToolTip": "10API\\Controllers\\PetServicesController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwCwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:31:17.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PetsControler.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\10API\\10API\\Controllers\\PetsControler.cs",
+              "RelativeDocumentMoniker": "10API\\Controllers\\PetsControler.cs",
+              "ToolTip": "D:\\PRN232\\Code\\10API\\10API\\Controllers\\PetsControler.cs*",
+              "RelativeToolTip": "10API\\Controllers\\PetsControler.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:28:47.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\10API\\10API\\Program.cs",
+              "RelativeDocumentMoniker": "10API\\Program.cs",
+              "ToolTip": "D:\\PRN232\\Code\\10API\\10API\\Program.cs",
+              "RelativeToolTip": "10API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:15:18.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Api10TestContext.cs",
+              "DocumentMoniker": "D:\\PRN232\\Code\\10API\\10API\\Models\\Api10TestContext.cs",
+              "RelativeDocumentMoniker": "10API\\Models\\Api10TestContext.cs",
+              "ToolTip": "D:\\PRN232\\Code\\10API\\10API\\Models\\Api10TestContext.cs",
+              "RelativeToolTip": "10API\\Models\\Api10TestContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA9wBwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T01:25:13.367Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

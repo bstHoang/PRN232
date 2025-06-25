@@ -20,24 +20,61 @@ namespace CompanyManage.APIControllers
         [HttpGet]
         [Route("api/AdminAPI/ViewEmployeeList")]
         [EnableQuery]
-        public IActionResult ViewEmployeeList()
+        public async Task<IActionResult> ViewEmployeeList()
         {
-            var employees = _context.Users
+            var users = await _context.Users
                 .Include(u => u.Department)
                 .Include(u => u.Position)
-                .Select(u => new
-                {
-                    u.Id,
-                    u.UserName,
-                    u.Email,
-                    u.Name,
-                    Department = u.Department != null ? u.Department.Name : "N/A",
-                    Position = u.Position != null ? u.Position.Name : "N/A",
-                    IsDisabled = u.LockoutEnd != null && u.LockoutEnd > DateTimeOffset.UtcNow
-                })
-                .ToList();
+                .ToListAsync();
 
-            return Ok(employees);
+            var result = new List<object>();
+
+            foreach (var user in users)
+            {
+                var roles = await _userManager.GetRolesAsync(user); // Phải gọi ở đây
+
+                result.Add(new
+                {
+                    user.Id,
+                    user.UserName,
+                    user.Email,
+                    user.Name,
+                    Department = user.Department?.Name ?? "N/A",
+                    Position = user.Position?.Name ?? "N/A",
+                    IsDisabled = user.LockoutEnd != null && user.LockoutEnd > DateTimeOffset.UtcNow,
+                    Roles = roles // Trả về danh sách Role (dạng List<string>)
+                });
+            }
+
+            return Ok(result);
+        }
+        [Authorize(Policy = "ViewEmployeeListPolicy")]
+        [HttpGet]
+        [Route("api/AdminAPI/ViewEmployeeList/{id}")]
+        public async Task<IActionResult> GetUserById(int id)
+        {
+            var user = await _userManager.Users
+                .Include(u => u.Department)
+                .Include(u => u.Position)
+                .FirstOrDefaultAsync(u => u.Id == id);
+
+            if (user == null)
+                return NotFound("User not found");
+
+            var roles = await _userManager.GetRolesAsync(user);
+
+            var result = new
+            {
+                user.Id,
+                user.Name,
+                user.Email,
+                Department = user.Department?.Name ?? "N/A",
+                Position = user.Position?.Name ?? "N/A",
+                IsDisabled = user.LockoutEnd != null && user.LockoutEnd > DateTimeOffset.UtcNow,
+                Role = roles.FirstOrDefault() ?? "" // Nếu chỉ có 1 role
+            };
+
+            return Ok(result);
         }
         [Authorize(Policy = "AdminPolicy")]
         [HttpPut]

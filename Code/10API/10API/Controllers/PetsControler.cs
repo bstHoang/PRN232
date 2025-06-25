@@ -1,4 +1,5 @@
-﻿using _10API.Models;
+﻿using _10API.DTOS;
+using _10API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OData.Query;
 using Microsoft.EntityFrameworkCore;
@@ -18,7 +19,18 @@ namespace _10API.Controllers
         [Route("api/pets/GetPets")]
         public IActionResult GetPets()
         {
-            return Ok(_context.Pets);
+            var pets = _context.Pets
+                .Select(p => new PetDTO
+                {
+                    PetId = p.PetId,
+                    Name = p.Name,
+                    Type = p.Type,
+                    BirthDate = p.BirthDate.HasValue ? p.BirthDate.Value.ToDateTime(TimeOnly.MinValue) : null,
+                    OwnerId = p.OwnerId
+                })
+                .ToList();
+
+            return Ok(pets);
         }
 
         [HttpGet]

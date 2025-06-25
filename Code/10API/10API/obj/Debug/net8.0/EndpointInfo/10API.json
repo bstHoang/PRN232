@@ -1619,6 +1619,37 @@
         }
       }
     },
+    "/api/PetServices/UpdatePetService/{petname}/{year}": {
+      "get": {
+        "tags": [
+          "PetServices"
+        ],
+        "parameters": [
+          {
+            "name": "petname",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "year",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/services": {
       "get": {
         "tags": [

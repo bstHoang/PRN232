@@ -101,5 +101,25 @@ namespace _10API.Controllers
             return Ok(petService);
         }
 
+        [HttpGet]
+        [Route("api/PetServices/UpdatePetService/{petname}/{year}")]
+        public IActionResult GetServicesBypetnameandyear(string petname, int year)
+        {
+            var services = _context.PetServices
+                                .Include(ps => ps.Pet)
+                                .Include(ps => ps.Service)
+                                .AsEnumerable()
+         .Where(ps => ps.Pet.Name.Contains(petname) &&
+                      ps.ServiceDate.Year == year)
+         .Select(ps => new {
+             ps.Service.Name,
+             ps.ServiceDate,
+             ps.Note
+         })
+         .ToList();
+
+            return Ok(services);
+        }
+
     }
 }

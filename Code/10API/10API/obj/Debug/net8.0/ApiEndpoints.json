@@ -153,6 +153,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "_10API.Controllers.PetServicesController",
+    "Method": "GetServicesBypetnameandyear",
+    "RelativePath": "api/PetServices/UpdatePetService/{petname}/{year}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "petname",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "_10API.Controllers.Services",
     "Method": "GetServices",
     "RelativePath": "api/services",

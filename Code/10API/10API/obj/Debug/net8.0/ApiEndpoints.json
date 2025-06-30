@@ -80,6 +80,32 @@
   },
   {
     "ContainingType": "_10API.Controllers.PetServicesController",
+    "Method": "Appointment",
+    "RelativePath": "api/PetServices/Appointment/{day}/{month}/{year}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "day",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_10API.Controllers.PetServicesController",
     "Method": "CreatePetService",
     "RelativePath": "api/PetServices/CreatePetService",
     "HttpMethod": "POST",

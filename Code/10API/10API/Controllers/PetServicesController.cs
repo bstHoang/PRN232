@@ -106,20 +106,47 @@ namespace _10API.Controllers
         public IActionResult GetServicesBypetnameandyear(string petname, int year)
         {
             var services = _context.PetServices
-                                .Include(ps => ps.Pet)
-                                .Include(ps => ps.Service)
-                                .AsEnumerable()
-         .Where(ps => ps.Pet.Name.Contains(petname) &&
-                      ps.ServiceDate.Year == year)
-         .Select(ps => new {
-             ps.Service.Name,
-             ps.ServiceDate,
-             ps.Note
-         })
-         .ToList();
+                            .Include(ps => ps.Pet)
+                            .Include(ps => ps.Service)
+                            .Where(ps => ps.Pet.Name.Contains(petname) && ps.ServiceDate.Year == year)
+                            .Select(ps => new {
+                                                 ps.Service.Name,
+                                                 ps.ServiceDate,
+                                                 ps.Note
+                             }).ToListAsync();
 
             return Ok(services);
         }
 
+        [HttpGet]
+        [Route("api/PetServices/Appointment/{day}/{month}/{year}")]
+        public IActionResult Appointment(int year , int month ,int day)
+        {
+            var services = _context.Appointments
+                            .Include(a => a.Pet)
+                            .ThenInclude(p => p.PetServices)
+                            .ThenInclude(ps => ps.Service)
+                            .AsQueryable()
+                            .Where(a => a.AppointmentDate.HasValue &&
+                                        a.AppointmentDate.Value.Day == day &&
+                                        a.AppointmentDate.Value.Month == month &&
+                                        a.AppointmentDate.Value.Year == year)
+                            .Select(a => new
+                            {
+                                PetName = a.Pet.Name,
+                                AppointmentDate = a.AppointmentDate,
+                                a.Reason,
+                                Services = a.Pet.PetServices
+                                    .Select(ps => new
+                                    {
+                                         ps.Service.Name,
+                                         ps.ServiceDate,
+                                         ps.Note
+                                    }).ToList()
+                            }).ToList();
+
+            return Ok(services);
+        }
+        
     }
 }

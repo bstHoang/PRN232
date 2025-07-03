@@ -1,6 +1,9 @@
-﻿namespace Project.Models
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace Project.Models
 {
-    public class ApplicationUser
+    public class ApplicationUser : IdentityUser<int>
     {
+        public int RoleId { get; set; }
     }
 }

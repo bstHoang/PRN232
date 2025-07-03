@@ -66,8 +66,7 @@
               "RelativeToolTip": "10API\\Models\\Pet.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAUwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T07:18:36.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T07:18:36.284Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "10API\\Models\\PetService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwA8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T03:15:06.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T03:15:06.86Z"
             },
             {
               "$type": "Document",
@@ -100,9 +98,9 @@
               "Title": "PetServicesController.cs",
               "DocumentMoniker": "D:\\PRN232\\Code\\10API\\10API\\Controllers\\PetServicesController.cs",
               "RelativeDocumentMoniker": "10API\\Controllers\\PetServicesController.cs",
-              "ToolTip": "D:\\PRN232\\Code\\10API\\10API\\Controllers\\PetServicesController.cs*",
-              "RelativeToolTip": "10API\\Controllers\\PetServicesController.cs*",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAIsAAAApAAAAAAAAAA==",
+              "ToolTip": "D:\\PRN232\\Code\\10API\\10API\\Controllers\\PetServicesController.cs",
+              "RelativeToolTip": "10API\\Controllers\\PetServicesController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAIkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T02:31:17.17Z",
               "EditorCaption": ""
@@ -141,8 +139,7 @@
               "RelativeToolTip": "10API\\Models\\Api10TestContext.cs",
               "ViewState": "AgIAABQAAAAAAAAAAADgvxwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T01:25:13.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T01:25:13.367Z"
             }
           ]
         }

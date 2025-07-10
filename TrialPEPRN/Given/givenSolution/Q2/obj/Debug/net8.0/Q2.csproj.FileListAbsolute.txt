@@ -32,3 +32,5 @@ D:\PRN232\TrialPEPRN\Given\givenSolution\Q2\obj\Debug\net8.0\refint\Q2.dll
 D:\PRN232\TrialPEPRN\Given\givenSolution\Q2\obj\Debug\net8.0\Q2.pdb
 D:\PRN232\TrialPEPRN\Given\givenSolution\Q2\obj\Debug\net8.0\Q2.genruntimeconfig.cache
 D:\PRN232\TrialPEPRN\Given\givenSolution\Q2\obj\Debug\net8.0\ref\Q2.dll
+D:\PRN232\TrialPEPRN\Given\givenSolution\Q2\obj\Debug\net8.0\Q2.RazorAssemblyInfo.cache
+D:\PRN232\TrialPEPRN\Given\givenSolution\Q2\obj\Debug\net8.0\Q2.RazorAssemblyInfo.cs

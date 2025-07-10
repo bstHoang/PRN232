@@ -116,5 +116,62 @@ namespace Q1.Controllers
                 return Conflict("An error occurred while removing the movie from the genre.");
             }
         }
+        [HttpGet]
+        [Route("/api/Directors/GetDirectors")]
+        public IActionResult GetDirectors()
+        {
+            var directors = _context.Directors
+                .Select(d => new
+                {
+                    d.Id,
+                    d.FullName
+                }).ToList();
+
+            return Ok(directors);
+        }
+        [HttpGet]
+        [Route("/api/Movies/GetMovies")]
+        public IActionResult GetMovies()
+        {
+            var movies = _context.Movies.Include(m => m.Director)
+                                        .Include(m => m.Producer).AsEnumerable()
+                .Select(m => new
+                {
+                    m.Id,
+                    m.Title,
+                    ReleaseDate = m.ReleaseDate?.ToString("yyyy-MM-dd"),
+                    m.Description,
+                    m.Language,
+                    DirectorName = m.Director.FullName,
+                    ProducerName = m.Producer?.Name
+                }).ToList();
+
+            return Ok(movies);
+        }
+        [HttpGet]
+        [Route("/api/Movies/GetMoviesByDirectorId/{id}")]
+        public IActionResult GetMoviesByDirectorId(int id)
+        {
+            var director = _context.Directors.FirstOrDefault(d => d.Id == id);
+            if (director == null)
+                return NotFound("Director not found.");
+
+            var movies = _context.Movies.Include(m => m.Director)
+                                        .Include(m => m.Producer).AsEnumerable()
+                .Where(m => m.DirectorId == id)
+                .Select(m => new
+                {
+                    m.Id,
+                    m.Title,
+                    ReleaseDate = m.ReleaseDate?.ToString("yyyy-MM-dd"),
+                    m.Description,
+                    m.Language,
+                    DirectorName = m.Director.FullName,
+                    ProducerName = m.Producer?.Name
+                })
+                .ToList();
+
+            return Ok(movies);
+        }
     }
 }

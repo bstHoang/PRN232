@@ -66,8 +66,7 @@
               "RelativeToolTip": "Q2\\Views\\Movies\\Director_Movie.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACsAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T08:23:56.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T08:23:56.779Z"
             },
             {
               "$type": "Document",
@@ -77,7 +76,7 @@
               "RelativeDocumentMoniker": "Q2\\Controllers\\MoviesController.cs",
               "ToolTip": "D:\\PRN232\\TrialPEPRN\\Given\\givenSolution\\Q2\\Controllers\\MoviesController.cs",
               "RelativeToolTip": "Q2\\Controllers\\MoviesController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA5wCMAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T08:20:36.77Z",
               "EditorCaption": ""

@@ -8,8 +8,8 @@
         public string Content { get; set; }
         public DateTime CreatedAt { get; set; }
         public int CategoryId { get; set; }
-        public Category Category { get; set; }
         public int CreateBy { get; set; }
-        public ApplicationUser CreateByUser { get; set; }
+        public Category Category { get; set; }
+        public ApplicationUser CreatedBy { get; set; }
     }
 }

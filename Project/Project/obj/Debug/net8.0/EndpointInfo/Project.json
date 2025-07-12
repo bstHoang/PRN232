@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.4",
   "info": {
-    "title": "NewsWebsite API",
-    "version": "v1"
+    "title": "Project",
+    "version": "1.0"
   },
   "paths": { },
   "components": { }

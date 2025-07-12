@@ -170,4 +170,3 @@ D:\PRN232\Project\Project\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
 D:\PRN232\Project\Project\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
 D:\PRN232\Project\Project\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 D:\PRN232\Project\Project\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
-D:\PRN232\Project\Project\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

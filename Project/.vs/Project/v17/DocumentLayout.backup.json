@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "D:\\PRN232\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\project\\migrations\\20250702070604_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\migrations\\20250702070604_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\project\\models\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\models\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\project\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\project\\models\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\models\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\project\\models\\newstag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,20 +19,24 @@
       "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\project\\models\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\models\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\project\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\project\\models\\applicationuser .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\models\\applicationuser .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\project\\models\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\models\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\project\\models\\applicationrole .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\models\\applicationrole .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\project\\models\\applicationuser .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\models\\applicationuser .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,46 +46,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250702070604_InitialCreate.cs",
-              "DocumentMoniker": "D:\\PRN232\\Project\\Project\\Migrations\\20250702070604_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Project\\Migrations\\20250702070604_InitialCreate.cs",
-              "ToolTip": "D:\\PRN232\\Project\\Project\\Migrations\\20250702070604_InitialCreate.cs",
-              "RelativeToolTip": "Project\\Migrations\\20250702070604_InitialCreate.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAswBAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T07:06:41.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NewsTag.cs",
-              "DocumentMoniker": "D:\\PRN232\\Project\\Project\\Models\\NewsTag.cs",
-              "RelativeDocumentMoniker": "Project\\Models\\NewsTag.cs",
-              "ToolTip": "D:\\PRN232\\Project\\Project\\Models\\NewsTag.cs",
-              "RelativeToolTip": "Project\\Models\\NewsTag.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T06:34:47.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Tag.cs",
               "DocumentMoniker": "D:\\PRN232\\Project\\Project\\Models\\Tag.cs",
               "RelativeDocumentMoniker": "Project\\Models\\Tag.cs",
               "ToolTip": "D:\\PRN232\\Project\\Project\\Models\\Tag.cs",
               "RelativeToolTip": "Project\\Models\\Tag.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T06:34:36.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-12T08:34:48.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NewsTag.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\Project\\Models\\NewsTag.cs",
+              "RelativeDocumentMoniker": "Project\\Models\\NewsTag.cs",
+              "ToolTip": "D:\\PRN232\\Project\\Project\\Models\\NewsTag.cs",
+              "RelativeToolTip": "Project\\Models\\NewsTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T08:34:47.557Z"
             },
             {
               "$type": "Document",
@@ -103,36 +80,33 @@
               "RelativeDocumentMoniker": "Project\\Models\\News.cs",
               "ToolTip": "D:\\PRN232\\Project\\Project\\Models\\News.cs",
               "RelativeToolTip": "Project\\Models\\News.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAwwA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T06:34:23.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-12T08:34:34.117Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\PRN232\\Project\\Project\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Project\\Models\\Category.cs",
               "ToolTip": "D:\\PRN232\\Project\\Project\\Models\\Category.cs",
               "RelativeToolTip": "Project\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T06:34:09.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-12T08:34:27.005Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProjectDbContext.cs",
-              "DocumentMoniker": "D:\\PRN232\\Project\\Project\\Models\\ProjectDbContext.cs",
-              "RelativeDocumentMoniker": "Project\\Models\\ProjectDbContext.cs",
-              "ToolTip": "D:\\PRN232\\Project\\Project\\Models\\ProjectDbContext.cs",
-              "RelativeToolTip": "Project\\Models\\ProjectDbContext.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBcAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ApplicationRole .cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\Project\\Models\\ApplicationRole .cs",
+              "RelativeDocumentMoniker": "Project\\Models\\ApplicationRole .cs",
+              "ToolTip": "D:\\PRN232\\Project\\Project\\Models\\ApplicationRole .cs",
+              "RelativeToolTip": "Project\\Models\\ApplicationRole .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T06:33:00.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-12T08:33:10.328Z"
             },
             {
               "$type": "Document",
@@ -142,61 +116,46 @@
               "RelativeDocumentMoniker": "Project\\Models\\ApplicationUser .cs",
               "ToolTip": "D:\\PRN232\\Project\\Project\\Models\\ApplicationUser .cs",
               "RelativeToolTip": "Project\\Models\\ApplicationUser .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T06:32:18.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-12T08:08:36.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApplicationRole .cs",
-              "DocumentMoniker": "D:\\PRN232\\Project\\Project\\Models\\ApplicationRole .cs",
-              "RelativeDocumentMoniker": "Project\\Models\\ApplicationRole .cs",
-              "ToolTip": "D:\\PRN232\\Project\\Project\\Models\\ApplicationRole .cs",
-              "RelativeToolTip": "Project\\Models\\ApplicationRole .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ProjectDbContext.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\Project\\Models\\ProjectDbContext.cs",
+              "RelativeDocumentMoniker": "Project\\Models\\ProjectDbContext.cs",
+              "ToolTip": "D:\\PRN232\\Project\\Project\\Models\\ProjectDbContext.cs",
+              "RelativeToolTip": "Project\\Models\\ProjectDbContext.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswAoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T06:14:19.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-11T08:08:25.9Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\PRN232\\Project\\Project\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Project\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\PRN232\\Project\\Project\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Project\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-30T07:12:43.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\PRN232\\Project\\Project\\Program.cs",
               "RelativeDocumentMoniker": "Project\\Program.cs",
               "ToolTip": "D:\\PRN232\\Project\\Project\\Program.cs",
               "RelativeToolTip": "Project\\Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAwDAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T06:44:39.879Z",
+              "WhenOpened": "2025-07-11T08:08:23.134Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\PRN232\\Project\\Project\\appsettings.json",
               "RelativeDocumentMoniker": "Project\\appsettings.json",
               "ToolTip": "D:\\PRN232\\Project\\Project\\appsettings.json",
               "RelativeToolTip": "Project\\appsettings.json",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-30T06:29:47.615Z",
+              "WhenOpened": "2025-07-11T08:08:21.617Z",
               "EditorCaption": ""
             }
           ]

@@ -1,61 +1,97 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Project.Models
+namespace Project.Models;
+
+public class ProjectDbContext : IdentityDbContext<ApplicationUser, ApplicationRole, int>
 {
-    public class ProjectDbContext : IdentityDbContext<ApplicationUser, ApplicationRole, int>
+    public ProjectDbContext(DbContextOptions<ProjectDbContext> options)
+        : base(options)
     {
-        public ProjectDbContext(DbContextOptions<ProjectDbContext> options)
-                : base(options)
-        {
-        }
-
-        // DbSet cho các bảng 
-        public DbSet<Category> Categories { get; set; }
-        public DbSet<News> News { get; set; }
-        public DbSet<Tag> Tags { get; set; }
-        public DbSet<NewsTag> NewsTags { get; set; }
-
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            base.OnModelCreating(builder);
-
-            // Đặt tên bảng để khớp với database 
-            builder.Entity<ApplicationUser>().ToTable("Accounts");
-            builder.Entity<ApplicationRole>().ToTable("Roles");
-            builder.Entity<IdentityUserRole<int>>().ToTable("UserRoles");
-            builder.Entity<IdentityUserClaim<int>>().ToTable("UserClaims");
-            builder.Entity<IdentityUserLogin<int>>().ToTable("UserLogins");
-            builder.Entity<IdentityRoleClaim<int>>().ToTable("RoleClaims");
-            builder.Entity<IdentityUserToken<int>>().ToTable("UserTokens");
-
-            // Cấu hình khóa chính cho NewsTags
-            builder.Entity<NewsTag>()
-                .HasKey(nt => new { nt.Id_Tags, nt.Id_News });
-
-            // Cấu hình quan hệ cho News
-            builder.Entity<News>()
-                .HasOne(n => n.Category)
-                .WithMany()
-                .HasForeignKey(n => n.CategoryId);
-
-            builder.Entity<News>()
-                .HasOne(n => n.CreateByUser)
-                .WithMany()
-                .HasForeignKey(n => n.CreateBy);
-
-            // Cấu hình quan hệ cho NewsTags
-            builder.Entity<NewsTag>()
-                .HasOne(nt => nt.Tag)
-                .WithMany()
-                .HasForeignKey(nt => nt.Id_Tags);
-
-            builder.Entity<NewsTag>()
-                .HasOne(nt => nt.News)
-                .WithMany()
-                .HasForeignKey(nt => nt.Id_News);
-        }
     }
 
+    public DbSet<Category> Categories { get; set; }
+    public DbSet<News> News { get; set; }
+    public DbSet<Tag> Tags { get; set; }
+    public DbSet<NewsTag> NewsTags { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+
+        // Ánh xạ bảng Accounts thành AspNetUsers
+        modelBuilder.Entity<ApplicationUser>(entity =>
+        {
+            entity.ToTable("Accounts");
+            entity.Property(e => e.Id).HasColumnName("Id");
+            entity.Property(e => e.Email).HasColumnName("Email");
+            entity.Property(e => e.PasswordHash).HasColumnName("Password");
+            entity.Property(e => e.RoleId).HasColumnName("RoleId");
+        });
+
+        // Ánh xạ bảng Roles thành AspNetRoles
+        modelBuilder.Entity<ApplicationRole>(entity =>
+        {
+            entity.ToTable("Roles");
+            entity.Property(e => e.Id).HasColumnName("Id");
+            entity.Property(e => e.Name).HasColumnName("Name");
+        });
+
+        // Ánh xạ bảng News
+        modelBuilder.Entity<News>(entity =>
+        {
+            entity.ToTable("News");
+            entity.Property(e => e.Id).HasColumnName("Id");
+            entity.Property(e => e.Title).HasColumnName("Title");
+            entity.Property(e => e.Description).HasColumnName("Description");
+            entity.Property(e => e.Content).HasColumnName("Content");
+            entity.Property(e => e.CreatedAt).HasColumnName("CreatedAt").HasDefaultValueSql("GETDATE()");
+            entity.Property(e => e.CategoryId).HasColumnName("CategoryId");
+            entity.Property(e => e.CreateBy).HasColumnName("CreateBy");
+
+            entity.HasOne(n => n.Category)
+                  .WithMany()
+                  .HasForeignKey(n => n.CategoryId);
+
+            entity.HasOne(n => n.CreatedBy)
+                  .WithMany()
+                  .HasForeignKey(n => n.CreateBy);
+        });
+
+        // Ánh xạ bảng Categories
+        modelBuilder.Entity<Category>(entity =>
+        {
+            entity.ToTable("Categories");
+            entity.Property(e => e.Id).HasColumnName("Id");
+            entity.Property(e => e.Name).HasColumnName("Name");
+        });
+
+        // Ánh xạ bảng Tags
+        modelBuilder.Entity<Tag>(entity =>
+        {
+            entity.ToTable("Tags");
+            entity.Property(e => e.Id).HasColumnName("Id");
+            entity.Property(e => e.Name).HasColumnName("Name");
+        });
+
+        // Ánh xạ bảng NewsTags
+        modelBuilder.Entity<NewsTag>(entity =>
+        {
+            entity.ToTable("NewsTags");
+            entity.HasKey(nt => new { nt.Id_Tags, nt.Id_News });
+            entity.Property(nt => nt.Id_Tags).HasColumnName("Id_Tags");
+            entity.Property(nt => nt.Id_News).HasColumnName("Id_News");
+
+            entity.HasOne(nt => nt.Tag)
+                  .WithMany()
+                  .HasForeignKey(nt => nt.Id_Tags);
+
+            entity.HasOne(nt => nt.News)
+                  .WithMany()
+                  .HasForeignKey(nt => nt.Id_News);
+        });
+    }
 }

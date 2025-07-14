@@ -140,12 +140,6 @@ D:\PRN232\Project\Project\obj\Debug\net8.0\scopedcss\bundle\Project.styles.css
 D:\PRN232\Project\Project\obj\Debug\net8.0\staticwebassets.build.json
 D:\PRN232\Project\Project\obj\Debug\net8.0\staticwebassets.development.json
 D:\PRN232\Project\Project\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\PRN232\Project\Project\obj\Debug\net8.0\staticwebassets\msbuild.Project.Microsoft.AspNetCore.StaticWebAssets.props
-D:\PRN232\Project\Project\obj\Debug\net8.0\staticwebassets\msbuild.Project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\PRN232\Project\Project\obj\Debug\net8.0\staticwebassets\msbuild.build.Project.props
-D:\PRN232\Project\Project\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Project.props
-D:\PRN232\Project\Project\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Project.props
-D:\PRN232\Project\Project\obj\Debug\net8.0\staticwebassets.pack.json
 D:\PRN232\Project\Project\obj\Debug\net8.0\Project.csproj.Up2Date
 D:\PRN232\Project\Project\obj\Debug\net8.0\Project.dll
 D:\PRN232\Project\Project\obj\Debug\net8.0\refint\Project.dll
@@ -170,3 +164,9 @@ D:\PRN232\Project\Project\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
 D:\PRN232\Project\Project\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
 D:\PRN232\Project\Project\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 D:\PRN232\Project\Project\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\PRN232\Project\Project\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\PRN232\Project\Project\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\PRN232\Project\Project\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\PRN232\Project\Project\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\PRN232\Project\Project\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\PRN232\Project\Project\obj\Debug\net8.0\staticwebassets.build.json.cache

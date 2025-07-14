@@ -147,12 +147,6 @@ D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\scopedcss\bundle\Q1
 D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\staticwebassets.build.json
 D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\staticwebassets.development.json
 D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\staticwebassets\msbuild.Q1.Microsoft.AspNetCore.StaticWebAssets.props
-D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\staticwebassets\msbuild.Q1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\staticwebassets\msbuild.build.Q1.props
-D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Q1.props
-D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Q1.props
-D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\staticwebassets.pack.json
 D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\Q1.csproj.Up2Date
 D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\Q1.dll
@@ -160,3 +154,8 @@ D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\refint\Q1.dll
 D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\Q1.pdb
 D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\Q1.genruntimeconfig.cache
 D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\ref\Q1.dll
+D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\PRN232\TrialPEPRN\Given\givenSolution\Q1\obj\Debug\net8.0\staticwebassets.build.json.cache

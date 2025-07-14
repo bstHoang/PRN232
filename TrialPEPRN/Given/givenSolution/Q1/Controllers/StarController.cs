@@ -28,8 +28,8 @@ namespace Q1.Controllers
                 {
                     Id = s.Id,
                     FullName = s.FullName,
-                    Male = s.Male ?? true, 
-                    Dob = s.Dob,
+                    Male = s.Male ?? true,
+                    Dob = s.Dob.HasValue ? s.Dob.Value.ToDateTime(TimeOnly.MinValue) : null,
                     Description = s.Description,
                     Nationality = s.Nationality
                 })
@@ -61,7 +61,7 @@ namespace Q1.Controllers
                 star.Id,
                 star.FullName,
                 Gender = star.Male == true ? "Male" : "Female",
-                Dob = star.Dob,
+                Dob = star.Dob.HasValue ? star.Dob.Value.ToDateTime(TimeOnly.MinValue).ToString("yyyy-MM-dd HH:mm:ss") : null,
                 DobString = star.Dob?.ToString("M/d/yyyy"),
                 star.Nationality,
                 star.Description,
@@ -75,8 +75,8 @@ namespace Q1.Controllers
                     m.Language,
                     ProducerId = m.ProducerId,
                     DirectorId = m.DirectorId,
-                    ProducerName = m.Producer?.Name,
-                    DirectorName = m.Director?.FullName,
+                    ProducerName = (string?)null,
+                    DirectorName = (string?)null,
                     Genres = m.Genres.Select(g => g.Title.Trim()).ToList(),
                     Stars = m.Stars.Select(s => s.FullName).ToList()
                 }).ToList()

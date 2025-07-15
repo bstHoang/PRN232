@@ -58,8 +58,7 @@
               "RelativeToolTip": "Q1\\DTOs\\StarByIdDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T06:31:05.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T06:31:05.312Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "Q1\\DTOs\\StarDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T06:31:06.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T06:31:06.113Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "Q1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T06:28:48.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T06:28:48.663Z"
             },
             {
               "$type": "Document",
@@ -97,8 +94,7 @@
               "RelativeToolTip": "Q1\\Models\\Star.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T06:26:06.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T06:26:06.296Z"
             },
             {
               "$type": "Document",
@@ -132,7 +128,7 @@
               "RelativeDocumentMoniker": "Q1\\Controllers\\StarController.cs",
               "ToolTip": "D:\\PRN232\\TrialPEPRN\\Given\\givenSolution\\Q1\\Controllers\\StarController.cs",
               "RelativeToolTip": "Q1\\Controllers\\StarController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAgwE0AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T08:20:23.434Z",
               "EditorCaption": ""
@@ -159,8 +155,7 @@
               "RelativeToolTip": "Q2\\Controllers\\MoviesController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T08:20:36.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T08:20:36.77Z"
             }
           ]
         }

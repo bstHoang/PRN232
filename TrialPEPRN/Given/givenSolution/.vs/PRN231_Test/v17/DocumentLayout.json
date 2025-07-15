@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\PRN232\\TrialPEPRN\\Given\\givenSolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1F7D219C-6BD1-470E-8E5D-D2F3E24D381D}|Q2\\Q2.csproj|d:\\prn232\\trialpeprn\\given\\givensolution\\q2\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F7D219C-6BD1-470E-8E5D-D2F3E24D381D}|Q2\\Q2.csproj|solutionrelative:q2\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{76540FC5-A97E-42F6-8E86-0600BAA89EF8}|Q1\\Q1.csproj|d:\\prn232\\trialpeprn\\given\\givensolution\\q1\\controllers\\starcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76540FC5-A97E-42F6-8E86-0600BAA89EF8}|Q1\\Q1.csproj|solutionrelative:q1\\controllers\\starcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{76540FC5-A97E-42F6-8E86-0600BAA89EF8}|Q1\\Q1.csproj|d:\\prn232\\trialpeprn\\given\\givensolution\\q1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76540FC5-A97E-42F6-8E86-0600BAA89EF8}|Q1\\Q1.csproj|solutionrelative:q1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F7D219C-6BD1-470E-8E5D-D2F3E24D381D}|Q2\\Q2.csproj|d:\\prn232\\trialpeprn\\given\\givensolution\\q2\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F7D219C-6BD1-470E-8E5D-D2F3E24D381D}|Q2\\Q2.csproj|solutionrelative:q2\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F7D219C-6BD1-470E-8E5D-D2F3E24D381D}|Q2\\Q2.csproj|d:\\prn232\\trialpeprn\\given\\givensolution\\q2\\views\\movies\\director_movie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "StarByIdDTO.cs",
               "DocumentMoniker": "D:\\PRN232\\TrialPEPRN\\Given\\givenSolution\\Q1\\DTOs\\StarByIdDTO.cs",
               "RelativeDocumentMoniker": "Q1\\DTOs\\StarByIdDTO.cs",
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StarDto.cs",
               "DocumentMoniker": "D:\\PRN232\\TrialPEPRN\\Given\\givenSolution\\Q1\\DTOs\\StarDto.cs",
               "RelativeDocumentMoniker": "Q1\\DTOs\\StarDto.cs",
@@ -74,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\PRN232\\TrialPEPRN\\Given\\givenSolution\\Q1\\Program.cs",
               "RelativeDocumentMoniker": "Q1\\Program.cs",
@@ -86,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Star.cs",
               "DocumentMoniker": "D:\\PRN232\\TrialPEPRN\\Given\\givenSolution\\Q1\\Models\\Star.cs",
               "RelativeDocumentMoniker": "Q1\\Models\\Star.cs",
@@ -122,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "StarController.cs",
               "DocumentMoniker": "D:\\PRN232\\TrialPEPRN\\Given\\givenSolution\\Q1\\Controllers\\StarController.cs",
               "RelativeDocumentMoniker": "Q1\\Controllers\\StarController.cs",
@@ -147,15 +147,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MoviesController.cs",
               "DocumentMoniker": "D:\\PRN232\\TrialPEPRN\\Given\\givenSolution\\Q2\\Controllers\\MoviesController.cs",
               "RelativeDocumentMoniker": "Q2\\Controllers\\MoviesController.cs",
               "ToolTip": "D:\\PRN232\\TrialPEPRN\\Given\\givenSolution\\Q2\\Controllers\\MoviesController.cs",
               "RelativeToolTip": "Q2\\Controllers\\MoviesController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T08:20:36.77Z"
+              "WhenOpened": "2025-07-09T08:20:36.77Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -335,10 +335,10 @@ D:\PRN232\Project\BE\Project\obj\Debug\net8.0\staticwebassets.build.json
 D:\PRN232\Project\BE\Project\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\PRN232\Project\BE\Project\obj\Debug\net8.0\staticwebassets.development.json
 D:\PRN232\Project\BE\Project\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\PRN232\Project\BE\Project\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\PRN232\Project\BE\Project\obj\Debug\net8.0\Project.csproj.Up2Date
 D:\PRN232\Project\BE\Project\obj\Debug\net8.0\Project.dll
 D:\PRN232\Project\BE\Project\obj\Debug\net8.0\refint\Project.dll
 D:\PRN232\Project\BE\Project\obj\Debug\net8.0\Project.pdb
 D:\PRN232\Project\BE\Project\obj\Debug\net8.0\Project.genruntimeconfig.cache
 D:\PRN232\Project\BE\Project\obj\Debug\net8.0\ref\Project.dll
+D:\PRN232\Project\BE\Project\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -1,10 +1,9 @@
-﻿// Program.cs
-using AutoMapper;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Http; // Thêm cho Session
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.OData;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OData.ModelBuilder;
 using Project.Interfaces;
 using Project.Mapper;
 using Project.Models;
@@ -13,6 +12,13 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//odata
+var odataBuilder = new ODataConventionModelBuilder();
+odataBuilder.EntitySet<News>("News");
+builder.Services.AddControllers()
+    .AddOData(opt => opt.AddRouteComponents("odata", odataBuilder.GetEdmModel()).Filter().Select().Expand().OrderBy().Count());
+
+//add mvc serivices
 builder.Services.AddControllers();
 
 // Cấu hình Session
@@ -53,10 +59,14 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+//auto mapper
 builder.Services.AddAutoMapper(typeof(UserProfile));
+builder.Services.AddAutoMapper(typeof(NewsProfile));
 
+// di
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddScoped<INewsService, NewsService>();
 
 builder.Services.AddCors(options =>
 {

@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Project.DTOs;
 using Project.Interfaces;
@@ -79,7 +80,7 @@ namespace Project.Services
                 return IdentityResult.Failed(new IdentityError { Description = "Invalid verification code." });
             }
 
-            var existingUser = await _userManager.FindByEmailAsync(normalizedEmail);
+            var existingUser = await _userManager.FindByEmailAsync(normalizedEmail.ToUpper());
             if (existingUser != null)
             {
                 return IdentityResult.Failed(new IdentityError { Description = "Email is already registered." });
@@ -87,28 +88,33 @@ namespace Project.Services
 
             var user = System.Text.Json.JsonSerializer.Deserialize<ApplicationUser>(storedUserJson);
             Console.WriteLine($"After deserialize - Email: {user.Email}, UserName: {user.UserName}, NormalizedEmail: {user.NormalizedEmail}, NormalizedUserName: {user.NormalizedUserName}");
-            // Log trước khi tạo người dùng
-            Console.WriteLine($"Before create - Email: {user.Email}, UserName: {user.UserName}, NormalizedEmail: {user.NormalizedEmail}, NormalizedUserName: {user.NormalizedUserName}");
-
 
             var result = await _userManager.CreateAsync(user, storedPassword);
 
             if (result.Succeeded)
             {
-                var role = await _roleManager.FindByIdAsync("2");
+                var role = await _roleManager.FindByIdAsync("2"); // RoleId = 2 (User)
                 if (role == null)
                 {
                     return IdentityResult.Failed(new IdentityError { Description = "Role with Id = 2 does not exist." });
                 }
 
-                user.RoleId = 2;
-                user.EmailConfirmed = true;
+                var roleResult = await _userManager.AddToRoleAsync(user, role.Name);
+                if (!roleResult.Succeeded)
+                {
+                    return IdentityResult.Failed(new IdentityError { Description = $"Failed to assign role: {string.Join(", ", roleResult.Errors.Select(e => e.Description))}" });
+                }
 
+                user.EmailConfirmed = true;
                 await _userManager.UpdateAsync(user);
 
                 session.Remove($"VerificationCode_{normalizedEmail}");
                 session.Remove($"User_{normalizedEmail}");
                 session.Remove($"Password_{normalizedEmail}");
+            }
+            else
+            {
+                Console.WriteLine($"Create failed: {string.Join(", ", result.Errors.Select(e => e.Description))}");
             }
 
             return result;
@@ -144,29 +150,43 @@ namespace Project.Services
             var user = await _userManager.FindByEmailAsync(normalizedEmail);
             if (user == null)
             {
-                throw new Exception("Email not found.");
+                throw new Exception($"Email not found. Input: {normalizedEmail}");
             }
             if (!await _userManager.CheckPasswordAsync(user, loginDto.Password))
             {
                 throw new Exception("Password is incorrect.");
             }
 
-            // Tạo claims cho JWT
-            var claims = new List<Claim>
+            // Lấy danh sách vai trò từ AspNetUserRoles
+            var roles = await _userManager.GetRolesAsync(user);
+            if (!roles.Any())
             {
-                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-                new Claim(ClaimTypes.Name, user.UserName),
-                new Claim(ClaimTypes.Email, user.Email),
-                new Claim("RoleId", user.RoleId.ToString())
-            };
+                throw new Exception("No roles assigned to this user.");
+            }
 
-            // Tạo JWT
+            var claims = new List<Claim>
+    {
+        new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+        new Claim(ClaimTypes.Name, user.UserName),
+        new Claim(ClaimTypes.Email, user.Email)
+    };
+
+            // Thêm vai trò với NormalizedName
+            foreach (var role in roles)
+            {
+                var roleEntity = await _roleManager.Roles.FirstOrDefaultAsync(r => r.Name == role);
+                if (roleEntity != null)
+                {
+                    claims.Add(new Claim(ClaimTypes.Role, roleEntity.NormalizedName));
+                }
+            }
+
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JwtSettings:Key"]));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(claims),
-                Expires = DateTime.UtcNow.AddHours(1), // Token hết hạn sau 1 giờ
+                Expires = DateTime.UtcNow.AddHours(1),
                 Issuer = _configuration["JwtSettings:Issuer"],
                 Audience = _configuration["JwtSettings:Audience"],
                 SigningCredentials = creds

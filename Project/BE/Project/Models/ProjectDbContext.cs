@@ -29,7 +29,6 @@ public class ProjectDbContext : IdentityDbContext<ApplicationUser, ApplicationRo
             entity.Property(e => e.Id).HasColumnName("Id");
             entity.Property(e => e.Email).HasColumnName("Email");
             entity.Property(e => e.PasswordHash).HasColumnName("Password");
-            entity.Property(e => e.RoleId).HasColumnName("RoleId");
         });
 
         // Ánh xạ bảng Roles thành AspNetRoles
@@ -51,6 +50,7 @@ public class ProjectDbContext : IdentityDbContext<ApplicationUser, ApplicationRo
             entity.Property(e => e.CreatedAt).HasColumnName("CreatedAt").HasDefaultValueSql("GETDATE()");
             entity.Property(e => e.CategoryId).HasColumnName("CategoryId");
             entity.Property(e => e.CreateBy).HasColumnName("CreateBy");
+            entity.Property(e => e.Disable).HasColumnName("Disable").HasDefaultValue(false);
 
             entity.HasOne(n => n.Category)
                   .WithMany()

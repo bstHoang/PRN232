@@ -87,17 +87,12 @@ namespace Project.Services
             }
 
             var user = System.Text.Json.JsonSerializer.Deserialize<ApplicationUser>(storedUserJson);
-            Console.WriteLine($"After deserialize - Email: {user.Email}, UserName: {user.UserName}, NormalizedEmail: {user.NormalizedEmail}, NormalizedUserName: {user.NormalizedUserName}");
 
             var result = await _userManager.CreateAsync(user, storedPassword);
 
             if (result.Succeeded)
             {
-                var role = await _roleManager.FindByIdAsync("2"); // RoleId = 2 (User)
-                if (role == null)
-                {
-                    return IdentityResult.Failed(new IdentityError { Description = "Role with Id = 2 does not exist." });
-                }
+                var role = await _roleManager.FindByIdAsync("2"); 
 
                 var roleResult = await _userManager.AddToRoleAsync(user, role.Name);
                 if (!roleResult.Succeeded)

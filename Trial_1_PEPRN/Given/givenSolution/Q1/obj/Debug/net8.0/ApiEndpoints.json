@@ -1,12 +1,65 @@
 [
   {
     "ContainingType": "Q1.Controllers.StarController",
+    "Method": "CreateDirector",
+    "RelativePath": "api/director/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newDirector",
+        "Type": "Q1.Models.Director",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Q1.Controllers.StarController",
     "Method": "GetDirectors",
     "RelativePath": "api/Directors/GetDirectors",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Q1.Controllers.StarController",
+    "Method": "AddMovieToGenre",
+    "RelativePath": "api/movie/addmovietogenre/{genreId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "genreId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "movieId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Q1.Controllers.StarController",
+    "Method": "CreateMovie",
+    "RelativePath": "api/movie/createmovie",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "movie",
+        "Type": "Q1.Models.Movie",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -24,6 +77,48 @@
       },
       {
         "Name": "movieId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Q1.Controllers.StarController",
+    "Method": "UpdateMovieInGenre",
+    "RelativePath": "api/movie/updatemovieingenre/{genreId}/{oldMovieId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "genreId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "oldMovieId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newMovieId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Q1.Controllers.StarController",
+    "Method": "DeleteMovie",
+    "RelativePath": "api/movies/deletemovie/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
       }

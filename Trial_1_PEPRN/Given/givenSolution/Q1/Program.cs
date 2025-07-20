@@ -13,7 +13,7 @@ builder.Services.AddDbContext<PePrnFall22B1Context>(options =>
 builder.Services.AddControllers()
     .AddXmlSerializerFormatters()
     .AddOData(opt =>
-        opt.Select().Filter().OrderBy().Expand().SetMaxTop(100)
+        opt.Select().Filter().OrderBy().Expand().SetMaxTop(100).Count()
             .AddRouteComponents("odata", new ODataConventionModelBuilder().GetEdmModel()));
 
 var app = builder.Build();

@@ -1,0 +1,56 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model Q2.Models.Movie
+
+<h2>Cập nhật Phim</h2>
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <p style="color: red;">@ViewBag.ErrorMessage</p>
+}
+
+<form asp-action="EditMovie" method="post">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" name="DirectorId" value="@ViewBag.DirectorId" />
+    <div>
+        <label asp-for="Title">Tiêu đề:</label>
+        <input asp-for="Title" required />
+    </div>
+    <div>
+        <label asp-for="ReleaseDate">Ngày phát hành:</label>
+        <input asp-for="ReleaseDate" type="date" value="@(Model.ReleaseDate.ToString("yyyy-MM-dd"))" />
+    </div>
+    <div>
+        <label asp-for="Description">Mô tả:</label>
+        <textarea asp-for="Description"></textarea>
+    </div>
+    <div>
+        <label asp-for="Language">Ngôn ngữ:</label>
+        <input asp-for="Language" required />
+    </div>
+    <div>
+        <label asp-for="DirectorName">Đạo diễn:</label>
+        <select asp-for="DirectorName" asp-items="@(new SelectList(ViewBag.Directors, "Id", "FullName"))">
+            <option value="">-- Chọn đạo diễn --</option>
+        </select>
+    </div>
+    <div>
+        <label asp-for="ProducerName">Nhà sản xuất:</label>
+        <select asp-for="ProducerName" asp-items="@(new SelectList(ViewBag.Producers, "Id", "Name"))">
+            <option value="">-- Chọn nhà sản xuất --</option>
+        </select>
+    </div>
+    <div>
+        <label>Thể loại:</label>
+        <select name="GenreIds" multiple asp-items="@(new SelectList(ViewBag.Genres, "Id", "Name", ViewBag.SelectedGenreIds))">
+        </select>
+    </div>
+    <div>
+        <label>Diễn viên:</label>
+        <select name="StarIds" multiple asp-items="@(new SelectList(ViewBag.Stars, "Id", "Name", ViewBag.SelectedStarIds))">
+        </select>
+    </div>
+    <div>
+        <button type="submit">Cập nhật</button>
+        <a href="@Url.Action("Director_Movie", new { id = ViewBag.DirectorId })">Quay lại</a>
+    </div>
+</form>

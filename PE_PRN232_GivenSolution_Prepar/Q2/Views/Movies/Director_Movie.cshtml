@@ -1,0 +1,61 @@
+﻿@addTagHelper.*, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    var directors = ViewBag.Directors as List<Q2.Models.Director>;
+    var movies = ViewBag.Movies as List<Q2.Models.Movie>;
+}
+
+<h2>Directors</h2>
+<div style="display: flex;">
+    <!-- Left: Director list -->
+    <div style="margin-right: 30px; width: 300px">
+        @foreach (var director in directors)
+        {
+            <div>
+                <a href="@Url.Action("Director_Movie", new { id = director.Id })" id="di_@director.Id">
+                    @director.FullName
+                </a>
+            </div>
+        }
+    </div>
+
+    <!-- Right: Movie table -->
+    <div style="width: 1000px">
+        <h2>List of Movies</h2>
+        <div>
+            <a href="@Url.Action("CreateMovie")">Tạo phim mới</a> <!-- Thêm liên kết Tạo phim -->
+        </div>
+        <table border="1" cellpadding="5" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Release Date</th>
+                    <th>Description</th>
+                    <th>Language</th>
+                    <th>Director</th>
+                    <th>Producer</th>
+                    <th colspan="2">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < movies.Count; i++)
+                {
+                    <tr>
+                        <td id="td_title_@i">@movies[i].Title</td>
+                        <td id="td_releaseDate_@i">@movies[i].ReleaseDate.ToString("MM/dd/yyyy")</td>
+                        <td id="td_description_@i">@movies[i].Description</td>
+                        <td id="td_language_@i">@movies[i].Language</td>
+                        <td id="td_director_@i">@movies[i].DirectorName</td>
+                        <td id="td_producer_@i">@movies[i].ProducerName</td>
+                        <td>
+                            <a href="@Url.Action("DeleteMovie", new { movieId = movies[i].Id, directorId = ViewBag.DirectorId })"
+                               >Xóa</a>
+                        </td>
+                        <td>
+                            <a href="@Url.Action("EditMovie", new { movieId = movies[i].Id, directorId = ViewBag.DirectorId })">Sửa</a> |
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

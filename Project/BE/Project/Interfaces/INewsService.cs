@@ -10,5 +10,6 @@ namespace Project.Interfaces
         Task<NewsDto> CreateNewsAsync(NewsCreateDto newsDto, int userId);
         Task UpdateNewsAsync(int id, NewsUpdateDto newsDto, int userId, string role);
         Task DeleteNewsAsync(int id, int userId, string role);
+        Task<IEnumerable<NewsDto>> SearchNewsByTitleAsync(string title);
     }
 }

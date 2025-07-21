@@ -60,7 +60,7 @@ namespace Project.Controllers
             var userId = int.Parse(User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value);
             var role = User.FindFirst("RoleId")?.Value == "3" ? "MANAGER" : "JOURNALIST";
             await _newsService.UpdateNewsAsync(id, newsDto, userId, role);
-            return NoContent();
+            return Ok("update succesfull");
         }
 
         [HttpDelete]
@@ -72,6 +72,16 @@ namespace Project.Controllers
             var role = User.FindFirst("RoleId")?.Value == "3" ? "MANAGER" : "JOURNALIST";
             await _newsService.DeleteNewsAsync(id, userId, role);
             return NoContent();
+        }
+
+        [HttpGet]
+        [EnableQuery]
+        [Route("api/news/search")]
+        public async Task<IActionResult> SearchByTitle([FromQuery] string title)
+        {
+            Console.WriteLine($"NewsController.SearchByTitle - Title: {title}");
+            var news = await _newsService.SearchNewsByTitleAsync(title);
+            return Ok(news);
         }
     }
 }

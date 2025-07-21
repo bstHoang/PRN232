@@ -105,5 +105,20 @@ namespace Project.Services
                 throw new Exception("Unauthorized to delete this news.");
             }
         }
+
+        public async Task<IEnumerable<NewsDto>> SearchNewsByTitleAsync(string title)
+        {
+            if (string.IsNullOrWhiteSpace(title))
+            {
+                Console.WriteLine("SearchNewsByTitleAsync - Title is empty, returning all news.");
+                return await GetAllNewsAsync();
+            }
+
+            var news = await _context.News
+                .Where(n => !n.Disable && n.Title.Contains(title))
+                .ToListAsync();
+            Console.WriteLine($"SearchNewsByTitleAsync - Found {news.Count} news with title containing: {title}");
+            return _mapper.Map<IEnumerable<NewsDto>>(news);
+        }
     }
 }

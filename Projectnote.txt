@@ -1,0 +1,41 @@
+- đăng nhập                                                                                    === done
+- đăng kí                                                                                      === done
+
+- Xem báo (ai cũng xem được)                                                                   === done
+- Search by title ( miễn là user thì đều làm đc) 
+- Thêm báo (chỉ mình journalist mới được thêm)                                                 === done
+- update báo (journalist có thể update toàn bộ thông tin, manager có thể disable)
+- Xoá báo (journalist và manager)
+- New detail (mọi ng)                                                                          === done
+- My new (journalist)
+
+- Update Role (Admin)
+- Create Role (admin)
+- Delete Role (admin)
+- View Role (Admin)
+
+- Create account (admin)
+- Update account (admin)
+- Delete account , disavle ( admin )
+- View account (admin)
+
+- Tag được sử dụng nhiều nhất (bấm vào tag đấy là ra luôn all news có tag đấy) (user)
+- Create tag (enable từ request tag nữa ) (manager)
+- Request add new tag (jorunalist) (manager)
+- delete tag (manager)
+- View Tag (manager)
+- update tag  (manager)
+
+- create category (manager)
+- Update Category (manager)
+- view categiry (manager)
+- delete category (manager)
+
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIyMyIsInVuaXF1ZV9uYW1lIjoiYnVpc3l0aGFpaG9hbm
+dAZ21haWwuY29tIiwiZW1haWwiOiJidWlzeXRoYWlob2FuZ0BnbWFpbC5jb20iLCJyb2xlIjoiSk9VUk5BTElTVCIsIm5iZiI6MTc1MzA3NzA3NSwiZX
+hwIjoxNzUzMDgwNjc1LCJpYXQiOjE3NTMwNzcwNzUsImlzcyI6IlByb2plY3QiLCJhdWQiOiJQcm9qZWN0In0.oQmnx-x8w_biOoBD41unziqsk8cRV165WlcoYACSECc"
+}
+
+

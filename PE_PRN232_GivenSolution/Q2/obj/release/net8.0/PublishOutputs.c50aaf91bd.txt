@@ -1,0 +1,7 @@
+D:\PE_PRN232_GivenSolution\Q2\Q2_hoangbsthe186345\Q2.exe
+D:\PE_PRN232_GivenSolution\Q2\Q2_hoangbsthe186345\appsettings.Development.json
+D:\PE_PRN232_GivenSolution\Q2\Q2_hoangbsthe186345\appsettings.json
+D:\PE_PRN232_GivenSolution\Q2\Q2_hoangbsthe186345\Q2.dll
+D:\PE_PRN232_GivenSolution\Q2\Q2_hoangbsthe186345\Q2.deps.json
+D:\PE_PRN232_GivenSolution\Q2\Q2_hoangbsthe186345\Q2.runtimeconfig.json
+D:\PE_PRN232_GivenSolution\Q2\Q2_hoangbsthe186345\Q2.pdb

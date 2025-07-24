@@ -1337,7 +1337,7 @@
         }
       }
     },
-    "/api/news/my-news": {
+    "/api/news/mynews": {
       "get": {
         "tags": [
           "News"
@@ -1828,6 +1828,27 @@
             "schema": {
               "type": "integer",
               "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/news/search": {
+      "get": {
+        "tags": [
+          "News"
+        ],
+        "parameters": [
+          {
+            "name": "title",
+            "in": "query",
+            "schema": {
+              "type": "string"
             }
           }
         ],

@@ -1,0 +1,107 @@
+﻿@model List<Q2.Models.ServiceViewModel>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Danh sách dịch vụ";
+    var feeTypes = ViewBag.FeeTypes as List<string> ?? new List<string>();
+    var searchFeeTypes = ViewBag.SearchFeeTypes as string[] ?? Array.Empty<string>();
+}
+
+<h1>Danh sách dịch vụ</h1>
+
+<form asp-action="Index" method="get" class="mb-3">
+    <div class="form-group">
+        <label><strong>Chọn loại phí:</strong></label>
+        <div class="d-flex flex-wrap">
+            @if (feeTypes.Any())
+            {
+                @foreach (var feeType in feeTypes)
+                {
+                    <div class="form-check me-3">
+                        <input type="checkbox" name="searchFeeTypes" value="@feeType" class="form-check-input"
+                               id="@feeType" @(searchFeeTypes.Contains(feeType) ? "checked" : "") />
+                        <label class="form-check-label" for="@feeType">@feeType</label>
+                    </div>
+                }
+            }
+            else
+            {
+                <p>Không có loại phí nào để hiển thị.</p>
+            }
+        </div>
+        <button type="submit" class="btn btn-primary mt-2">Tìm kiếm</button>
+    </div>
+</form>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+@if (Model?.Any() == true)
+{
+    <table class="table table-bordered table-striped table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>ID</th>
+                <th>Phòng</th>
+                <th>Tháng</th>
+                <th>Năm</th>
+                <th>Loại phí</th>
+                <th>Số tiền</th>
+                <th>Ngày thanh toán</th>
+                <th>Nhân viên</th>
+                <th>Chi tiết phòng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var service in Model)
+            {
+                <tr>
+                    <td>@service.Id</td>
+                    <td>@service.RoomTitle</td>
+                    <td>@service.Month</td>
+                    <td>@service.Year</td>
+                    <td>@service.FeeType</td>
+                    <td>@service.Amount.ToString("N0")</td>
+                    <td>@service.PaymentDate</td>
+                    <td>@(service.Employee != null ? service.Employee.Name : "N/A")</td>
+                    <td>@(service.Room != null ? $"{service.Room.Description} (Tầng {service.Room.Floor}, {service.Room.Square} m²)" : "N/A")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Không có dữ liệu dịch vụ.</p>
+}
+
+@section Styles {
+    <style>
+        .table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+            .table th, .table td {
+                border: 1px solid #dee2e6;
+                padding: 8px;
+                text-align: left;
+                vertical-align: middle;
+            }
+
+            .table th {
+                background-color: #343a40;
+                color: white;
+            }
+
+            .table tbody tr:hover {
+                background-color: #f8f9fa;
+            }
+
+        .form-check {
+            margin-bottom: 10px;
+        }
+    </style>
+}

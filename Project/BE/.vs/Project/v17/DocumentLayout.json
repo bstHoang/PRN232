@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\PRN232\\Project\\BE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\interfaces\\inewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\interfaces\\inewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Project\\Services\\UserService.cs",
-              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Services\\UserService.cs",
-              "RelativeToolTip": "Project\\Services\\UserService.cs",
-              "ViewState": "AgIAAJoAAAAAAAAAAADwv7sAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Program.cs",
+              "RelativeDocumentMoniker": "Project\\Program.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Program.cs",
+              "RelativeToolTip": "Project\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T09:43:44.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T06:13:19.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "INewsService.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Interfaces\\INewsService.cs",
+              "RelativeDocumentMoniker": "Project\\Interfaces\\INewsService.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Interfaces\\INewsService.cs",
+              "RelativeToolTip": "Project\\Interfaces\\INewsService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T05:47:09.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "NewsController.cs",
               "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Controllers\\NewsController.cs",
               "RelativeDocumentMoniker": "Project\\Controllers\\NewsController.cs",
               "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Controllers\\NewsController.cs",
               "RelativeToolTip": "Project\\Controllers\\NewsController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwDEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAlwCQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T09:35:54.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T09:35:54.486Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "NewsService.cs",
               "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Services\\NewsService.cs",
               "RelativeDocumentMoniker": "Project\\Services\\NewsService.cs",
               "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Services\\NewsService.cs",
               "RelativeToolTip": "Project\\Services\\NewsService.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwDIAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAIA6wEgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T09:35:48.673Z"
+              "WhenOpened": "2025-07-16T09:35:48.673Z",
+              "EditorCaption": ""
             }
           ]
         }

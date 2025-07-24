@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "GivenAPIs.Controllers.ServicesController",
+    "Method": "Get",
+    "RelativePath": "api/Services",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

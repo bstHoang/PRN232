@@ -124,11 +124,27 @@
   {
     "ContainingType": "Project.Controllers.NewsController",
     "Method": "GetMyNews",
-    "RelativePath": "api/news/my-news",
+    "RelativePath": "api/news/mynews",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.Controllers.NewsController",
+    "Method": "SearchByTitle",
+    "RelativePath": "api/news/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {

@@ -26,7 +26,7 @@ namespace Project.Controllers
 
         [HttpGet]
         [Authorize(Roles = "JOURNALIST")]
-        [Route("api/news/my-news")]
+        [Route("api/news/mynews")]
         public async Task<IActionResult> GetMyNews()
         {
             var userId = int.Parse(User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value);

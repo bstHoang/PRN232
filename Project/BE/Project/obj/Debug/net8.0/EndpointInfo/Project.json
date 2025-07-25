@@ -869,6 +869,18 @@
         }
       }
     },
+    "/api/Categories/GetAllCategories": {
+      "get": {
+        "tags": [
+          "Category"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/odata/$metadata": {
       "get": {
         "tags": [
@@ -1858,6 +1870,18 @@
           }
         }
       }
+    },
+    "/api/Tags/GetAllTags": {
+      "get": {
+        "tags": [
+          "Tag"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -2177,6 +2201,14 @@
           "categoryId": {
             "type": "integer",
             "format": "int32"
+          },
+          "tagIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false

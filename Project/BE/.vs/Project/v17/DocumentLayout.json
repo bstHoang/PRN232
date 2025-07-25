@@ -3,36 +3,64 @@
   "WorkspaceRootPath": "D:\\PRN232\\Project\\BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\dtos\\emailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\dtos\\emailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\models\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\models\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\services\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\services\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\interfaces\\itagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\interfaces\\itagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\mapper\\tagsprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\mapper\\tagsprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\mapper\\newsprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\mapper\\newsprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\mapper\\categoriesprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\mapper\\categoriesprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\dtos\\tags\\tagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\dtos\\tags\\tagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\dtos\\categories\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\dtos\\categories\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\dtos\\news\\newscreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\dtos\\news\\newscreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\models\\newstag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,12 +71,8 @@
       "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\models\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\mapper\\newsprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\mapper\\newsprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\dtos\\news\\newsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\dtos\\news\\newsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,110 +82,188 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmailRequest.cs",
-              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\DTOs\\EmailRequest.cs",
-              "RelativeDocumentMoniker": "Project\\DTOs\\EmailRequest.cs",
-              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\DTOs\\EmailRequest.cs",
-              "RelativeToolTip": "Project\\DTOs\\EmailRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T03:52:00.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Project\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Project\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAuwEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T03:03:08.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Project\\Services\\UserService.cs",
-              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Services\\UserService.cs",
-              "RelativeToolTip": "Project\\Services\\UserService.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAkwHUAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T03:02:37.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "Project\\Services\\EmailService.cs",
-              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Services\\EmailService.cs",
-              "RelativeToolTip": "Project\\Services\\EmailService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T03:02:14.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Tag.cs",
-              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Models\\Tag.cs",
-              "RelativeDocumentMoniker": "Project\\Models\\Tag.cs",
-              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Models\\Tag.cs",
-              "RelativeToolTip": "Project\\Models\\Tag.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T01:20:14.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "TagController.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Controllers\\TagController.cs",
+              "RelativeDocumentMoniker": "Project\\Controllers\\TagController.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Controllers\\TagController.cs",
+              "RelativeToolTip": "Project\\Controllers\\TagController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:56:35.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "NewsController.cs",
               "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Controllers\\NewsController.cs",
               "RelativeDocumentMoniker": "Project\\Controllers\\NewsController.cs",
               "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Controllers\\NewsController.cs",
               "RelativeToolTip": "Project\\Controllers\\NewsController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T01:17:49.11Z",
+              "WhenOpened": "2025-07-25T08:55:41.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Project\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Project\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:55:14.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ProjectDbContext.cs",
-              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Models\\ProjectDbContext.cs",
-              "RelativeDocumentMoniker": "Project\\Models\\ProjectDbContext.cs",
-              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Models\\ProjectDbContext.cs",
-              "RelativeToolTip": "Project\\Models\\ProjectDbContext.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAIwFkAAAAyAAAAAAAAAA==",
+              "Title": "TagService.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Services\\TagService.cs",
+              "RelativeDocumentMoniker": "Project\\Services\\TagService.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Services\\TagService.cs",
+              "RelativeToolTip": "Project\\Services\\TagService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T01:03:28.158Z",
+              "WhenOpened": "2025-07-25T08:53:09.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Project\\Services\\CategoryService.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Project\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:51:55.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITagService.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Interfaces\\ITagService.cs",
+              "RelativeDocumentMoniker": "Project\\Interfaces\\ITagService.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Interfaces\\ITagService.cs",
+              "RelativeToolTip": "Project\\Interfaces\\ITagService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:51:04.854Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Project\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "Project\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:50:35.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Program.cs",
+              "RelativeDocumentMoniker": "Project\\Program.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Program.cs",
+              "RelativeToolTip": "Project\\Program.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:49:40.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TagsProfile.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Mapper\\TagsProfile.cs",
+              "RelativeDocumentMoniker": "Project\\Mapper\\TagsProfile.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Mapper\\TagsProfile.cs",
+              "RelativeToolTip": "Project\\Mapper\\TagsProfile.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:48:34.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoriesProfile.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Mapper\\CategoriesProfile.cs",
+              "RelativeDocumentMoniker": "Project\\Mapper\\CategoriesProfile.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Mapper\\CategoriesProfile.cs",
+              "RelativeToolTip": "Project\\Mapper\\CategoriesProfile.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwA4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:47:11.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NewsService.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Services\\NewsService.cs",
+              "RelativeDocumentMoniker": "Project\\Services\\NewsService.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Services\\NewsService.cs",
+              "RelativeToolTip": "Project\\Services\\NewsService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAuwEgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:17:09.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TagDto.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\DTOs\\Tags\\TagDto.cs",
+              "RelativeDocumentMoniker": "Project\\DTOs\\Tags\\TagDto.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\DTOs\\Tags\\TagDto.cs",
+              "RelativeToolTip": "Project\\DTOs\\Tags\\TagDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:46:29.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\DTOs\\Categories\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "Project\\DTOs\\Categories\\CategoryDto.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\DTOs\\Categories\\CategoryDto.cs",
+              "RelativeToolTip": "Project\\DTOs\\Categories\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:46:12.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "NewsTag.cs",
               "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Models\\NewsTag.cs",
               "RelativeDocumentMoniker": "Project\\Models\\NewsTag.cs",
               "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Models\\NewsTag.cs",
               "RelativeToolTip": "Project\\Models\\NewsTag.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T01:01:46.718Z",
+              "WhenOpened": "2025-07-25T08:17:23.35Z",
               "EditorCaption": ""
             },
             {
@@ -172,48 +274,48 @@
               "RelativeDocumentMoniker": "Project\\Mapper\\NewsProfile.cs",
               "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Mapper\\NewsProfile.cs",
               "RelativeToolTip": "Project\\Mapper\\NewsProfile.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAmwAsAAAB7AAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwAYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:47:46.158Z",
+              "WhenOpened": "2025-07-25T08:24:58.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "NewsDto.cs",
-              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\DTOs\\News\\NewsDto.cs",
-              "RelativeDocumentMoniker": "Project\\DTOs\\News\\NewsDto.cs",
-              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\DTOs\\News\\NewsDto.cs",
-              "RelativeToolTip": "Project\\DTOs\\News\\NewsDto.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA/wAsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:47:37.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "News.cs",
               "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Models\\News.cs",
               "RelativeDocumentMoniker": "Project\\Models\\News.cs",
               "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Models\\News.cs",
               "RelativeToolTip": "Project\\Models\\News.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA9wBAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:47:34.958Z",
+              "WhenOpened": "2025-07-25T08:23:22.103Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NewsService.cs",
-              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Services\\NewsService.cs",
-              "RelativeDocumentMoniker": "Project\\Services\\NewsService.cs",
-              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Services\\NewsService.cs",
-              "RelativeToolTip": "Project\\Services\\NewsService.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAqwCwAAABEAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "Project\\Models\\Tag.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Models\\Tag.cs",
+              "RelativeToolTip": "Project\\Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T00:47:28.957Z",
+              "WhenOpened": "2025-07-25T08:23:18.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NewsCreateDto.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\DTOs\\News\\NewsCreateDto.cs",
+              "RelativeDocumentMoniker": "Project\\DTOs\\News\\NewsCreateDto.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\DTOs\\News\\NewsCreateDto.cs",
+              "RelativeToolTip": "Project\\DTOs\\News\\NewsCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:23:14.864Z",
               "EditorCaption": ""
             }
           ]

@@ -62,11 +62,15 @@ builder.Services.AddAuthentication(options =>
 //auto mapper
 builder.Services.AddAutoMapper(typeof(UserProfile));
 builder.Services.AddAutoMapper(typeof(NewsProfile));
+builder.Services.AddAutoMapper(typeof(TagsProfile));
+builder.Services.AddAutoMapper(typeof(CategoriesProfile));
 
 // di
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services.AddScoped<INewsService, NewsService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<ITagService, TagService>();
 
 builder.Services.AddCors(options =>
 {

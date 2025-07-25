@@ -2,12 +2,14 @@
 - đăng kí                                                                                      === done
 
 - Xem báo (ai cũng xem được)                                                                   === done
-- Search by title ( miễn là user thì đều làm đc) 
-- Thêm báo (chỉ mình journalist mới được thêm)                                                 === done
+- Search by title ( miễn là user thì đều làm đc)                                               === done
+- Thêm báo (chỉ mình journalist mới được thêm)                                                 === 
 - update báo (journalist có thể update toàn bộ thông tin, manager có thể disable)
 - Xoá báo (journalist và manager)
 - New detail (mọi ng)                                                                          === done
 - My new (journalist)
+- Tag được sử dụng nhiều nhất (bấm vào tag đấy là ra luôn all news có tag đấy) (user)
+- get news byty categori (all)
 
 - Update Role (Admin)
 - Create Role (admin)
@@ -19,7 +21,7 @@
 - Delete account , disavle ( admin )
 - View account (admin)
 
-- Tag được sử dụng nhiều nhất (bấm vào tag đấy là ra luôn all news có tag đấy) (user)
+
 - Create tag (enable từ request tag nữa ) (manager)
 - Request add new tag (jorunalist) (manager)
 - delete tag (manager)

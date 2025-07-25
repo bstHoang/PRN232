@@ -67,7 +67,31 @@ namespace Project_FontEnd.Services
         {
             _httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
             var content = new StringContent(JsonConvert.SerializeObject(model), Encoding.UTF8, "application/json");
-            return await _httpClient.PostAsync($"{_baseUrl}/news/createnew", content);
+            Console.WriteLine($"CreateNews request: Body={JsonConvert.SerializeObject(model)}");
+            var response = await _httpClient.PostAsync($"{_baseUrl}/news/createnew", content);
+            if (!response.IsSuccessStatusCode)
+            {
+                var responseContent = await response.Content.ReadAsStringAsync();
+                Console.WriteLine($"CreateNews failed: StatusCode={response.StatusCode}, Response={responseContent}");
+            }
+            return response;
+        }
+        // Get All Categories
+        public async Task<List<CategoryModel>> GetAllCategories()
+        {
+            var response = await _httpClient.GetAsync($"{_baseUrl}/Categories/GetAllCategories");
+            response.EnsureSuccessStatusCode();
+            var content = await response.Content.ReadAsStringAsync();
+            return JsonConvert.DeserializeObject<List<CategoryModel>>(content);
+        }
+
+        // Get All Tags
+        public async Task<List<TagModel>> GetAllTags()
+        {
+            var response = await _httpClient.GetAsync($"{_baseUrl}/Tags/GetAllTags");
+            response.EnsureSuccessStatusCode();
+            var content = await response.Content.ReadAsStringAsync();
+            return JsonConvert.DeserializeObject<List<TagModel>>(content);
         }
 
         // Get My News

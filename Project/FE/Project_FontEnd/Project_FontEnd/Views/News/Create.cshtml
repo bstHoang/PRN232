@@ -3,28 +3,58 @@
 
 <h2>Create News</h2>
 <form asp-action="Create" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
     <div class="mb-3">
-        <label class="form-label">Title</label>
+        <label asp-for="Title" class="form-label">Title</label>
         <input asp-for="Title" class="form-control" />
         <span asp-validation-for="Title" class="text-danger"></span>
     </div>
+
     <div class="mb-3">
-        <label class="form-label">Description</label>
-        <input asp-for="Description" class="form-control" />
+        <label asp-for="Description" class="form-label">Description</label>
+        <textarea asp-for="Description" class="form-control" rows="4"></textarea>
         <span asp-validation-for="Description" class="text-danger"></span>
     </div>
+
     <div class="mb-3">
-        <label class="form-label">Content</label>
-        <textarea asp-for="Content" class="form-control"></textarea>
+        <label asp-for="Content" class="form-label">Content</label>
+        <textarea asp-for="Content" class="form-control" rows="8"></textarea>
         <span asp-validation-for="Content" class="text-danger"></span>
     </div>
+
     <div class="mb-3">
-        <label class="form-label">Category ID</label>
-        <input asp-for="CategoryId" class="form-control" type="number" />
+        <label asp-for="CategoryId" class="form-label">Category</label>
+        <select asp-for="CategoryId" asp-items="@ViewBag.Categories" class="form-control">
+            <option value="">Select a category</option>
+        </select>
         <span asp-validation-for="CategoryId" class="text-danger"></span>
     </div>
+
+    <div class="mb-3">
+        <label asp-for="TagIds" class="form-label">Tags</label>
+        <select asp-for="TagIds" class="form-control select2" multiple="multiple" name="TagIds">
+            @foreach (var tag in ViewBag.Tags as List<Project_FontEnd.Models.TagModel>)
+            {
+                <option value="@tag.Id">@tag.Name</option>
+            }
+        </select>
+        <span asp-validation-for="TagIds" class="text-danger"></span>
+    </div>
+
     <button type="submit" class="btn btn-primary">Create</button>
 </form>
+
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.select2').select2({
+                placeholder: "Select tags",
+                allowClear: true
+            });
+        });
+    </script>
 }

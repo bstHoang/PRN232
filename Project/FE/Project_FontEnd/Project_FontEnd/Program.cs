@@ -1,6 +1,8 @@
-﻿using Project_FontEnd.Services;
-using Microsoft.AspNetCore.Authentication.Cookies;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
 using Newtonsoft.Json.Serialization;
+using Project_FontEnd.Services;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,6 +26,8 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.AccessDeniedPath = "/Account/AccessDenied";
     });
 
+JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
+JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Add("role", ClaimTypes.Role);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline

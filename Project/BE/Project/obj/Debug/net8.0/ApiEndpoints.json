@@ -64,6 +64,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Project.Controllers.CategoryController",
+    "Method": "GetAllCategories",
+    "RelativePath": "api/Categories/GetAllCategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Project.Controllers.NewsController",
     "Method": "Create",
     "RelativePath": "api/news/createnew",
@@ -166,6 +176,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.Controllers.TagController",
+    "Method": "GetAllTags",
+    "RelativePath": "api/Tags/GetAllTags",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

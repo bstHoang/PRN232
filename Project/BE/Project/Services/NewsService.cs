@@ -60,10 +60,27 @@ namespace Project.Services
 
             var news = _mapper.Map<News>(newsDto);
             news.CreateBy = userId;
+
+            if (newsDto.TagIds != null && newsDto.TagIds.Any())
+            {
+                foreach (var tagId in newsDto.TagIds)
+                {
+                    var tag = await _context.Tags.FindAsync(tagId);
+                    news.NewsTags.Add(new NewsTag
+                    {
+                        Id_Tags = tagId,
+                        Tag = tag,
+                        Id_News = news.Id 
+                    });
+                }
+            }
+
             _context.News.Add(news);
             await _context.SaveChangesAsync();
+
             return _mapper.Map<NewsDto>(news);
         }
+
 
         public async Task UpdateNewsAsync(int id, NewsUpdateDto newsDto, int userId, string role)
         {

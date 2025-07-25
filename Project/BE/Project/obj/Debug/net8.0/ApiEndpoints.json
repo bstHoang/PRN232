@@ -101,6 +101,16 @@
   },
   {
     "ContainingType": "Project.Controllers.NewsController",
+    "Method": "GetAllNewsForManager",
+    "RelativePath": "api/news/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.Controllers.NewsController",
     "Method": "Create",
     "RelativePath": "api/news/createnew",
     "HttpMethod": "POST",

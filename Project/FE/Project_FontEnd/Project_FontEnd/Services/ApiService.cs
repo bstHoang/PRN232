@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using Project_FontEnd.Models;
+using System.Net.Http.Headers;
 using System.Text;
 
 namespace Project_FontEnd.Services
@@ -111,10 +112,40 @@ namespace Project_FontEnd.Services
         // Get All Tags
         public async Task<List<TagModel>> GetAllTags()
         {
-            var response = await _httpClient.GetAsync($"{_baseUrl}/Tags/GetAllTags");
-            response.EnsureSuccessStatusCode();
-            var content = await response.Content.ReadAsStringAsync();
-            return JsonConvert.DeserializeObject<List<TagModel>>(content);
+            try
+            {
+                var response = await _httpClient.GetAsync($"{_baseUrl}/Tags/GetAllTags");
+                if (!response.IsSuccessStatusCode)
+                {
+                    var content1 = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine($"GetAllTags failed: StatusCode={response.StatusCode}, Response={content1}");
+                    return new List<TagModel>();
+                }
+
+                var content = await response.Content.ReadAsStringAsync();
+                var tags = JsonConvert.DeserializeObject<List<TagModel>>(content);
+                return tags ?? new List<TagModel>();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"GetAllTags error: {ex.Message}");
+                return new List<TagModel>();
+            }
+        }
+
+        public async Task<List<int>> GetTagIdsFromNames(List<string> tagNames)
+        {
+            var tags = await GetAllTags();
+            var tagIds = new List<int>();
+            foreach (var tagName in tagNames ?? new List<string>())
+            {
+                var tag = tags.Find(t => t.Name.Equals(tagName, StringComparison.OrdinalIgnoreCase));
+                if (tag != null)
+                {
+                    tagIds.Add(tag.Id);
+                }
+            }
+            return tagIds;
         }
 
         // Get My News
@@ -128,11 +159,18 @@ namespace Project_FontEnd.Services
         }
 
         // Update News
-        public async Task<HttpResponseMessage> UpdateNews(int id, CreateNewsModel model, string token)
+        public async Task<HttpResponseMessage> UpdateNews(int id, object model, string token)
         {
             _httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
             var content = new StringContent(JsonConvert.SerializeObject(model), Encoding.UTF8, "application/json");
-            return await _httpClient.PutAsync($"{_baseUrl}/news/updatenew/{id}", content);
+            Console.WriteLine($"UpdateNews request: ID={id}, Body={JsonConvert.SerializeObject(model)}");
+            var response = await _httpClient.PutAsync($"{_baseUrl}/news/updatenew/{id}", content);
+            if (!response.IsSuccessStatusCode)
+            {
+                var responseContent = await response.Content.ReadAsStringAsync();
+                Console.WriteLine($"UpdateNews failed: StatusCode={response.StatusCode}, Response={responseContent}");
+            }
+            return response;
         }
 
         // Delete News
@@ -188,6 +226,15 @@ namespace Project_FontEnd.Services
                 Console.WriteLine($"GetUserById error: UserId={userId}, Message={ex.Message}");
                 return new UserModel { Id = userId, Username = "Unknown" };
             }
+        }
+
+        public async Task<List<NewsModel>> GetAllNewsForManager(string token , string? title = null)
+        {
+            _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            var response = await _httpClient.GetAsync($"{_baseUrl}/news/all");
+            response.EnsureSuccessStatusCode();
+            var content = await response.Content.ReadAsStringAsync();
+            return JsonConvert.DeserializeObject<List<NewsModel>>(content);
         }
 
     }

@@ -14,10 +14,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <form class="d-flex ms-auto" asp-controller="Home" asp-action="Index" method="get">
-                    <input class="form-control me-2" type="search" name="title" placeholder="Search news..." aria-label="Search" />
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                
                 <ul class="navbar-nav ms-auto">
                     @if (User.Identity.IsAuthenticated)
                     {
@@ -25,12 +22,21 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 @User.Identity.Name
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                @* Nếu là nhà báo *@
                                 @if (User.IsInRole("JOURNALIST"))
                                 {
                                     <li><a class="dropdown-item" asp-controller="News" asp-action="MyNews">My News</a></li>
                                     <li><a class="dropdown-item" asp-controller="News" asp-action="Create">Create News</a></li>
                                 }
+
+                                @* Nếu là quản lý *@
+                                @if (User.IsInRole("MANAGER"))
+                                {
+                                    <li><a class="dropdown-item" asp-controller="News" asp-action="Manage">News Management</a></li>
+                                }
+
+                                <li><hr class="dropdown-divider" /></li>
                                 <li><a class="dropdown-item" asp-controller="Account" asp-action="Logout">Logout</a></li>
                             </ul>
                         </li>

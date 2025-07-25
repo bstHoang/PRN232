@@ -19,7 +19,8 @@ namespace Project.Mapper
             CreateMap<NewsUpdateDto, News>()
                 .ForMember(dest => dest.Id, opt => opt.Ignore())
                 .ForMember(dest => dest.CreatedAt, opt => opt.Ignore())
-                .ForMember(dest => dest.CreateBy, opt => opt.Ignore());
+                .ForMember(dest => dest.CreateBy, opt => opt.Ignore())
+                .ForMember(dest => dest.NewsTags, opt => opt.Ignore());
         }
     }
 }

@@ -3,22 +3,23 @@
 
 - Xem báo (ai cũng xem được)                                                                   === done
 - Search by title ( miễn là user thì đều làm đc)                                               === done
-- Thêm báo (chỉ mình journalist mới được thêm)                                                 === 
-- update báo (journalist có thể update toàn bộ thông tin, manager có thể disable)
-- Xoá báo (journalist và manager)
+- Thêm báo (chỉ mình journalist mới được thêm)                                                 === done
+- update báo (journalist có thể update toàn bộ thông tin, manager có thể disable)              === done
+- Xoá báo (journalist và manager)                                                              === done
 - New detail (mọi ng)                                                                          === done
-- My new (journalist)
+- My new (journalist)                                                                          === done
 - Tag được sử dụng nhiều nhất (bấm vào tag đấy là ra luôn all news có tag đấy) (user)
-- get news byty categori (all)
+- get news by categori (all)
 
 - Update Role (Admin)
 - Create Role (admin)
 - Delete Role (admin)
 - View Role (Admin)
+- Request role
 
 - Create account (admin)
 - Update account (admin)
-- Delete account , disavle ( admin )
+- Delete account , disable ( admin )
 - View account (admin)
 
 
@@ -32,6 +33,7 @@
 - Update Category (manager)
 - view categiry (manager)
 - delete category (manager)
+- Request category
 
 
 {

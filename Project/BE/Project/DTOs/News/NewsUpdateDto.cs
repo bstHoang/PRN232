@@ -7,5 +7,6 @@
         public string Content { get; set; }
         public int CategoryId { get; set; }
         public bool Disable { get; set; }
+        public List<int> TagIds { get; set; } = new List<int>();
     }
 }

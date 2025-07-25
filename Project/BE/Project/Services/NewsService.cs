@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Project.DTOs.News;
 using Project.Interfaces;
 using Project.Models;
+using System.Security.Claims;
 
 namespace Project.Services
 {
@@ -37,12 +38,16 @@ namespace Project.Services
             return _mapper.Map<IEnumerable<NewsDto>>(news);
         }
 
-        public async Task<NewsDto> GetNewsByIdAsync(int id)
+        public async Task<NewsDto> GetNewsByIdAsync(int id, ClaimsPrincipal user)
         {
-            var news = await _context.News
+            var isManager = user.IsInRole("MANAGER");
+
+            var query = _context.News
                 .Include(n => n.NewsTags)
                     .ThenInclude(nt => nt.Tag)
-                .FirstOrDefaultAsync(n => n.Id == id && !n.Disable);
+                .AsQueryable();
+
+            var news = await query.FirstOrDefaultAsync(n => n.Id == id);
 
             if (news == null)
                 throw new Exception("News not found.");
@@ -51,6 +56,7 @@ namespace Project.Services
             Console.WriteLine($"NewsService.GetNewsByIdAsync - Id: {id}, Found Tags: {string.Join(", ", newsDto.Tags)}");
             return newsDto;
         }
+
 
         public async Task<NewsDto> CreateNewsAsync(NewsCreateDto newsDto, int userId)
         {
@@ -84,28 +90,75 @@ namespace Project.Services
 
         public async Task UpdateNewsAsync(int id, NewsUpdateDto newsDto, int userId, string role)
         {
-            var news = await _context.News.FirstOrDefaultAsync(n => n.Id == id);
+            var news = await _context.News
+                .Include(n => n.NewsTags)
+                .FirstOrDefaultAsync(n => n.Id == id);
             if (news == null)
+            {
+                Console.WriteLine($"NewsService.UpdateNewsAsync - News with Id {id} not found");
                 throw new Exception("News not found.");
+            }
 
             var user = await _userManager.FindByIdAsync(userId.ToString());
             if (user == null)
+            {
+                Console.WriteLine($"NewsService.UpdateNewsAsync - User with Id {userId} not found");
                 throw new Exception("User not found.");
+            }
 
             if (role == "MANAGER")
             {
-                news.Disable = newsDto.Disable; // Manager chỉ cần cập nhật Disable
+                news.Disable = newsDto.Disable; // Manager only updates Disable
+                Console.WriteLine($"NewsService.UpdateNewsAsync - Manager updated Disable to {newsDto.Disable} for News Id {id}");
             }
             else if (role == "JOURNALIST" && news.CreateBy == userId)
             {
-                _mapper.Map(newsDto, news); // Journalist cập nhật toàn bộ thông tin
+                _mapper.Map(newsDto, news); // Update Title, Description, Content, CategoryId, Disable
+
+                // Validate CategoryId
+                var category = await _context.Categories.FindAsync(newsDto.CategoryId);
+                if (category == null)
+                {
+                    Console.WriteLine($"NewsService.UpdateNewsAsync - Category with Id {newsDto.CategoryId} not found");
+                    throw new Exception($"Category with Id {newsDto.CategoryId} not found.");
+                }
+
+                // Update NewsTags
+                var existingTagIds = news.NewsTags.Select(nt => nt.Id_Tags).ToList();
+                var newTagIds = newsDto.TagIds ?? new List<int>();
+                Console.WriteLine($"NewsService.UpdateNewsAsync - Existing Tags: {string.Join(", ", existingTagIds)}, New Tags: {string.Join(", ", newTagIds)}");
+
+                // Validate new TagIds
+                var validTagIds = await _context.Tags
+                    .Where(t => newTagIds.Contains(t.Id))
+                    .Select(t => t.Id)
+                    .ToListAsync();
+                if (validTagIds.Count != newTagIds.Count)
+                {
+                    var invalidTagIds = newTagIds.Except(validTagIds).ToList();
+                    Console.WriteLine($"NewsService.UpdateNewsAsync - Invalid TagIds: {string.Join(", ", invalidTagIds)}");
+                    throw new Exception($"Invalid TagIds: {string.Join(", ", invalidTagIds)}");
+                }
+
+                // Remove old NewsTags
+                var tagsToRemove = news.NewsTags.Where(nt => !newTagIds.Contains(nt.Id_Tags)).ToList();
+                _context.NewsTags.RemoveRange(tagsToRemove);
+
+                // Add new NewsTags
+                var tagsToAdd = newTagIds
+                    .Where(tagId => !existingTagIds.Contains(tagId))
+                    .Select(tagId => new NewsTag { Id_News = id, Id_Tags = tagId })
+                    .ToList();
+                _context.NewsTags.AddRange(tagsToAdd);
             }
             else
             {
+                Console.WriteLine($"NewsService.UpdateNewsAsync - Unauthorized: UserId {userId}, Role {role}, CreateBy {news.CreateBy}");
                 throw new Exception("Unauthorized to update this news.");
             }
 
             await _context.SaveChangesAsync();
+            Console.WriteLine($"NewsService.UpdateNewsAsync - News Id {id} updated successfully");
         }
 
         public async Task DeleteNewsAsync(int id, int userId, string role)
@@ -143,5 +196,17 @@ namespace Project.Services
             Console.WriteLine($"SearchNewsByTitleAsync - Found {news.Count} news with title containing: {title}");
             return _mapper.Map<IEnumerable<NewsDto>>(news);
         }
+
+        public async Task<IEnumerable<NewsDto>> GetAllNewsForManagerAsync()
+        {
+            var news = await _context.News
+                .Include(n => n.NewsTags)
+                .ThenInclude(nt => nt.Tag)
+                .Include(n => n.CreatedBy)
+                .ToListAsync(); // không lọc Disable
+
+            return _mapper.Map<IEnumerable<NewsDto>>(news);
+        }
+
     }
 }

@@ -38,7 +38,7 @@ namespace Project.Controllers
         [Route("api/news/getnew/{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var news = await _newsService.GetNewsByIdAsync(id);
+            var news = await _newsService.GetNewsByIdAsync(id, User);
             return Ok(news);
         }
 
@@ -57,10 +57,26 @@ namespace Project.Controllers
         [Route("api/news/updatenew/{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] NewsUpdateDto newsDto)
         {
-            var userId = int.Parse(User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value);
-            var role = User.FindFirst("RoleId")?.Value == "3" ? "MANAGER" : "JOURNALIST";
-            await _newsService.UpdateNewsAsync(id, newsDto, userId, role);
-            return Ok("update succesfull");
+            Console.WriteLine($"NewsController.Update - Updating news with Id: {id}");
+
+            var userIdClaim = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            if (!int.TryParse(userIdClaim, out var userId))
+            {
+                return BadRequest("Invalid user ID.");
+            }
+
+            var role = User.FindFirst(System.Security.Claims.ClaimTypes.Role)?.Value;
+
+            try
+            {
+                await _newsService.UpdateNewsAsync(id, newsDto, userId, role);
+
+                return Ok(new { message = "News updated successfully." });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
 
         [HttpDelete]
@@ -69,7 +85,7 @@ namespace Project.Controllers
         public async Task<IActionResult> Delete(int id)
         {
             var userId = int.Parse(User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value);
-            var role = User.FindFirst("RoleId")?.Value == "3" ? "MANAGER" : "JOURNALIST";
+            var role = User.FindFirst(System.Security.Claims.ClaimTypes.Role)?.Value; // <== Lấy từ claim "role" đúng như JWT
             await _newsService.DeleteNewsAsync(id, userId, role);
             return NoContent();
         }
@@ -83,5 +99,15 @@ namespace Project.Controllers
             var news = await _newsService.SearchNewsByTitleAsync(title);
             return Ok(news);
         }
+
+        [HttpGet]
+        [Authorize(Roles = "MANAGER")]
+        [Route("api/news/all")]
+        public async Task<IActionResult> GetAllNewsForManager()
+        {
+            var news = await _newsService.GetAllNewsForManagerAsync();
+            return Ok(news);
+        }
+
     }
 }

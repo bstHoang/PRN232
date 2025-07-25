@@ -1905,6 +1905,18 @@
         }
       }
     },
+    "/api/news/all": {
+      "get": {
+        "tags": [
+          "News"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Tags/GetAllTags": {
       "get": {
         "tags": [
@@ -2268,6 +2280,14 @@
           },
           "disable": {
             "type": "boolean"
+          },
+          "tagIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false

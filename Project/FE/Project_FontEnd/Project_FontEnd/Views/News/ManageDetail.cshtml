@@ -1,0 +1,32 @@
+﻿@model Project_FontEnd.Models.NewsModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Edit Disable Status";
+}
+
+<h2>Edit Disable Status</h2>
+
+<form asp-action="ManageDetail" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label class="form-label">Title</label>
+        <input class="form-control" asp-for="Title" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Description</label>
+        <textarea class="form-control" asp-for="Description" readonly></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Disable</label>
+        <select class="form-select" asp-for="Disable">
+            <option value="false">Enabled</option>
+            <option value="true">Disabled</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Manage" class="btn btn-secondary">Back</a>
+</form>

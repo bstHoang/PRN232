@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
 using Project_FontEnd.Models;
 using Project_FontEnd.Services;
+using System.Security.Claims;
 
 namespace Project_FontEnd.Controllers
 {
@@ -130,35 +131,155 @@ namespace Project_FontEnd.Controllers
             return View(news);
         }
 
-        // Update News
-        [Authorize(Roles = "JOURNALIST,MANAGER")]
+        [Authorize(Roles = "JOURNALIST, MANAGER")]
+        [HttpGet]
         public async Task<IActionResult> Update(int id)
         {
             var news = await _apiService.GetNewsById(id);
-            var model = new CreateNewsModel
+            if (news == null)
             {
+                return NotFound();
+            }
+
+            if (User.IsInRole("JOURNALIST"))
+            {
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                if (news.CreateBy.ToString() != userId)
+                {
+                    return Forbid();
+                }
+            }
+
+            var tagIds = await _apiService.GetTagIdsFromNames(news.Tags);
+            var model = new UpdateNewsModel
+            {
+                Id = news.Id,
                 Title = news.Title,
                 Description = news.Description,
                 Content = news.Content,
-                CategoryId = news.CategoryId
+                CategoryId = news.CategoryId,
+                TagIds = tagIds,
+                Disable = news.Disable
             };
+
+            var categories = await _apiService.GetAllCategories() ?? new List<CategoryModel>();
+            var tags = await _apiService.GetAllTags() ?? new List<TagModel>();
+            ViewBag.Categories = new SelectList(categories, "Id", "Name");
+            ViewBag.Tags = tags;
             return View(model);
         }
 
+        [Authorize(Roles = "JOURNALIST, MANAGER")]
         [HttpPost]
-        [Authorize(Roles = "JOURNALIST,MANAGER")]
-        public async Task<IActionResult> Update(int id, CreateNewsModel model)
+        public async Task<IActionResult> Update(int id, UpdateNewsModel model)
         {
-            if (!ModelState.IsValid) return View(model);
-            var token = HttpContext.Session.GetString("Token");
-            var response = await _apiService.UpdateNews(id, model, token);
-            if (response.IsSuccessStatusCode)
+            // Bỏ qua validation cho MANAGER
+            if (User.IsInRole("MANAGER"))
             {
-                return RedirectToAction("Index", "Home");
+                ModelState.Clear();
+                ModelState.AddModelError("", "");
             }
-            ModelState.AddModelError("", "Failed to update news.");
-            return View(model);
+            // Chỉ kiểm tra validation cho JOURNALIST
+            else if (!ModelState.IsValid)
+            {
+                var categories = await _apiService.GetAllCategories() ?? new List<CategoryModel>();
+                var tags = await _apiService.GetAllTags() ?? new List<TagModel>();
+                ViewBag.Categories = new SelectList(categories, "Id", "Name");
+                ViewBag.Tags = tags;
+                return View(model);
+            }
+
+            var token = HttpContext.Session.GetString("Token");
+            if (string.IsNullOrEmpty(token))
+            {
+                ModelState.AddModelError("", "Please login again.");
+                var categories = await _apiService.GetAllCategories() ?? new List<CategoryModel>();
+                var tags = await _apiService.GetAllTags() ?? new List<TagModel>();
+                ViewBag.Categories = new SelectList(categories, "Id", "Name");
+                ViewBag.Tags = tags;
+                return View(model);
+            }
+
+            var news = await _apiService.GetNewsById(id);
+            if (news == null)
+            {
+                return NotFound();
+            }
+
+            if (User.IsInRole("JOURNALIST"))
+            {
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                if (news.CreateBy.ToString() != userId)
+                {
+                    return Forbid();
+                }
+
+                var journalistModel = new UpdateNewsModel
+                {
+                    Title = model.Title,
+                    Description = model.Description,
+                    Content = model.Content,
+                    CategoryId = model.CategoryId,
+                    TagIds = model.TagIds
+                };
+
+                var response = await _apiService.UpdateNews(id, journalistModel, token);
+                if (response.IsSuccessStatusCode)
+                {
+                    TempData["SuccessMessage"] = "Cập nhật bài viết thành công."; // ✅ Thêm thông báo
+                    return RedirectToAction("MyNews");
+                }
+
+                var errorContent = await response.Content.ReadAsStringAsync();
+                try
+                {
+                    var errorObj = JsonConvert.DeserializeObject<dynamic>(errorContent);
+                    var errorMessage = errorObj?.message?.ToString() ?? $"Failed to update news: HTTP {response.StatusCode}";
+                    ModelState.AddModelError("", errorMessage);
+                }
+                catch
+                {
+                    ModelState.AddModelError("", $"Failed to update news: HTTP {response.StatusCode}");
+                }
+
+                var categoriesReload = await _apiService.GetAllCategories() ?? new List<CategoryModel>();
+                var tagsReload = await _apiService.GetAllTags() ?? new List<TagModel>();
+                ViewBag.Categories = new SelectList(categoriesReload, "Id", "Name");
+                ViewBag.Tags = tagsReload;
+                return View(model);
+            }
+            else if (User.IsInRole("MANAGER"))
+            {
+                var managerModel = new UpdateNewsModel { Disable = model.Disable };
+                var response = await _apiService.UpdateNews(id, managerModel, token);
+                if (response.IsSuccessStatusCode)
+                {
+                    TempData["SuccessMessage"] = "Cập nhật trạng thái thành công."; // ✅ Thêm thông báo
+                    return RedirectToAction("Index", "Home");
+                }
+
+                var errorContent = await response.Content.ReadAsStringAsync();
+                try
+                {
+                    var errorObj = JsonConvert.DeserializeObject<dynamic>(errorContent);
+                    var errorMessage = errorObj?.message?.ToString() ?? $"Failed to update news: HTTP {response.StatusCode}";
+                    ModelState.AddModelError("", errorMessage);
+                }
+                catch
+                {
+                    ModelState.AddModelError("", $"Failed to update news: HTTP {response.StatusCode}");
+                }
+
+                var categoriesReload = await _apiService.GetAllCategories() ?? new List<CategoryModel>();
+                var tagsReload = await _apiService.GetAllTags() ?? new List<TagModel>();
+                ViewBag.Categories = new SelectList(categoriesReload, "Id", "Name");
+                ViewBag.Tags = tagsReload;
+                return View(model);
+            }
+
+            return Forbid();
         }
+
 
         // Delete News
         [Authorize(Roles = "JOURNALIST,MANAGER")]
@@ -173,6 +294,18 @@ namespace Project_FontEnd.Controllers
             return BadRequest("Failed to delete news.");
         }
 
+        [Authorize(Roles = "JOURNALIST,MANAGER")]
+        public async Task<IActionResult> DeleteManage(int id)
+        {
+            var token = HttpContext.Session.GetString("Token");
+            var response = await _apiService.DeleteNews(id, token);
+            if (response.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Manage", "News");
+            }
+            return BadRequest("Failed to delete news.");
+        }
+
         // Details
         [AllowAnonymous]
         public async Task<IActionResult> Details(int id)
@@ -180,5 +313,53 @@ namespace Project_FontEnd.Controllers
             var news = await _apiService.GetNewsById(id);
             return View(news);
         }
+
+        [Authorize(Roles = "MANAGER")]
+        public async Task<IActionResult> Manage(string? title) 
+        {
+            var token = HttpContext.Session.GetString("Token");
+            if (string.IsNullOrEmpty(token))
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            var newsList = await _apiService.GetAllNewsForManager(token, title);
+            var newsList1 = string.IsNullOrEmpty(title) ? await _apiService.GetAllNewsForManager(token , title) : await _apiService.SearchNews(title);
+            return View(newsList1);
+        }
+
+
+        [Authorize(Roles = "MANAGER")]
+        [HttpGet]
+        public async Task<IActionResult> ManageDetail(int id)
+        {
+            var news = await _apiService.GetNewsById(id);
+            return View(news);
+        }
+
+        [Authorize(Roles = "MANAGER")]
+        [HttpPost]
+        public async Task<IActionResult> ManageDetail(NewsModel model)
+        {
+            var token = HttpContext.Session.GetString("Token");
+
+            var updateData = new
+            {
+                disable = model.Disable
+            };
+
+            var response = await _apiService.UpdateNews(model.Id, updateData, token);
+            if (response.IsSuccessStatusCode)
+            {
+                TempData["Success"] = "Update successful";
+                return RedirectToAction("Manage");
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, "Failed to update news");
+                return View(model);
+            }
+        }
+       
     }
 }   

@@ -8,9 +8,25 @@
         <div class="col-md-4 mb-3">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">@news.Title</h5>
+                    <h5 class="card-title">
+                        @news.Title
+                        @if (news.Disable)
+                        {
+                            <span class="text-danger">(disabled)</span>
+                        }
+                    </h5>
                     <p class="card-text">@news.Description</p>
-                    <a asp-controller="News" asp-action="Details" asp-route-id="@news.Id" class="btn btn-primary">Read More</a>
+
+                    @if (news.Disable)
+                    {
+                        <!-- Nút xem bị disable -->
+                        <button class="btn btn-secondary" onclick="showDisabledAlert()">Read More</button>
+                    }
+                    else
+                    {
+                        <a asp-controller="News" asp-action="Details" asp-route-id="@news.Id" class="btn btn-primary">Read More</a>
+                    }
+
                     <a asp-controller="News" asp-action="Update" asp-route-id="@news.Id" class="btn btn-warning">Edit</a>
                     <a asp-controller="News" asp-action="Delete" asp-route-id="@news.Id" class="btn btn-danger">Delete</a>
                 </div>
@@ -18,3 +34,12 @@
         </div>
     }
 </div>
+
+<!-- Popup alert -->
+@section Scripts {
+    <script>
+        function showDisabledAlert() {
+            alert("News has been disabled.");
+        }
+    </script>
+}

@@ -237,5 +237,14 @@ namespace Project_FontEnd.Services
             return JsonConvert.DeserializeObject<List<NewsModel>>(content);
         }
 
+        public async Task<List<NewsModel>> GetNewsByCategoryId(int categoryId)
+        {
+            var response = await _httpClient.GetAsync($"{_baseUrl}/news/bycategoryid/{categoryId}");
+            if (!response.IsSuccessStatusCode) return new List<NewsModel>();
+
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonConvert.DeserializeObject<List<NewsModel>>(json);
+        }
+
     }
 }

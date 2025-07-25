@@ -13,5 +13,6 @@ namespace Project.Interfaces
         Task DeleteNewsAsync(int id, int userId, string role);
         Task<IEnumerable<NewsDto>> SearchNewsByTitleAsync(string title);
         Task<IEnumerable<NewsDto>> GetAllNewsForManagerAsync();
+        Task<IEnumerable<NewsDto>> GetNewsByCategoryAsync(int categoryId);
     }
 }

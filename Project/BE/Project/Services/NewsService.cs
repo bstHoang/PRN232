@@ -25,7 +25,7 @@ namespace Project.Services
         public async Task<IEnumerable<NewsDto>> GetAllNewsAsync()
         {
             var news = await _context.News
-                .Where(n => !n.Disable)
+                .Where(n => !n.Disable).OrderByDescending(n => n.CreatedAt)
                 .ToListAsync();
             return _mapper.Map<IEnumerable<NewsDto>>(news);
         }
@@ -33,7 +33,7 @@ namespace Project.Services
         public async Task<IEnumerable<NewsDto>> GetNewsByJournalistAsync(int userId)
         {
             var news = await _context.News
-                .Where(n => n.CreateBy == userId)
+                .Where(n => n.CreateBy == userId).OrderByDescending(n => n.CreatedAt)
                 .ToListAsync();
             return _mapper.Map<IEnumerable<NewsDto>>(news);
         }
@@ -44,7 +44,7 @@ namespace Project.Services
 
             var query = _context.News
                 .Include(n => n.NewsTags)
-                    .ThenInclude(nt => nt.Tag)
+                    .ThenInclude(nt => nt.Tag).OrderByDescending(n => n.CreatedAt)
                 .AsQueryable();
 
             var news = await query.FirstOrDefaultAsync(n => n.Id == id);
@@ -191,7 +191,7 @@ namespace Project.Services
             }
 
             var news = await _context.News
-                .Where(n => !n.Disable && n.Title.Contains(title))
+                .Where(n => !n.Disable && n.Title.Contains(title)).OrderByDescending(n => n.CreatedAt)
                 .ToListAsync();
             Console.WriteLine($"SearchNewsByTitleAsync - Found {news.Count} news with title containing: {title}");
             return _mapper.Map<IEnumerable<NewsDto>>(news);
@@ -202,11 +202,20 @@ namespace Project.Services
             var news = await _context.News
                 .Include(n => n.NewsTags)
                 .ThenInclude(nt => nt.Tag)
-                .Include(n => n.CreatedBy)
+                .Include(n => n.CreatedBy).OrderByDescending(n => n.CreatedAt)
                 .ToListAsync(); // không lọc Disable
 
             return _mapper.Map<IEnumerable<NewsDto>>(news);
         }
 
+        public async Task<IEnumerable<NewsDto>> GetNewsByCategoryAsync(int categoryId)
+        {
+            var news = await _context.News
+                .Where(n => n.CategoryId == categoryId && !n.Disable)
+                .OrderByDescending(n => n.CreatedAt)
+                .ToListAsync();
+
+            return _mapper.Map<IEnumerable<NewsDto>>(news);
+        }
     }
 }

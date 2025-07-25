@@ -111,6 +111,22 @@
   },
   {
     "ContainingType": "Project.Controllers.NewsController",
+    "Method": "NewsByCategory",
+    "RelativePath": "api/news/bycategoryid/{categoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.Controllers.NewsController",
     "Method": "Create",
     "RelativePath": "api/news/createnew",
     "HttpMethod": "POST",

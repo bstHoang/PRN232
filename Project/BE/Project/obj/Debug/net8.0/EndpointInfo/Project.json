@@ -1917,6 +1917,29 @@
         }
       }
     },
+    "/api/news/bycategoryid/{categoryId}": {
+      "get": {
+        "tags": [
+          "News"
+        ],
+        "parameters": [
+          {
+            "name": "categoryId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Tags/GetAllTags": {
       "get": {
         "tags": [

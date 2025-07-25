@@ -3,16 +3,19 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OData.Query;
 using Project.DTOs.News;
 using Project.Interfaces;
+using Project.Services;
 
 namespace Project.Controllers
 {
     public class NewsController : Controller
     {
         private readonly INewsService _newsService;
+        private readonly ICategoryService _categoryService;
 
-        public NewsController(INewsService newsService)
+        public NewsController(INewsService newsService , ICategoryService categoryService)
         {
             _newsService = newsService;
+            _categoryService =  categoryService; 
         }
 
         [HttpGet]
@@ -109,5 +112,14 @@ namespace Project.Controllers
             return Ok(news);
         }
 
+        [HttpGet]
+        [AllowAnonymous]
+        [Route("api/news/bycategoryid/{categoryId}")]
+        public async Task<IActionResult> NewsByCategory(int categoryId)
+        {
+            var news = await _newsService.GetNewsByCategoryAsync(categoryId);
+            ViewBag.Categories = await _categoryService.GetAllCategoriesAsync();
+            return Ok(news);
+        }
     }
 }

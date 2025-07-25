@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\PRN232\\Project\\BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\interfaces\\inewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -32,33 +32,33 @@
               "RelativeDocumentMoniker": "Project\\Interfaces\\INewsService.cs",
               "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Interfaces\\INewsService.cs",
               "RelativeToolTip": "Project\\Interfaces\\INewsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T12:35:18.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "NewsService.cs",
               "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Services\\NewsService.cs",
               "RelativeDocumentMoniker": "Project\\Services\\NewsService.cs",
-              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Services\\NewsService.cs*",
-              "RelativeToolTip": "Project\\Services\\NewsService.cs*",
-              "ViewState": "AgIAACUAAAAAAAAAAAArwDEAAAAKAAAAAAAAAA==",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Services\\NewsService.cs",
+              "RelativeToolTip": "Project\\Services\\NewsService.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAIwNoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T08:17:09.488Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "NewsController.cs",
               "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Controllers\\NewsController.cs",
               "RelativeDocumentMoniker": "Project\\Controllers\\NewsController.cs",
-              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Controllers\\NewsController.cs",
-              "RelativeToolTip": "Project\\Controllers\\NewsController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAswCgAAAAwAAAAAAAAAA==",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Controllers\\NewsController.cs*",
+              "RelativeToolTip": "Project\\Controllers\\NewsController.cs*",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAEwHkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T08:55:41.479Z",
               "EditorCaption": ""

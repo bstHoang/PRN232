@@ -53,16 +53,16 @@ namespace Project.Controllers
         }
         [HttpPost]
         [Route("api/auth/resendcode")]
-        public async Task<IActionResult> ResendCode([FromBody] string email)
+        public async Task<IActionResult> ResendCode([FromBody] EmailRequest request)
         {
-            if (string.IsNullOrEmpty(email))
+            if (string.IsNullOrEmpty(request.Email))
             {
                 return BadRequest(new { Message = "Email is required." });
             }
 
             try
             {
-                await _userService.ResendCodeAsync(email);
+                await _userService.ResendCodeAsync(request.Email);
                 return Ok(new { Message = "Verification code resent to email." });
             }
             catch (Exception ex)
@@ -70,6 +70,7 @@ namespace Project.Controllers
                 return BadRequest(new { Message = ex.Message });
             }
         }
+
         [HttpPost]
         [Route("api/auth/login")]
         public async Task<IActionResult> Login([FromBody] LoginDto loginDto)

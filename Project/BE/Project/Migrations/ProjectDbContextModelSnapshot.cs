@@ -125,6 +125,28 @@ namespace Project.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("NewsTag", b =>
+                {
+                    b.Property<int>("Id_Tags")
+                        .HasColumnType("int")
+                        .HasColumnName("Id_Tags");
+
+                    b.Property<int>("Id_News")
+                        .HasColumnType("int")
+                        .HasColumnName("Id_News");
+
+                    b.Property<int?>("NewsId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id_Tags", "Id_News");
+
+                    b.HasIndex("Id_News");
+
+                    b.HasIndex("NewsId");
+
+                    b.ToTable("NewsTags", (string)null);
+                });
+
             modelBuilder.Entity("Project.Models.ApplicationRole", b =>
                 {
                     b.Property<int>("Id")
@@ -300,23 +322,6 @@ namespace Project.Migrations
                     b.ToTable("News", (string)null);
                 });
 
-            modelBuilder.Entity("Project.Models.NewsTag", b =>
-                {
-                    b.Property<int>("Id_Tags")
-                        .HasColumnType("int")
-                        .HasColumnName("Id_Tags");
-
-                    b.Property<int>("Id_News")
-                        .HasColumnType("int")
-                        .HasColumnName("Id_News");
-
-                    b.HasKey("Id_Tags", "Id_News");
-
-                    b.HasIndex("Id_News");
-
-                    b.ToTable("NewsTags", (string)null);
-                });
-
             modelBuilder.Entity("Project.Models.Tag", b =>
                 {
                     b.Property<int>("Id")
@@ -387,6 +392,29 @@ namespace Project.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("NewsTag", b =>
+                {
+                    b.HasOne("Project.Models.News", "News")
+                        .WithMany()
+                        .HasForeignKey("Id_News")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Project.Models.Tag", "Tag")
+                        .WithMany()
+                        .HasForeignKey("Id_Tags")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Project.Models.News", null)
+                        .WithMany("NewsTags")
+                        .HasForeignKey("NewsId");
+
+                    b.Navigation("News");
+
+                    b.Navigation("Tag");
+                });
+
             modelBuilder.Entity("Project.Models.News", b =>
                 {
                     b.HasOne("Project.Models.Category", "Category")
@@ -406,23 +434,9 @@ namespace Project.Migrations
                     b.Navigation("CreatedBy");
                 });
 
-            modelBuilder.Entity("Project.Models.NewsTag", b =>
+            modelBuilder.Entity("Project.Models.News", b =>
                 {
-                    b.HasOne("Project.Models.News", "News")
-                        .WithMany()
-                        .HasForeignKey("Id_News")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Project.Models.Tag", "Tag")
-                        .WithMany()
-                        .HasForeignKey("Id_Tags")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("News");
-
-                    b.Navigation("Tag");
+                    b.Navigation("NewsTags");
                 });
 #pragma warning restore 612, 618
         }

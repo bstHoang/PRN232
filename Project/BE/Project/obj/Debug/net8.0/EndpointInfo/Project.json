@@ -446,202 +446,202 @@
           "content": {
             "application/json;odata.metadata=minimal;odata.streaming=true": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=minimal;odata.streaming=false": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=minimal": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=full;odata.streaming=true": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=full;odata.streaming=false": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=full": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=none;odata.streaming=true": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=none;odata.streaming=false": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=none": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.streaming=true": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.streaming=false": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=minimal;odata.streaming=true;IEEE754Compatible=false": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=minimal;odata.streaming=true;IEEE754Compatible=true": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=minimal;odata.streaming=false;IEEE754Compatible=false": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=minimal;odata.streaming=false;IEEE754Compatible=true": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=minimal;IEEE754Compatible=false": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=minimal;IEEE754Compatible=true": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=full;odata.streaming=true;IEEE754Compatible=false": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=full;odata.streaming=true;IEEE754Compatible=true": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=full;odata.streaming=false;IEEE754Compatible=false": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=full;odata.streaming=false;IEEE754Compatible=true": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=full;IEEE754Compatible=false": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=full;IEEE754Compatible=true": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=none;odata.streaming=true;IEEE754Compatible=false": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=none;odata.streaming=true;IEEE754Compatible=true": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=none;odata.streaming=false;IEEE754Compatible=true": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=none;odata.streaming=false;IEEE754Compatible=false": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=none;IEEE754Compatible=false": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.metadata=none;IEEE754Compatible=true": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.streaming=true;IEEE754Compatible=false": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.streaming=true;IEEE754Compatible=true": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.streaming=false;IEEE754Compatible=false": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;odata.streaming=false;IEEE754Compatible=true": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;IEEE754Compatible=false": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/json;IEEE754Compatible=true": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/xml": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "text/plain": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "text/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/EmailRequest"
               }
             }
           }
@@ -1932,6 +1932,16 @@
         ],
         "type": "integer",
         "format": "int32"
+      },
+      "EmailRequest": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
       },
       "IEdmDirectValueAnnotationsManager": {
         "type": "object",

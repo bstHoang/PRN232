@@ -40,10 +40,16 @@ namespace Project.Services
         public async Task<NewsDto> GetNewsByIdAsync(int id)
         {
             var news = await _context.News
+                .Include(n => n.NewsTags)
+                    .ThenInclude(nt => nt.Tag)
                 .FirstOrDefaultAsync(n => n.Id == id && !n.Disable);
+
             if (news == null)
                 throw new Exception("News not found.");
-            return _mapper.Map<NewsDto>(news);
+
+            var newsDto = _mapper.Map<NewsDto>(news);
+            Console.WriteLine($"NewsService.GetNewsByIdAsync - Id: {id}, Found Tags: {string.Join(", ", newsDto.Tags)}");
+            return newsDto;
         }
 
         public async Task<NewsDto> CreateNewsAsync(NewsCreateDto newsDto, int userId)

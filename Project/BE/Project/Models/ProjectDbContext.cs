@@ -86,12 +86,14 @@ public class ProjectDbContext : IdentityDbContext<ApplicationUser, ApplicationRo
             entity.Property(nt => nt.Id_News).HasColumnName("Id_News");
 
             entity.HasOne(nt => nt.Tag)
-                  .WithMany()
-                  .HasForeignKey(nt => nt.Id_Tags);
+                  .WithMany(t => t.NewsTags)
+                  .HasForeignKey(nt => nt.Id_Tags)
+                  .HasConstraintName("FK_NewsTags_Tags");
 
             entity.HasOne(nt => nt.News)
-                  .WithMany()
-                  .HasForeignKey(nt => nt.Id_News);
+                  .WithMany(n => n.NewsTags)
+                  .HasForeignKey(nt => nt.Id_News)
+                  .HasConstraintName("FK_NewsTags_News");
         });
     }
 }

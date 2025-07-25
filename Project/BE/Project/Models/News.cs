@@ -12,5 +12,6 @@
         public bool Disable { get; set; }
         public Category Category { get; set; }
         public ApplicationUser CreatedBy { get; set; }
+        public List<NewsTag> NewsTags { get; set; } = new List<NewsTag>();
     }
 }

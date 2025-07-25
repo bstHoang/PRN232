@@ -10,5 +10,7 @@
         public int CategoryId { get; set; }
         public int CreateBy { get; set; }
         public bool Disable { get; set; }
+
+        public List<string> Tags { get; set; } = new List<string>();
     }
 }

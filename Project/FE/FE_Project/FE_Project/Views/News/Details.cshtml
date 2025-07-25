@@ -1,0 +1,25 @@
+﻿@model FE_Project.Models.NewsModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<h2>@Model.Title</h2>
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Description</h5>
+        <p class="card-text">@Model.Description</p>
+        <h5 class="card-title">Content</h5>
+        <p class="card-text">@Model.Content</p>
+        <p><strong>Category ID:</strong> @Model.CategoryId</p>
+        <p><strong>Created At:</strong> @Model.CreatedAt.ToString("dd/MM/yyyy HH:mm")</p>
+        <p><strong>Created By:</strong> @Model.CreateBy</p>
+        <p><strong>Status:</strong> @(Model.Disable ? "Disabled" : "Active")</p>
+        @if (Model.Tags != null && Model.Tags.Any())
+        {
+            <p><strong>Tags:</strong> @string.Join(", ", Model.Tags)</p>
+        }
+        else
+        {
+            <p><strong>Tags:</strong> None</p>
+        }
+        <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Back to List</a>
+    </div>
+</div>

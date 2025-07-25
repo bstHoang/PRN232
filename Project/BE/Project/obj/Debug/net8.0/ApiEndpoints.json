@@ -40,8 +40,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "email",
-        "Type": "System.String",
+        "Name": "request",
+        "Type": "Project.DTOs.EmailRequest",
         "IsRequired": true
       }
     ],

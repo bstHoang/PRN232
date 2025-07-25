@@ -7,4 +7,3 @@ cách làm mấy cái migrations authen
  2.1 . dotnet ef migrations add InitialCreate
  3. Xoá các file bị lặp ở trong migrations
  3.1 . dotnet ef database update
-

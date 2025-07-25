@@ -3,20 +3,52 @@
   "WorkspaceRootPath": "D:\\PRN232\\Project\\BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\interfaces\\inewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\interfaces\\inewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\dtos\\emailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\dtos\\emailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\models\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\models\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\models\\newstag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\models\\newstag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\models\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\models\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\mapper\\newsprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\mapper\\newsprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|d:\\prn232\\project\\be\\project\\dtos\\news\\newsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22F7F716-561D-4C09-9DEA-B5BFE1C5DAC8}|Project\\Project.csproj|solutionrelative:project\\dtos\\news\\newsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,31 +58,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Program.cs",
-              "RelativeDocumentMoniker": "Project\\Program.cs",
-              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Program.cs",
-              "RelativeToolTip": "Project\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "EmailRequest.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\DTOs\\EmailRequest.cs",
+              "RelativeDocumentMoniker": "Project\\DTOs\\EmailRequest.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\DTOs\\EmailRequest.cs",
+              "RelativeToolTip": "Project\\DTOs\\EmailRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T06:13:19.368Z"
+              "WhenOpened": "2025-07-25T03:52:00.161Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "INewsService.cs",
-              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Interfaces\\INewsService.cs",
-              "RelativeDocumentMoniker": "Project\\Interfaces\\INewsService.cs",
-              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Interfaces\\INewsService.cs",
-              "RelativeToolTip": "Project\\Interfaces\\INewsService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAwAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Project\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Project\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAuwEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T05:47:09.067Z"
+              "WhenOpened": "2025-07-25T03:03:08.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Project\\Services\\UserService.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Services\\UserService.cs",
+              "RelativeToolTip": "Project\\Services\\UserService.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAkwHUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T03:02:37.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Project\\Services\\EmailService.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Services\\EmailService.cs",
+              "RelativeToolTip": "Project\\Services\\EmailService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T03:02:14.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "Project\\Models\\Tag.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Models\\Tag.cs",
+              "RelativeToolTip": "Project\\Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T01:20:14.943Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -60,21 +133,87 @@
               "RelativeDocumentMoniker": "Project\\Controllers\\NewsController.cs",
               "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Controllers\\NewsController.cs",
               "RelativeToolTip": "Project\\Controllers\\NewsController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAlwCQAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T09:35:54.486Z"
+              "WhenOpened": "2025-07-25T01:17:49.11Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "ProjectDbContext.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Models\\ProjectDbContext.cs",
+              "RelativeDocumentMoniker": "Project\\Models\\ProjectDbContext.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Models\\ProjectDbContext.cs",
+              "RelativeToolTip": "Project\\Models\\ProjectDbContext.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAIwFkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T01:03:28.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NewsTag.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Models\\NewsTag.cs",
+              "RelativeDocumentMoniker": "Project\\Models\\NewsTag.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Models\\NewsTag.cs",
+              "RelativeToolTip": "Project\\Models\\NewsTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T01:01:46.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NewsProfile.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Mapper\\NewsProfile.cs",
+              "RelativeDocumentMoniker": "Project\\Mapper\\NewsProfile.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Mapper\\NewsProfile.cs",
+              "RelativeToolTip": "Project\\Mapper\\NewsProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwAsAAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T00:47:46.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NewsDto.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\DTOs\\News\\NewsDto.cs",
+              "RelativeDocumentMoniker": "Project\\DTOs\\News\\NewsDto.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\DTOs\\News\\NewsDto.cs",
+              "RelativeToolTip": "Project\\DTOs\\News\\NewsDto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA/wAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T00:47:37.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "News.cs",
+              "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Models\\News.cs",
+              "RelativeDocumentMoniker": "Project\\Models\\News.cs",
+              "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Models\\News.cs",
+              "RelativeToolTip": "Project\\Models\\News.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T00:47:34.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "NewsService.cs",
               "DocumentMoniker": "D:\\PRN232\\Project\\BE\\Project\\Services\\NewsService.cs",
               "RelativeDocumentMoniker": "Project\\Services\\NewsService.cs",
               "ToolTip": "D:\\PRN232\\Project\\BE\\Project\\Services\\NewsService.cs",
               "RelativeToolTip": "Project\\Services\\NewsService.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAIA6wEgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwCwAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T09:35:48.673Z",
+              "WhenOpened": "2025-07-25T00:47:28.957Z",
               "EditorCaption": ""
             }
           ]

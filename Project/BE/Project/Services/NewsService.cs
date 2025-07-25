@@ -54,6 +54,8 @@ namespace Project.Services
 
             var newsDto = _mapper.Map<NewsDto>(news);
             Console.WriteLine($"NewsService.GetNewsByIdAsync - Id: {id}, Found Tags: {string.Join(", ", newsDto.Tags)}");
+            var creator = await _context.Users.FindAsync(news.CreateBy);
+            newsDto.CreatedByName = creator?.Email ?? "Unknown";
             return newsDto;
         }
 
@@ -216,6 +218,17 @@ namespace Project.Services
                 .ToListAsync();
 
             return _mapper.Map<IEnumerable<NewsDto>>(news);
+        }
+
+        public async Task<List<NewsDto>> GetNewsByTagAsync(int tagId)
+        {
+            var newsList = await _context.News
+                    .Where(n => n.NewsTags.Any(nt => nt.Id_Tags == tagId))
+                    .Include(n => n.NewsTags)
+                    .ThenInclude(nt => nt.Tag) 
+                    .ToListAsync();
+
+            return _mapper.Map<List<NewsDto>>(newsList);
         }
     }
 }

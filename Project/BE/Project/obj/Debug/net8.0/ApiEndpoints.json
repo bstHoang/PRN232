@@ -185,6 +185,22 @@
   },
   {
     "ContainingType": "Project.Controllers.NewsController",
+    "Method": "GetNewsByTag",
+    "RelativePath": "api/news/GetNewsByTag/{tagId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tagId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.Controllers.NewsController",
     "Method": "GetMyNews",
     "RelativePath": "api/news/mynews",
     "HttpMethod": "GET",
@@ -234,6 +250,16 @@
     "ContainingType": "Project.Controllers.TagController",
     "Method": "GetAllTags",
     "RelativePath": "api/Tags/GetAllTags",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.Controllers.TagController",
+    "Method": "GetTopTagsList",
+    "RelativePath": "api/Tags/GetTopTagsList",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

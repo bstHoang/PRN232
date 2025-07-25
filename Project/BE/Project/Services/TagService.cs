@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Project.DTOs.Tags;
 using Project.Interfaces;
@@ -25,5 +26,17 @@ namespace Project.Services
             Console.WriteLine($"TagService.GetAllTagsAsync - Found {tags.Count} tags");
             return tagDtos;
         }
+
+        public async Task<List<TagWithCountDto>> GetTopTags()
+        {
+            var tags = await _context.Tags
+                .Include(t => t.NewsTags)
+                .OrderByDescending(t => t.NewsTags.Count)
+                .ToListAsync();
+
+            var tagDtos = _mapper.Map<List<TagWithCountDto>>(tags);
+            return tagDtos;
+        }
+
     }
 }

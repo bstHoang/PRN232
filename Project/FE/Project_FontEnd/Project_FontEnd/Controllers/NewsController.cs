@@ -315,7 +315,7 @@ namespace Project_FontEnd.Controllers
         }
 
         [Authorize(Roles = "MANAGER")]
-        public async Task<IActionResult> Manage(string? title) 
+        public async Task<IActionResult> Manage(string? title, int? categoryId, int? tagId)
         {
             var token = HttpContext.Session.GetString("Token");
             if (string.IsNullOrEmpty(token))
@@ -323,10 +323,53 @@ namespace Project_FontEnd.Controllers
                 return RedirectToAction("Login", "Account");
             }
 
-            var newsList = await _apiService.GetAllNewsForManager(token, title);
-            var newsList1 = string.IsNullOrEmpty(title) ? await _apiService.GetAllNewsForManager(token , title) : await _apiService.SearchNews(title);
-            return View(newsList1);
+            try
+            {
+                // Lấy danh sách danh mục và tag
+                var categories = await _apiService.GetAllCategories();
+                var topTags = await _apiService.GetTopTagsAsync();
+                ViewBag.Categories = categories ?? new List<CategoryModel>();
+                ViewBag.TopTags = topTags ?? new List<TagModel1>();
+                ViewBag.SelectedCategoryId = categoryId;
+                ViewBag.SelectedTagId = tagId;
+
+                List<NewsModel> newsList;
+
+                if (tagId.HasValue)
+                {
+                    // Lọc theo tag
+                    newsList = await _apiService.GetNewsByTagAsync(tagId.Value);
+                    var selectedTag = topTags.FirstOrDefault(t => t.TagId == tagId.Value);
+                    ViewBag.SelectedTagName = selectedTag?.TagName ?? "Unknown Tag";
+                }
+                else if (!string.IsNullOrEmpty(title))
+                {
+                    // Lọc theo tiêu đề
+                    newsList = await _apiService.SearchNews(title);
+                    ViewBag.SearchTitle = title;
+                }
+                else if (categoryId.HasValue)
+                {
+                    // Lọc theo danh mục
+                    newsList = await _apiService.GetNewsByCategoryId(categoryId.Value);
+                }
+                else
+                {
+                    // Lấy tất cả tin tức cho manager
+                    newsList = await _apiService.GetAllNewsForManager(token);
+                }
+
+                return View("Manage", newsList);
+            }
+            catch (Exception ex)
+            {
+                // Log lỗi để debug
+                Console.WriteLine($"Manage error: {ex.Message}");
+                ViewBag.ErrorMessage = "Có lỗi khi tải tin tức.";
+                return View("Manage", new List<NewsModel>());
+            }
         }
+
 
 
         [Authorize(Roles = "MANAGER")]

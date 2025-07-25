@@ -246,5 +246,58 @@ namespace Project_FontEnd.Services
             return JsonConvert.DeserializeObject<List<NewsModel>>(json);
         }
 
+        public async Task<List<TagModel1>> GetTopTagsAsync()
+        {
+            try
+            {
+                var response = await _httpClient.GetAsync($"{_baseUrl}/Tags/GetTopTagsList");
+                if (!response.IsSuccessStatusCode)
+                {
+                    var content = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine($"GetTopTagsAsync failed: StatusCode={response.StatusCode}, Response={content}");
+                    return new List<TagModel1>();
+                }
+
+                var json = await response.Content.ReadAsStringAsync();
+                var tags = JsonConvert.DeserializeObject<List<TagModel1>>(json);
+                return tags ?? new List<TagModel1>();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"GetTopTagsAsync error: {ex.Message}");
+                return new List<TagModel1>();
+            }
+        }
+
+        public async Task<List<NewsModel>> GetNewsByTagAsync(int tagId)
+        {
+            try
+            {
+                var response = await _httpClient.GetAsync($"{_baseUrl}/news/GetNewsByTag/{tagId}");
+                if (!response.IsSuccessStatusCode)
+                {
+                    var content = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine($"GetNewsByTagAsync failed: StatusCode={response.StatusCode}, Response={content}");
+                    return new List<NewsModel>();
+                }
+
+                var json = await response.Content.ReadAsStringAsync();
+                var newsList = JsonConvert.DeserializeObject<List<NewsModel>>(json) ?? new List<NewsModel>();
+
+                // Lấy username cho mỗi tin tức
+                foreach (var news in newsList)
+                {
+                    var user = await GetUserById(news.CreateBy.ToString());
+                    news.CreatedByName = user.Username;
+                }
+
+                return newsList;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"GetNewsByTagAsync error: {ex.Message}");
+                return new List<NewsModel>();
+            }
+        }
     }
 }

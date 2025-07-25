@@ -9,7 +9,8 @@ namespace Project.Mapper
         public NewsProfile()
         {
             CreateMap<News, NewsDto>()
-                .ForMember(dest => dest.Tags, opt => opt.MapFrom(src => src.NewsTags.Select(nt => nt.Tag.Name).ToList()));
+                .ForMember(dest => dest.Tags, opt => opt.MapFrom(src => src.NewsTags.Select(nt => nt.Tag.Name).ToList()))
+                .ForMember(dest => dest.CreatedByName, opt => opt.MapFrom(src => src.CreatedBy.Email));
             CreateMap<NewsCreateDto, News>()
                 .ForMember(dest => dest.CreatedAt, opt => opt.MapFrom(src => DateTime.UtcNow))
                 .ForMember(dest => dest.CreateBy, opt => opt.Ignore()) // sẽ gán trong service

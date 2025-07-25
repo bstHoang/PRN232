@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Project_FontEnd.Models;
 using Project_FontEnd.Services;
@@ -15,41 +15,60 @@ namespace Project_FontEnd.Controllers
             _apiService = apiService;
         }
 
-        public async Task<IActionResult> Index(string? title, int? categoryId)
+        public async Task<IActionResult> Index(string? title = null, int? categoryId = null, int? tagId = null)
         {
-            var categories = await _apiService.GetAllCategories();
-            ViewBag.Categories = categories;
-
-            List<NewsModel> newsList;
-
-            if (categoryId.HasValue)
+            try
             {
-                newsList = await _apiService.GetNewsByCategoryId(categoryId.Value);
-                ViewBag.SelectedCategoryId = categoryId.Value;
-            }
-            else if (!string.IsNullOrEmpty(title))
-            {
-                ViewBag.SearchTitle = title;
-                newsList = await _apiService.SearchNews(title);
-            }
-            else
-            {
-                newsList = await _apiService.GetAllNews();
-            }
+                var categories = await _apiService.GetAllCategories();
+                var topTags = await _apiService.GetTopTagsAsync();
+                ViewBag.Categories = categories ?? new List<CategoryModel>();
+                ViewBag.TopTags = topTags ?? new List<TagModel1>();
 
-            return View(newsList);
+                List<NewsModel> newsList;
+
+                if (tagId.HasValue)
+                {
+                    newsList = await _apiService.GetNewsByTagAsync(tagId.Value);
+                    var selectedTag = topTags.FirstOrDefault(t => t.TagId == tagId.Value);
+                    ViewBag.SelectedTagId = tagId.Value;
+                    ViewBag.SelectedTagName = selectedTag?.TagName ?? "Unknown Tag";
+                }
+                else if (categoryId.HasValue)
+                {
+                    newsList = await _apiService.GetNewsByCategoryId(categoryId.Value);
+                    ViewBag.SelectedCategoryId = categoryId.Value;
+                }
+                else if (!string.IsNullOrEmpty(title))
+                {
+                    ViewBag.SearchTitle = title;
+                    newsList = await _apiService.SearchNews(title);
+                }
+                else
+                {
+                    newsList = await _apiService.GetAllNews();
+                }
+
+                return View("Index", newsList); // Rõ ràng chỉ định view "Index"
+            }
+            catch (Exception ex)
+            {
+                // Log lỗi để debug
+                Console.WriteLine($"Index error: {ex.Message}");
+                ViewBag.ErrorMessage = "An error occurred while loading the news.";
+                return View("Index", new List<NewsModel>());
+            }
         }
-
 
         [AllowAnonymous]
         public async Task<IActionResult> NewsByCategory(int id)
         {
-            var categories = await _apiService.GetAllCategories();
-            var newsList = await _apiService.GetNewsByCategoryId(id);
+            return await Index(title: null, categoryId: id);
+        }
 
-            ViewBag.Categories = categories;
-            ViewBag.SelectedCategoryId = id;
-            return View("Index", newsList); 
+        [AllowAnonymous]
+        public async Task<IActionResult> NewsByTag(int id)
+        {
+            return await Index(title: null, tagId: id);
         }
     }
 }

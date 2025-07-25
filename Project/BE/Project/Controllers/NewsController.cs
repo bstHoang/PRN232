@@ -121,5 +121,13 @@ namespace Project.Controllers
             ViewBag.Categories = await _categoryService.GetAllCategoriesAsync();
             return Ok(news);
         }
+        [HttpGet]
+        [AllowAnonymous]
+        [Route("api/news/GetNewsByTag/{tagId}")]
+        public async Task<IActionResult> GetNewsByTag(int tagId)
+        {
+            var newsList = await _newsService.GetNewsByTagAsync(tagId);
+            return Ok(newsList);
+        }
     }
 }

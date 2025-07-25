@@ -10,6 +10,10 @@
             {
                 <p class="text-muted">Search results for: <strong>@ViewBag.SearchTitle</strong></p>
             }
+            @if (ViewBag.SelectedTagId != null)
+            {
+                <p class="text-muted">News for tag: <strong>@ViewBag.SelectedTagName</strong></p>
+            }
         </div>
         <div class="col-md-3">
             <form class="input-group" asp-controller="Home" asp-action="Index" method="get">
@@ -20,9 +24,19 @@
     </div>
 
     <div class="row">
-        <div class="col-md-3">
+        <!-- Cột trái: Danh mục -->
+        <div class="col-md-2">
             <h5>Categories</h5>
             <ul class="list-group">
+                <!-- Mục "All" để hiển thị tất cả tin tức -->
+                <li class="list-group-item @(ViewBag.SelectedCategoryId == null ? "active" : "")">
+                    <a asp-controller="Home" asp-action="Index"
+                       class="text-decoration-none @(ViewBag.SelectedCategoryId == null ? "text-white" : "")">
+                        All
+                    </a>
+                </li>
+
+                <!-- Các danh mục cụ thể -->
                 @foreach (var category in ViewBag.Categories as List<Project_FontEnd.Models.CategoryModel>)
                 {
                     <li class="list-group-item @(ViewBag.SelectedCategoryId == category.Id ? "active" : "")">
@@ -35,7 +49,8 @@
             </ul>
         </div>
 
-        <div class="col-md-9">
+        <!-- Cột giữa: Tin tức -->
+        <div class="col-md-8">
             @if (Model == null || !Model.Any())
             {
                 <p class="text-muted">No news found.</p>
@@ -75,6 +90,22 @@
                     }
                 </div>
             }
+        </div>
+
+        <!-- Cột phải: Tag -->
+        <div class="col-md-2">
+            <h5>Top Tags</h5>
+            <ul class="list-group">
+                @foreach (var tag in ViewBag.TopTags as List<Project_FontEnd.Models.TagModel1>)
+                {
+                    <li class="list-group-item @(ViewBag.SelectedTagId == tag.TagId ? "active" : "")">
+                        <a asp-controller="Home" asp-action="NewsByTag" asp-route-id="@tag.TagId"
+                           class="text-decoration-none @(ViewBag.SelectedTagId == tag.TagId ? "text-white" : "")">
+                            @tag.TagName (@tag.Count)
+                        </a>
+                    </li>
+                }
+            </ul>
         </div>
     </div>
 </div>

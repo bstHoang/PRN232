@@ -11,6 +11,10 @@ namespace Project.Mapper
         public TagsProfile()
         {
             CreateMap<Tag, TagDto>();
+            CreateMap<Tag, TagWithCountDto>()
+            .ForMember(dest => dest.TagId, opt => opt.MapFrom(src => src.Id))
+            .ForMember(dest => dest.TagName, opt => opt.MapFrom(src => src.Name))
+            .ForMember(dest => dest.Count, opt => opt.MapFrom(src => src.NewsTags.Count));
         }
     }
 }

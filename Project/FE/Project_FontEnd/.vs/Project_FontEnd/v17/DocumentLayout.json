@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "D:\\PRN232\\Project\\FE\\Project_FontEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D4D0414-7C0A-43EB-BD40-D1DEC52890C0}|Project_FontEnd\\Project_FontEnd.csproj|d:\\prn232\\project\\fe\\project_fontend\\project_fontend\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D4D0414-7C0A-43EB-BD40-D1DEC52890C0}|Project_FontEnd\\Project_FontEnd.csproj|solutionrelative:project_fontend\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D4D0414-7C0A-43EB-BD40-D1DEC52890C0}|Project_FontEnd\\Project_FontEnd.csproj|d:\\prn232\\project\\fe\\project_fontend\\project_fontend\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6D4D0414-7C0A-43EB-BD40-D1DEC52890C0}|Project_FontEnd\\Project_FontEnd.csproj|solutionrelative:project_fontend\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D4D0414-7C0A-43EB-BD40-D1DEC52890C0}|Project_FontEnd\\Project_FontEnd.csproj|d:\\prn232\\project\\fe\\project_fontend\\project_fontend\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D4D0414-7C0A-43EB-BD40-D1DEC52890C0}|Project_FontEnd\\Project_FontEnd.csproj|solutionrelative:project_fontend\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6D4D0414-7C0A-43EB-BD40-D1DEC52890C0}|Project_FontEnd\\Project_FontEnd.csproj|d:\\prn232\\project\\fe\\project_fontend\\project_fontend\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D4D0414-7C0A-43EB-BD40-D1DEC52890C0}|Project_FontEnd\\Project_FontEnd.csproj|solutionrelative:project_fontend\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D4D0414-7C0A-43EB-BD40-D1DEC52890C0}|Project_FontEnd\\Project_FontEnd.csproj|d:\\prn232\\project\\fe\\project_fontend\\project_fontend\\views\\news\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6D4D0414-7C0A-43EB-BD40-D1DEC52890C0}|Project_FontEnd\\Project_FontEnd.csproj|solutionrelative:project_fontend\\views\\news\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6D4D0414-7C0A-43EB-BD40-D1DEC52890C0}|Project_FontEnd\\Project_FontEnd.csproj|d:\\prn232\\project\\fe\\project_fontend\\project_fontend\\views\\news\\managedetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D4D0414-7C0A-43EB-BD40-D1DEC52890C0}|Project_FontEnd\\Project_FontEnd.csproj|solutionrelative:project_fontend\\views\\news\\managedetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4D0414-7C0A-43EB-BD40-D1DEC52890C0}|Project_FontEnd\\Project_FontEnd.csproj|d:\\prn232\\project\\fe\\project_fontend\\project_fontend\\views\\news\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D4D0414-7C0A-43EB-BD40-D1DEC52890C0}|Project_FontEnd\\Project_FontEnd.csproj|solutionrelative:project_fontend\\views\\news\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +27,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\PRN232\\Project\\FE\\Project_FontEnd\\Project_FontEnd\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Project_FontEnd\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\PRN232\\Project\\FE\\Project_FontEnd\\Project_FontEnd\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Project_FontEnd\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAIwCQAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T18:41:30.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\PRN232\\Project\\FE\\Project_FontEnd\\Project_FontEnd\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Project_FontEnd\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\PRN232\\Project\\FE\\Project_FontEnd\\Project_FontEnd\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Project_FontEnd\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-25T18:41:26.353Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApiService.cs",
-              "DocumentMoniker": "D:\\PRN232\\Project\\FE\\Project_FontEnd\\Project_FontEnd\\Services\\ApiService.cs",
-              "RelativeDocumentMoniker": "Project_FontEnd\\Services\\ApiService.cs",
-              "ToolTip": "D:\\PRN232\\Project\\FE\\Project_FontEnd\\Project_FontEnd\\Services\\ApiService.cs",
-              "RelativeToolTip": "Project_FontEnd\\Services\\ApiService.cs",
-              "ViewState": "AgIAAOkAAAAAAAAAAIAwwPMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T18:36:05.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "NewsController.cs",
               "DocumentMoniker": "D:\\PRN232\\Project\\FE\\Project_FontEnd\\Project_FontEnd\\Controllers\\NewsController.cs",
               "RelativeDocumentMoniker": "Project_FontEnd\\Controllers\\NewsController.cs",
               "ToolTip": "D:\\PRN232\\Project\\FE\\Project_FontEnd\\Project_FontEnd\\Controllers\\NewsController.cs",
               "RelativeToolTip": "Project_FontEnd\\Controllers\\NewsController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwCwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHwBAAAAAAAAAAAuwIoBAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T17:10:50.406Z",
+              "WhenOpened": "2025-07-25T22:11:40.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Manage.cshtml",
-              "DocumentMoniker": "D:\\PRN232\\Project\\FE\\Project_FontEnd\\Project_FontEnd\\Views\\News\\Manage.cshtml",
-              "RelativeDocumentMoniker": "Project_FontEnd\\Views\\News\\Manage.cshtml",
-              "ToolTip": "D:\\PRN232\\Project\\FE\\Project_FontEnd\\Project_FontEnd\\Views\\News\\Manage.cshtml",
-              "RelativeToolTip": "Project_FontEnd\\Views\\News\\Manage.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\Project\\FE\\Project_FontEnd\\Project_FontEnd\\Views\\News\\Details.cshtml",
+              "RelativeDocumentMoniker": "Project_FontEnd\\Views\\News\\Details.cshtml",
+              "ToolTip": "D:\\PRN232\\Project\\FE\\Project_FontEnd\\Project_FontEnd\\Views\\News\\Details.cshtml",
+              "RelativeToolTip": "Project_FontEnd\\Views\\News\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-25T17:10:28.09Z"
+              "WhenOpened": "2025-07-25T22:08:32.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManageDetail.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\Project\\FE\\Project_FontEnd\\Project_FontEnd\\Views\\News\\ManageDetail.cshtml",
+              "RelativeDocumentMoniker": "Project_FontEnd\\Views\\News\\ManageDetail.cshtml",
+              "ToolTip": "D:\\PRN232\\Project\\FE\\Project_FontEnd\\Project_FontEnd\\Views\\News\\ManageDetail.cshtml",
+              "RelativeToolTip": "Project_FontEnd\\Views\\News\\ManageDetail.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwBYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T22:08:27.566Z",
+              "EditorCaption": ""
             }
           ]
         }

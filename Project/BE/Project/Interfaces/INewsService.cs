@@ -14,5 +14,7 @@ namespace Project.Interfaces
         Task<IEnumerable<NewsDto>> SearchNewsByTitleAsync(string title);
         Task<IEnumerable<NewsDto>> GetAllNewsForManagerAsync();
         Task<IEnumerable<NewsDto>> GetNewsByCategoryAsync(int categoryId);
+
+        Task<List<NewsDto>> GetNewsByTagAsync(int tagId);
     }
 }

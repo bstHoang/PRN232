@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Project.DTOs;
+using Project.DTOs.Accounts;
 using Project.Interfaces;
 using Project.Models;
 using System.IdentityModel.Tokens.Jwt;
@@ -190,6 +191,28 @@ namespace Project.Services
             var tokenHandler = new JwtSecurityTokenHandler();
             var token = tokenHandler.CreateToken(tokenDescriptor);
             return tokenHandler.WriteToken(token);
+        }
+
+        public async Task<IEnumerable<AccountDto>> GetAllAccountsAsync()
+        {
+            Console.WriteLine("AccountService.GetAllAccountsAsync - Retrieving all accounts");
+            var users = await _userManager.Users.ToListAsync();
+            var accountDtos = _mapper.Map<IEnumerable<AccountDto>>(users);
+            Console.WriteLine($"AccountService.GetAllAccountsAsync - Found {users.Count} accounts");
+            return accountDtos;
+        }
+        public async Task<AccountDto> GetAccountByIdAsync(string id)
+        {
+            Console.WriteLine($"AccountService.GetAccountByIdAsync - Retrieving account with Id: {id}");
+            var user = await _userManager.FindByIdAsync(id);
+            if (user == null)
+            {
+                Console.WriteLine($"AccountService.GetAccountByIdAsync - Account with Id {id} not found");
+                throw new Exception("Account not found.");
+            }
+            var accountDto = _mapper.Map<AccountDto>(user);
+            Console.WriteLine($"AccountService.GetAccountByIdAsync - Found account: {accountDto.Username}");
+            return accountDto;
         }
     }
 }

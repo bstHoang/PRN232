@@ -38,10 +38,33 @@ namespace Project_FontEnd.Services
         // Get All News
         public async Task<List<NewsModel>> GetAllNews()
         {
-            var response = await _httpClient.GetAsync($"{_baseUrl}/news/getnews");
-            response.EnsureSuccessStatusCode();
-            var content = await response.Content.ReadAsStringAsync();
-            return JsonConvert.DeserializeObject<List<NewsModel>>(content);
+            try
+            {
+                var response = await _httpClient.GetAsync($"{_baseUrl}/news/getnews");
+                if (!response.IsSuccessStatusCode)
+                {
+                    var content1 = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine($"GetAllNews failed: StatusCode={response.StatusCode}, Response={content1}");
+                    return new List<NewsModel>();
+                }
+
+                var content = await response.Content.ReadAsStringAsync();
+                var newsList = JsonConvert.DeserializeObject<List<NewsModel>>(content) ?? new List<NewsModel>();
+
+                // Lấy username cho mỗi tin tức
+                foreach (var news in newsList)
+                {
+                    var user = await GetUserById(news.CreateBy.ToString()); // Chuyển int thành string
+                    news.CreatedByName = user.Username;
+                }
+
+                return newsList;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"GetAllNews error: {ex.Message}");
+                return new List<NewsModel>();
+            }
         }
 
         // Search News by Title
@@ -143,6 +166,29 @@ namespace Project_FontEnd.Services
             }
             return string.Empty;
         }
-       
+
+        public async Task<UserModel> GetUserById(string userId)
+        {
+            try
+            {
+                var response = await _httpClient.GetAsync($"{_baseUrl}/auth/GetAccounts/{userId}");
+                if (!response.IsSuccessStatusCode)
+                {
+                    var content1 = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine($"GetUserById failed: UserId={userId}, StatusCode={response.StatusCode}, Response={content1}");
+                    return new UserModel { Id = userId, Username = "Unknown" };
+                }
+
+                var content = await response.Content.ReadAsStringAsync();
+                var user = JsonConvert.DeserializeObject<UserModel>(content);
+                return user ?? new UserModel { Id = userId, Username = "Unknown" };
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"GetUserById error: UserId={userId}, Message={ex.Message}");
+                return new UserModel { Id = userId, Username = "Unknown" };
+            }
+        }
+
     }
 }

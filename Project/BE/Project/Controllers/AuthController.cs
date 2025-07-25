@@ -1,6 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.OData.Query;
 using Project.DTOs;
 using Project.Interfaces;
+using Project.Services;
 
 namespace Project.Controllers
 {
@@ -88,6 +91,35 @@ namespace Project.Controllers
             catch (Exception ex)
             {
                 return BadRequest(new { Message = ex.Message });
+            }
+        }
+
+        [HttpGet]
+        [EnableQuery]
+        [AllowAnonymous]
+        [Route("api/auth/GetAllAccounts")]
+        public async Task<IActionResult> GetAllAccounts()
+        {
+            Console.WriteLine("AccountController.GetAllAccounts - Retrieving accounts");
+            var accounts = await _userService.GetAllAccountsAsync();
+            return Ok(accounts);
+        }
+        [HttpGet]
+        [EnableQuery]
+        [AllowAnonymous]
+        [Route("api/auth/GetAccounts/{id}")]
+        public async Task<IActionResult> GetAccountById(string id)
+        {
+            Console.WriteLine($"AccountController.GetAccountById - Retrieving account with Id: {id}");
+            try
+            {
+                var account = await _userService.GetAccountByIdAsync(id);
+                return Ok(account);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"AccountController.GetAccountById - Error: {ex.Message}");
+                return NotFound(ex.Message);
             }
         }
     }

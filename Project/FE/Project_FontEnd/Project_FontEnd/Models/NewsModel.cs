@@ -8,6 +8,7 @@
         public string Content { get; set; }
         public DateTime CreatedAt { get; set; }
         public int CategoryId { get; set; }
+        public string CreatedByName { get; set; }
         public int CreateBy { get; set; }
         public bool Disable { get; set; }
         public List<string> Tags { get; set; }

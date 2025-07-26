@@ -8,8 +8,8 @@
 - Xoá báo (journalist và manager)                                                              === done
 - New detail (mọi ng)                                                                          === done
 - My new (journalist)                                                                          === done
-- Tag được sử dụng nhiều nhất (bấm vào tag đấy là ra luôn all news có tag đấy) (user)
-- get news by categori (all)
+- Tag được sử dụng nhiều nhất (bấm vào tag đấy là ra luôn all news có tag đấy) (user)          === done
+- get news by categori (all)                                                                   === done
 
 - Update Role (Admin)
 - Create Role (admin)
@@ -29,10 +29,10 @@
 - View Tag (manager)
 - update tag  (manager)
 
-- create category (manager)
-- Update Category (manager)
-- view categiry (manager)
-- delete category (manager)
+- create category (manager)               =done
+- Update Category (manager)               =done
+- view categiry (manager)                 =done
+- delete category (manager)               =done
 - Request category
 
 

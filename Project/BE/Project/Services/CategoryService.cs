@@ -25,5 +25,57 @@ namespace Project.Services
             Console.WriteLine($"CategoryService.GetAllCategoriesAsync - Found {categories.Count} categories");
             return categoryDtos;
         }
+        public async Task<CategoryDto> GetCategoryByIdAsync(int id)
+        {
+            var category = await _context.Categories.FindAsync(id);
+            if (category == null) throw new Exception("Category not found");
+            return _mapper.Map<CategoryDto>(category);
+        }
+
+        public async Task<CategoryDto> CreateCategoryAsync(CategoryDto categoryDto)
+        {
+            var category = _mapper.Map<Category>(categoryDto);
+            _context.Categories.Add(category);
+            await _context.SaveChangesAsync();
+            return _mapper.Map<CategoryDto>(category);
+        }
+
+        public async Task<CategoryDto> UpdateCategoryAsync(int id, CategoryDto categoryDto)
+        {
+            var category = await _context.Categories.FindAsync(id);
+            if (category == null)
+                throw new Exception("Category not found.");
+
+            if (string.IsNullOrWhiteSpace(categoryDto.Name))
+                throw new Exception("Category name cannot be empty.");
+
+            category.Name = categoryDto.Name;
+            await _context.SaveChangesAsync();
+
+            return _mapper.Map<CategoryDto>(category);
+        }
+
+
+        public async Task<bool> DeleteCategoryAsync(int id)
+        {
+            var category = await _context.Categories.FindAsync(id);
+            if (category == null)
+            {
+                throw new Exception("Category not found.");
+            }
+
+            // Kiểm tra xem có bài viết nào dùng category này không
+            bool isUsed = await _context.News.AnyAsync(n => n.CategoryId == id);
+            if (isUsed)
+            {
+                throw new Exception("Can't delete, have information in other tables.");
+            }
+
+            _context.Categories.Remove(category);
+            await _context.SaveChangesAsync();
+
+            return true;
+        }
+
     }
 }

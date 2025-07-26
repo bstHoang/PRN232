@@ -10,10 +10,8 @@ namespace Project.Mapper
     {
         public CategoriesProfile()
         {
-            CreateMap<Category, CategoryDto>();
-
-            // Ánh xạ cho Tag
-            CreateMap<Tag, TagDto>();
+            CreateMap<Category, CategoryDto>().ReverseMap();
+            
         }
     }
 }

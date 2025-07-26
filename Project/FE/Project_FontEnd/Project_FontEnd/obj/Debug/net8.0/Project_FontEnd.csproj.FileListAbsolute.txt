@@ -388,3 +388,9 @@ D:\PRN232\Project\FE\Project_FontEnd\Project_FontEnd\obj\Debug\net8.0\refint\Pro
 D:\PRN232\Project\FE\Project_FontEnd\Project_FontEnd\obj\Debug\net8.0\Project_FontEnd.pdb
 D:\PRN232\Project\FE\Project_FontEnd\Project_FontEnd\obj\Debug\net8.0\Project_FontEnd.genruntimeconfig.cache
 D:\PRN232\Project\FE\Project_FontEnd\Project_FontEnd\obj\Debug\net8.0\ref\Project_FontEnd.dll
+D:\PRN232\Project\FE\Project_FontEnd\Project_FontEnd\bin\Debug\net8.0\Microsoft.AspNetCore.OData.dll
+D:\PRN232\Project\FE\Project_FontEnd\Project_FontEnd\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\PRN232\Project\FE\Project_FontEnd\Project_FontEnd\bin\Debug\net8.0\Microsoft.OData.Core.dll
+D:\PRN232\Project\FE\Project_FontEnd\Project_FontEnd\bin\Debug\net8.0\Microsoft.OData.Edm.dll
+D:\PRN232\Project\FE\Project_FontEnd\Project_FontEnd\bin\Debug\net8.0\Microsoft.OData.ModelBuilder.dll
+D:\PRN232\Project\FE\Project_FontEnd\Project_FontEnd\bin\Debug\net8.0\Microsoft.Spatial.dll

@@ -7,14 +7,24 @@ namespace Project_FontEnd.Services
 {
     public class ApiService
     {
+        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly HttpClient _httpClient;
         public readonly string _baseUrl = "http://localhost:5555/api";
 
-        public ApiService(HttpClient httpClient)
+        public ApiService(HttpClient httpClient, IHttpContextAccessor httpContextAccessor)
         {
             _httpClient = httpClient;
+            _httpContextAccessor = httpContextAccessor;
         }
-
+        private void AttachBearerToken()
+        {
+            var token = _httpContextAccessor.HttpContext?.Session?.GetString("Token");
+            if (!string.IsNullOrEmpty(token))
+            {
+                _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            }
+        }
         // Register
         public async Task<HttpResponseMessage> Register(RegisterModel model)
         {
@@ -298,6 +308,85 @@ namespace Project_FontEnd.Services
                 Console.WriteLine($"GetNewsByTagAsync error: {ex.Message}");
                 return new List<NewsModel>();
             }
+        }
+
+        // Get all categories
+        public async Task<List<CategoryModel>> GetAllCategoriesAsync()
+        {
+            var response = await _httpClient.GetAsync($"{_baseUrl}/Categories/GetAllCategories");
+            response.EnsureSuccessStatusCode();
+            var content = await response.Content.ReadAsStringAsync();
+            return JsonConvert.DeserializeObject<List<CategoryModel>>(content);
+        }
+
+        // Get category by ID
+        public async Task<CategoryModel> GetCategoryByIdAsync(int id)
+        {
+            AttachBearerToken();
+            var response = await _httpClient.GetAsync($"{_baseUrl}/Categories/GetAllCategory/{id}");
+            response.EnsureSuccessStatusCode();
+            var content = await response.Content.ReadAsStringAsync();
+            return JsonConvert.DeserializeObject<CategoryModel>(content);
+        }
+
+        public async Task<(CategoryModel Category, string ErrorMessage)> CreateCategoryAsync(CategoryModel category)
+        {
+            try
+            {
+                var token = _httpContextAccessor.HttpContext?.Session?.GetString("Token");
+                if (!string.IsNullOrEmpty(token))
+                {
+                    _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+                }
+
+                var content = new StringContent(JsonConvert.SerializeObject(category), Encoding.UTF8, "application/json");
+                var response = await _httpClient.PostAsync($"{_baseUrl}/Category/Create", content);
+                var responseContent = await response.Content.ReadAsStringAsync();
+
+                if (response.IsSuccessStatusCode)
+                {
+                    return (JsonConvert.DeserializeObject<CategoryModel>(responseContent), null);
+                }
+                else
+                {
+                    try
+                    {
+                        var errorObj = JsonConvert.DeserializeObject<dynamic>(responseContent);
+                        string errorMessage = errorObj.message?.ToString() ?? $"Lỗi API: {responseContent} (Status: {response.StatusCode})";
+                        return (null, errorMessage);
+                    }
+                    catch
+                    {
+                        return (null, $"Lỗi API: {(string.IsNullOrEmpty(responseContent) ? $"Không có nội dung phản hồi (Status: {response.StatusCode})" : responseContent)}");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return (null, $"Lỗi khi gọi API: {ex.Message}");
+            }
+        }
+
+
+        // Update an existing category
+        public async Task<CategoryModel> UpdateCategoryAsync(int id, CategoryModel category)
+        {
+            AttachBearerToken();
+            var content = new StringContent(JsonConvert.SerializeObject(category), Encoding.UTF8, "application/json");
+            var response = await _httpClient.PutAsync($"{_baseUrl}/Category/Update/{id}", content);
+            response.EnsureSuccessStatusCode();
+            var responseContent = await response.Content.ReadAsStringAsync();
+            return JsonConvert.DeserializeObject<CategoryModel>(responseContent);
+        }
+
+        // Delete a category
+        public async Task<string> DeleteCategoryAsync(int id)
+        {
+            AttachBearerToken();
+            var response = await _httpClient.DeleteAsync($"{_baseUrl}/Category/Delete/{id}");
+            response.EnsureSuccessStatusCode();
+            var responseContent = await response.Content.ReadAsStringAsync();
+            return JsonConvert.DeserializeObject<dynamic>(responseContent).message;
         }
     }
 }

@@ -15,9 +15,17 @@ var builder = WebApplication.CreateBuilder(args);
 //odata
 var odataBuilder = new ODataConventionModelBuilder();
 odataBuilder.EntitySet<News>("News");
-builder.Services.AddControllers()
-    .AddOData(opt => opt.AddRouteComponents("odata", odataBuilder.GetEdmModel()).Filter().Select().Expand().OrderBy().Count());
+odataBuilder.EntitySet<Category>("Categories");
 
+builder.Services.AddControllers()
+    .AddOData(opt => opt
+        .AddRouteComponents("odata", odataBuilder.GetEdmModel())
+        .Filter()
+        .Select()
+        .Expand()
+        .OrderBy()
+        .Count()
+        .SetMaxTop(100));
 //add mvc serivices
 builder.Services.AddControllers();
 

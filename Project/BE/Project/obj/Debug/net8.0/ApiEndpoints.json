@@ -116,6 +116,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Project.Controllers.RoleController",
+    "Method": "UpdateUserRole",
+    "RelativePath": "api/Categories/updaterole",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Project.DTOs.Roles.UpdateUserRoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Project.Controllers.CategoryController",
     "Method": "Create",
     "RelativePath": "api/Category/Create",

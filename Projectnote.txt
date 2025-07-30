@@ -24,7 +24,6 @@
 
 
 - Create tag (enable từ request tag nữa ) (manager)
-- Request add new tag (jorunalist) (manager)
 - delete tag (manager)
 - View Tag (manager)
 - update tag  (manager)
@@ -33,7 +32,7 @@
 - Update Category (manager)               =done
 - view categiry (manager)                 =done
 - delete category (manager)               =done
-- Request category
+
 
 
 {

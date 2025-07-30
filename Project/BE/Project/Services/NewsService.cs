@@ -68,7 +68,7 @@ namespace Project.Services
 
             var news = _mapper.Map<News>(newsDto);
             news.CreateBy = userId;
-
+            news.Disable = true;
             if (newsDto.TagIds != null && newsDto.TagIds.Any())
             {
                 foreach (var tagId in newsDto.TagIds)
